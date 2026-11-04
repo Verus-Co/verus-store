@@ -207,20 +207,17 @@ const campaignSlides = [
   }
 ];
 let slideIndex = 0;
-let slidesPaused = false;
 let carouselTimer;
 
 function showSlide(index) {
   slideIndex = (index + campaignSlides.length) % campaignSlides.length;
   $$('.campaign-slide').forEach((slide, i) => { slide.hidden = i !== slideIndex; });
-  $$('.campaign-dots button').forEach((button, i) => button.setAttribute('aria-pressed', String(i === slideIndex)));
-  $('#campaign-index').textContent = `${String(slideIndex + 1).padStart(2,'0')} / ${String(campaignSlides.length).padStart(2,'0')}`;
   $('.campaign').dataset.currentTheme = campaignSlides[slideIndex].theme;
 }
 
 function resetCarouselTimer() {
   clearInterval(carouselTimer);
-  if (slidesPaused || reducedMotion.matches || document.hidden) return;
+  if (reducedMotion.matches || document.hidden) return;
   carouselTimer = setInterval(() => {
     if (!$('.campaign').contains(document.activeElement) && !$('.campaign').matches(':hover')) showSlide(slideIndex + 1);
   }, 7000);
@@ -229,7 +226,6 @@ function resetCarouselTimer() {
 function setupCampaign() {
   $('.campaign').classList.add('campaign-banners');
   $('#campaign-slides').innerHTML = campaignSlides.map((slide, i) => `<article class="campaign-slide" aria-roledescription="slide" aria-label="${i + 1} de ${campaignSlides.length}" ${i ? 'hidden' : ''}><a class="campaign-banner-link" href="${slide.href}"><img class="campaign-banner" src="verus-assets/banners/${slide.image}.webp" alt="${escapeHTML(slide.label)}" width="${slide.width}" height="${slide.height}" ${i ? 'loading="lazy"' : 'fetchpriority="high"'}></a></article>`).join('');
-  $('#campaign-dots').innerHTML = campaignSlides.map((slide, i) => `<button type="button" data-action="slide" data-index="${i}" aria-label="Ver destaque ${i + 1}: ${escapeHTML(slide.label)}" aria-pressed="${i === 0}"></button>`).join('');
   showSlide(0);
   resetCarouselTimer();
   document.addEventListener('visibilitychange', resetCarouselTimer);
@@ -380,12 +376,9 @@ document.addEventListener('click', event => {
   if (action === 'checkout') checkout();
   if (action === 'clear-filters' && isHome) resetFilters();
   if (action === 'load-more') { visibleLimit += 24;renderCatalogue(); }
-  if (action === 'slide') { showSlide(Number(button.dataset.index));resetCarouselTimer(); }
   if (action === 'slide-next') { showSlide(slideIndex + 1);resetCarouselTimer(); }
   if (action === 'slide-previous') { showSlide(slideIndex - 1);resetCarouselTimer(); }
-  if (action === 'slide-pause') {
-    slidesPaused = !slidesPaused;button.setAttribute('aria-pressed',String(slidesPaused));button.setAttribute('aria-label',slidesPaused ? 'Reproduzir destaques' : 'Pausar destaques');button.textContent = slidesPaused ? '>' : 'II';resetCarouselTimer();
-  }
+
 });
 
 document.addEventListener('keydown', event => {
