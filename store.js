@@ -360,6 +360,45 @@ document.addEventListener('keydown', event => {
   }
 });
 
+function removeNetlifyBranding() {
+  const watchedRoots = new WeakSet();
+  const isBrandingLabel = value => /^powered\s*by\s*netlify$/i.test(String(value || '').trim());
+
+  function inspect(root) {
+    if (!root.querySelectorAll) return;
+    const links = root.matches?.('a') ? [root, ...root.querySelectorAll('a')] : [...root.querySelectorAll('a')];
+    links.forEach(link => {
+      if ([link.innerText, link.getAttribute('aria-label'), link.getAttribute('title')].some(isBrandingLabel)) link.remove();
+    });
+    [root, ...root.querySelectorAll('*')].forEach(element => {
+      if (element.shadowRoot) watch(element.shadowRoot);
+    });
+  }
+
+  function watch(root) {
+    if (watchedRoots.has(root)) return;
+    watchedRoots.add(root);
+    inspect(root);
+    new MutationObserver(records => {
+      records.forEach(record => {
+        if (record.type === 'childList') {
+          record.addedNodes.forEach(inspect);
+          const link = record.target.closest?.('a');
+          if (link) inspect(link);
+        } else {
+          const element = record.target.nodeType === Node.TEXT_NODE ? record.target.parentElement : record.target;
+          const link = element?.closest?.('a');
+          if (link) inspect(link);
+        }
+      });
+    }).observe(root, {childList:true, subtree:true, characterData:true, attributes:true, attributeFilter:['aria-label','title']});
+  }
+
+  watch(document.body);
+  window.addEventListener('load', () => inspect(document.body), {once:true});
+}
+
+removeNetlifyBranding();
 renderHeader();
 renderFooter();
 if (isHome) setupHome(); else if (isCart) renderCartPage(); else renderProduct();
