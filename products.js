@@ -1965,10 +1965,10 @@ const items = [
     "description": "Hidratação intensa e prolongada, com fórmula hipoalergênica, textura cremosa e rápida absorção. Deixa a pele macia e delicadamente perfumada com uma fragrância doce e envolvente, que combina algodão-doce, chocolate, frutas e flores."
   },
   {
-    "name": "Consulte opções disponíveis",
+    "name": "Spray corporal Asdaaf",
     "brand": "Asdaaf",
     "kind": "Spray corporal",
-    "typ": "-",
+    "typ": "Spray corporal",
     "size": "200ml",
     "pix": 52.0,
     "card": 55.0,
@@ -1978,14 +1978,16 @@ const items = [
     "catalog": "verus-assets/catalogo/95.webp",
     "layout": "perfume",
     "photoLabel": "Opções de sprays corporais do catálogo",
-    "profile": "Diversas",
-    "description": "Os sprays corporais árabes são ideais ' para perfumar a pele com fragrâncias marcantes e envolventes, perfeitas para o dia a dia. Com opções de diferentes marcas e perfis olfativos, oferecem desde aromas frescos e delicados até fragrâncias doces, intensas e sofisticadas. à Trabalhamos com opções de marcas como Lattafa, Asdaaf, Armaf e outras, à incluindo fragrâncias conhecidas como Asad, Club de Nuit, Khamrah, Bade'e Al Oud, Ameerat Al Arab e muito mais. CONSULTE AS OPCÕES DISPONÍVEIS DE MARCAS E FRAGRÂNCIAS."
+    "profile": "Fragrâncias variadas",
+    "description": "Os sprays corporais árabes perfumam a pele com fragrâncias marcantes e envolventes para o dia a dia. O catálogo reúne opções frescas e delicadas, doces, intensas e sofisticadas. Consulte as fragrâncias disponíveis da marca antes de finalizar seu pedido.",
+    "usage": "Para perfumar a pele no dia a dia.",
+    "fragranceOptions": "Asad, Club de Nuit, Khamrah, Bade’e Al Oud e Ameerat Al Arab são exemplos da linha corporal no catálogo. As opções variam conforme a marca e a disponibilidade."
   },
   {
-    "name": "Consulte opções disponíveis",
+    "name": "Spray corporal Lattafa",
     "brand": "Lattafa",
     "kind": "Spray corporal",
-    "typ": "-",
+    "typ": "Spray corporal",
     "size": "200ml",
     "pix": 52.0,
     "card": 55.0,
@@ -1995,14 +1997,16 @@ const items = [
     "catalog": "verus-assets/catalogo/96.webp",
     "layout": "perfume",
     "photoLabel": "Opções de sprays corporais do catálogo",
-    "profile": "Diversas",
-    "description": "Os sprays corporais árabes são ideais ' para perfumar a pele com fragrâncias marcantes e envolventes, perfeitas para o dia a dia. Com opções de diferentes marcas e perfis olfativos, oferecem desde aromas frescos e delicados até fragrâncias doces, intensas e sofisticadas. à Trabalhamos com opções de marcas como Lattafa, Asdaaf, Armaf e outras, à incluindo fragrâncias conhecidas como Asad, Club de Nuit, Khamrah, Bade'e Al Oud, Ameerat Al Arab e muito mais. CONSULTE AS OPCÕES DISPONÍVEIS DE MARCAS E FRAGRÂNCIAS."
+    "profile": "Fragrâncias variadas",
+    "description": "Os sprays corporais árabes perfumam a pele com fragrâncias marcantes e envolventes para o dia a dia. O catálogo reúne opções frescas e delicadas, doces, intensas e sofisticadas. Consulte as fragrâncias disponíveis da marca antes de finalizar seu pedido.",
+    "usage": "Para perfumar a pele no dia a dia.",
+    "fragranceOptions": "Asad, Club de Nuit, Khamrah, Bade’e Al Oud e Ameerat Al Arab são exemplos da linha corporal no catálogo. As opções variam conforme a marca e a disponibilidade."
   },
   {
-    "name": "Consulte opções disponíveis",
+    "name": "Spray corporal Armaf",
     "brand": "Armaf",
     "kind": "Spray corporal",
-    "typ": "-",
+    "typ": "Spray corporal",
     "size": "200ml",
     "pix": 85.0,
     "card": 89.0,
@@ -2012,25 +2016,29 @@ const items = [
     "catalog": "verus-assets/catalogo/97.webp",
     "layout": "perfume",
     "photoLabel": "Opções de sprays corporais do catálogo",
-    "profile": "Diversas",
-    "description": "Os sprays corporais árabes são ideais ' para perfumar a pele com fragrâncias marcantes e envolventes, perfeitas para o dia a dia. Com opções de diferentes marcas e perfis olfativos, oferecem desde aromas frescos e delicados até fragrâncias doces, intensas e sofisticadas. à Trabalhamos com opções de marcas como Lattafa, Asdaaf, Armaf e outras, à incluindo fragrâncias conhecidas como Asad, Club de Nuit, Khamrah, Bade'e Al Oud, Ameerat Al Arab e muito mais. CONSULTE AS OPCÕES DISPONÍVEIS DE MARCAS E FRAGRÂNCIAS."
+    "profile": "Fragrâncias variadas",
+    "description": "Os sprays corporais árabes perfumam a pele com fragrâncias marcantes e envolventes para o dia a dia. O catálogo reúne opções frescas e delicadas, doces, intensas e sofisticadas. Consulte as fragrâncias disponíveis da marca antes de finalizar seu pedido.",
+    "usage": "Para perfumar a pele no dia a dia.",
+    "fragranceOptions": "Asad, Club de Nuit, Khamrah, Bade’e Al Oud e Ameerat Al Arab são exemplos da linha corporal no catálogo. As opções variam conforme a marca e a disponibilidade."
   },
   {
-    "name": "Consulte opções disponíveis",
+    "name": "Aerossol de ambiente Al Wataniah",
     "brand": "Al Wataniah",
     "kind": "Spray ambiente",
-    "typ": "-",
+    "typ": "Spray de ambiente",
     "size": "300ml",
     "pix": 39.0,
     "card": 41.0,
-    "category": "Sprays de ambiente",
+    "category": "Aerossóis ambientes",
     "id": "98",
     "img": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=800&q=80",
     "catalog": "verus-assets/catalogo/98.webp",
     "layout": "perfume",
     "photoPlaceholder": true,
-    "profile": "Diversas",
-    "description": "Transforme seus ambientes com fragrâncias árabes que proporcionam uma atmosfera agradável, sofisticada e acolhedora. Os sprays de ambiente ajudam a renovar o ar e perfumar os espaços, criando uma sensação de conforto e bem-estar para sua casa ou escritório. Disponíveis em marcas como Lattafa e Al Wataniah, com opções como Special Oud, Sultan Al Ail e outras fragrâncias para diferentes preferências. ONBULTE AS OPCÕES DISPONÍVEIS DE MARCAS E FRAGRÂNCIAS."
+    "profile": "Fragrâncias variadas",
+    "description": "Os sprays de ambiente perfumam os espaços e criam uma atmosfera agradável e acolhedora em casa ou no escritório. O catálogo apresenta marcas como Lattafa e Al Wataniah, com diferentes fragrâncias. Consulte as opções disponíveis antes de finalizar seu pedido.",
+    "usage": "Para perfumar ambientes da casa ou do escritório.",
+    "fragranceOptions": "Special Oud e outras fragrâncias da linha de ambiente. Consulte as marcas e opções disponíveis."
   },
   {
     "id": "103",

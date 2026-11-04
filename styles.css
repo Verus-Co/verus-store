@@ -109,3 +109,5 @@
 .product-gallery>.photo-window.original-photo{width:min(100%,370px);height:auto;aspect-ratio:var(--photo-ratio);border-radius:0}
 .campaign-photo:has(.original-photo){border-radius:0;overflow:visible;background:transparent;box-shadow:none}
 .price-before{font-size:11px;line-height:1.6;color:#8c9186;margin-bottom:6px;display:flex;align-items:baseline;gap:5px;flex-wrap:wrap}.price-before del{text-decoration-thickness:1px}.price-before>span{font-size:10px}.product-buy-box .price-before{font-size:14px;margin-bottom:10px}.product-buy-box .price-before>span{font-size:12px}@media(max-width:600px){.price-before{font-size:10px;gap:4px;margin-bottom:5px}.price-before>span{font-size:9px}.product-buy-box .price-before{font-size:13px}}
+
+.collection-description{background:var(--sage,#eff3ed);border-left:3px solid #a6793e;padding:22px 26px;margin:0 0 28px;max-width:900px}.collection-description[hidden]{display:none}.collection-description h3{margin:0 0 10px;font-size:24px}.collection-description p{margin:0;line-height:1.8;font-size:14px}
