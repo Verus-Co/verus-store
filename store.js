@@ -173,9 +173,38 @@ function checkout() {
 }
 
 const campaignSlides = [
-  {theme:'sand',eyebrow:'FRAGRÂNCIAS QUE FICAM NA MEMÓRIA',title:'Presença é<br>uma <em>assinatura.</em>',description:'Descubra o encontro entre notas envolventes e uma personalidade que é só sua.',button:'DESCUBRA ROYAL AMBER',id:'66',secondary:'41',label:'ORIENTICA · ROYAL AMBER'},
-  {theme:'rose',eyebrow:'DELICADEZA COM PERSONALIDADE',title:'Seu lado doce.<br>Sua <em>essência.</em>',description:'Notas florais, um toque cremoso e novas formas de se reconhecer em uma fragrância.',button:'CONHEÇA YARA',id:'88',secondary:'89',label:'LATTAFA · YARA'},
-  {theme:'green',eyebrow:'UM CONVITE A DESCOBRIR',title:'O inesperado<br>também <em>encanta.</em>',description:'Manga, gengibre e limão se encontram em uma fragrância com presença tropical.',button:'EXPLORE VULCAN FEU',id:'86',secondary:'85',label:'FRENCH AVENUE · VULCAN'}
+  {
+    "theme": "sand",
+    "image": "banner-verus-perfumes",
+    "label": "VERUS — Sua essência, em outro nível. Perfumes que revelam sua personalidade.",
+    "href": "index.html?colecao=perfumes#loja",
+    "width": 2098,
+    "height": 750
+  },
+  {
+    "theme": "sand",
+    "image": "banner-verus-pacific-aura",
+    "label": "Pacific Aura — Frescor para acompanhar seus dias. Aromático e aquático. 100 ml.",
+    "href": "produto.html?id=61",
+    "width": 2098,
+    "height": 749
+  },
+  {
+    "theme": "sand",
+    "image": "banner-lataffa",
+    "label": "Lattafa — Descubra a coleção de perfumes.",
+    "href": "index.html?busca=Lattafa&colecao=perfumes#loja",
+    "width": 2060,
+    "height": 763
+  },
+  {
+    "theme": "sand",
+    "image": "banner-verus-gardenia",
+    "label": "Shagaf Al Ward Gardenia — Elegância que floresce. Presença que permanece.",
+    "href": "produto.html?id=74",
+    "width": 2061,
+    "height": 763
+  }
 ];
 let slideIndex = 0;
 let slidesPaused = false;
@@ -185,7 +214,7 @@ function showSlide(index) {
   slideIndex = (index + campaignSlides.length) % campaignSlides.length;
   $$('.campaign-slide').forEach((slide, i) => { slide.hidden = i !== slideIndex; });
   $$('.campaign-dots button').forEach((button, i) => button.setAttribute('aria-pressed', String(i === slideIndex)));
-  $('#campaign-index').textContent = `${String(slideIndex + 1).padStart(2,'0')} / 03`;
+  $('#campaign-index').textContent = `${String(slideIndex + 1).padStart(2,'0')} / ${String(campaignSlides.length).padStart(2,'0')}`;
   $('.campaign').dataset.currentTheme = campaignSlides[slideIndex].theme;
 }
 
@@ -198,8 +227,9 @@ function resetCarouselTimer() {
 }
 
 function setupCampaign() {
-  $('#campaign-slides').innerHTML = campaignSlides.map((slide, i) => `<article class="campaign-slide" data-theme="${slide.theme}" aria-roledescription="slide" aria-label="${i + 1} de 3" ${i ? 'hidden' : ''}><div class="campaign-copy"><span class="eyebrow">${slide.eyebrow}</span><${i ? 'h2' : 'h1'}>${slide.title}</${i ? 'h2' : 'h1'}><p>${slide.description}</p><a class="button" href="${productURL(slide.id)}">${slide.button}<span aria-hidden="true">→</span></a></div><div class="campaign-art"><div class="campaign-photo secondary">${photo(productByID(slide.secondary))}</div><a class="campaign-photo" href="${productURL(slide.id)}" aria-label="Conhecer ${escapeHTML(productByID(slide.id).name)}">${photo(productByID(slide.id), i === 0)}</a><span class="campaign-label">${slide.label}</span></div></article>`).join('');
-  $('#campaign-dots').innerHTML = campaignSlides.map((slide, i) => `<button type="button" data-action="slide" data-index="${i}" aria-label="Ver destaque ${i + 1}: ${escapeHTML(productByID(slide.id).name)}" aria-pressed="${i === 0}"></button>`).join('');
+  $('.campaign').classList.add('campaign-banners');
+  $('#campaign-slides').innerHTML = campaignSlides.map((slide, i) => `<article class="campaign-slide" aria-roledescription="slide" aria-label="${i + 1} de ${campaignSlides.length}" ${i ? 'hidden' : ''}><a class="campaign-banner-link" href="${slide.href}"><img class="campaign-banner" src="verus-assets/banners/${slide.image}.webp" alt="${escapeHTML(slide.label)}" width="${slide.width}" height="${slide.height}" ${i ? 'loading="lazy"' : 'fetchpriority="high"'}></a></article>`).join('');
+  $('#campaign-dots').innerHTML = campaignSlides.map((slide, i) => `<button type="button" data-action="slide" data-index="${i}" aria-label="Ver destaque ${i + 1}: ${escapeHTML(slide.label)}" aria-pressed="${i === 0}"></button>`).join('');
   showSlide(0);
   resetCarouselTimer();
   document.addEventListener('visibilitychange', resetCarouselTimer);
@@ -371,13 +401,20 @@ document.addEventListener('keydown', event => {
 
 function removeNetlifyBranding() {
   const watchedRoots = new WeakSet();
-  const isBrandingLabel = value => /^powered\s*by\s*netlify$/i.test(String(value || '').trim());
+  const isBrandingLabel = value => /^powered\s*by\s*netlify$/i.test(String(value || '').replace(/\s+/g, ' ').trim());
 
   function inspect(root) {
     if (!root.querySelectorAll) return;
-    const links = root.matches?.('a') ? [root, ...root.querySelectorAll('a')] : [...root.querySelectorAll('a')];
-    links.forEach(link => {
-      if ([link.innerText, link.getAttribute('aria-label'), link.getAttribute('title')].some(isBrandingLabel)) link.remove();
+    const selector = 'a,button,div,span,img,iframe,netlify-badge,[id*="netlify-badge"],[class*="netlify-badge"]';
+    const candidates = [...(root.matches?.(selector) ? [root] : []), ...root.querySelectorAll(selector)];
+    candidates.forEach(element => {
+      const labels = [element.textContent, element.getAttribute('aria-label'), element.getAttribute('title'), element.getAttribute('alt')];
+      const isBadge = element.matches('netlify-badge,[id*="netlify-badge"],[class*="netlify-badge"]');
+      const isBadgeFrame = element.tagName === 'IFRAME' && /netlify/i.test(element.getAttribute('src') || '') && /badge|branding|powered/i.test(element.getAttribute('src') || '');
+      if (isBadge || isBadgeFrame || labels.some(isBrandingLabel)) {
+        const container = element.matches('img') ? element.closest('a,button') || element : element;
+        container.remove();
+      }
     });
     [root, ...root.querySelectorAll('*')].forEach(element => {
       if (element.shadowRoot) watch(element.shadowRoot);
@@ -392,15 +429,13 @@ function removeNetlifyBranding() {
       records.forEach(record => {
         if (record.type === 'childList') {
           record.addedNodes.forEach(inspect);
-          const link = record.target.closest?.('a');
-          if (link) inspect(link);
+          if (record.target.nodeType === Node.ELEMENT_NODE) inspect(record.target);
         } else {
           const element = record.target.nodeType === Node.TEXT_NODE ? record.target.parentElement : record.target;
-          const link = element?.closest?.('a');
-          if (link) inspect(link);
+          if (element) inspect(element);
         }
       });
-    }).observe(root, {childList:true, subtree:true, characterData:true, attributes:true, attributeFilter:['aria-label','title']});
+    }).observe(root, {childList:true, subtree:true, characterData:true, attributes:true, attributeFilter:['aria-label','title','alt','src','id','class']});
   }
 
   watch(document.body);
