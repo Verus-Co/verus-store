@@ -11,7 +11,8 @@ const whatsappURL = text => `https://wa.me/5511944787024?text=${encodeURICompone
 const isHome = document.body.dataset.page === 'home';
 const isCart = document.body.dataset.page === 'cart';
 const contacts = { instagram: 'verusoriginal', whatsapp: '(11) 94478-7024' };
-const promotionIDs = new Set(['12','66','88','49','22','43','92','78']);
+const hasPromotion = p => Number.isFinite(p.previousCard) && p.previousCard > p.card && p.card > 0;
+const promotionPercent = p => (Math.floor((p.previousCard - p.card) / p.previousCard * 1000) / 10).toLocaleString('pt-BR', {maximumFractionDigits:1});
 const savingsPercent = p => (Math.floor((p.card - p.pix) / p.card * 1000) / 10).toLocaleString('pt-BR', {maximumFractionDigits:1});
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const productByID = id => items.find(p => p.id === String(id));
@@ -26,7 +27,7 @@ const icons = {
 };
 
 const collections = [
-  ['todos','Todas as categorias'], ['promocoes','Promoções · vantagens no Pix'], ['perfumes','Todos os perfumes'],
+  ['todos','Todas as categorias'], ['promocoes','Perfumes em promoção'], ['perfumes','Todos os perfumes'],
   ['masculinos','Perfumes masculinos'], ['masculinos-arabes','Masculinos · árabes'], ['masculinos-nicho','Masculinos · perfumes de nicho'],
   ['femininos','Perfumes femininos'], ['femininos-arabes','Femininos · árabes'], ['femininos-nicho','Femininos · perfumes de nicho'],
   ['unissex','Perfumes unissex'], ['aerossois','Aerossóis'], ['ambiente','Ambiente'], ['spray-corporal','Spray corporal'],
@@ -39,7 +40,7 @@ function matchesCollection(p, collection) {
   const male = gender === 'masculino' || gender === 'unissex';
   const female = gender === 'feminino' || gender === 'unissex';
   switch (collection) {
-    case 'promocoes': return p.pix !== null && p.card > p.pix && promotionIDs.has(p.id);
+    case 'promocoes': return hasPromotion(p);
     case 'perfumes': return p.kind === 'Perfume';
     case 'masculinos': return p.kind === 'Perfume' && male;
     case 'femininos': return p.kind === 'Perfume' && female;
@@ -62,18 +63,25 @@ function matchesCollection(p, collection) {
 
 function photo(p, eager = false) {
   if (p.photoPlaceholder) return '<span class="photo-pending">VERUS<small>Spray de ambiente</small><small>Foto em atualização</small></span>';
+  if (p.photo) {
+    const width = Number(p.photo.width);
+    const height = Number(p.photo.height);
+    if (p.photo.src && Number.isInteger(width) && Number.isInteger(height) && width > 0 && height > 0) {
+      return `<span class="photo-window original-photo" style="--photo-ratio:${width} / ${height}"><img src="${escapeHTML(p.photo.src)}" width="${width}" height="${height}" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async" alt="${escapeHTML(p.photoLabel || `${p.name} — ${p.brand}`)}"></span>`;
+    }
+  }
   return `<span class="photo-window ${p.layout === 'fashion' ? 'fashion-photo' : ''}"><img src="${p.catalog}" width="2000" height="1410" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async" alt="${escapeHTML(p.photoLabel || `${p.name} — ${p.brand}`)}"></span>`;
 }
 
 function price(p, detailed = false) {
   if (p.pix === null) return '<div class="price-block"><div class="price-main">Consulte o valor</div></div>';
-  return `<div class="price-block"><div class="price-main">${money(p.card)}<small>no cartão</small></div><div class="price-installment">até <b>3x de ${money(p.card / 3)}</b> sem juros</div><div class="pix-offer"><span><span class="pix-symbol" aria-hidden="true">◆</span><b>${money(p.pix)}</b> no Pix</span><small>com <strong>${savingsPercent(p)}% de desconto</strong>${detailed ? ' em relação ao cartão' : ''}</small></div></div>`;
+  return `<div class="price-block">${hasPromotion(p) ? `<div class="price-before">De <del aria-label="Preço anterior no cartão">${money(p.previousCard)}</del> <span>por</span></div>` : ''}<div class="price-main">${money(p.card)}<small>no cartão</small></div><div class="price-installment">até <b>3x de ${money(p.card / 3)}</b> sem juros</div><div class="pix-offer"><span><span class="pix-symbol" aria-hidden="true">◆</span><b>${money(p.pix)}</b> no Pix</span><small>com <strong>${savingsPercent(p)}% de desconto</strong>${detailed ? ' em relação ao cartão' : ''}</small></div></div>`;
 }
 
 function productCard(p, promotion = false) {
   const profile = p.kind === 'Roupa' ? p.typ : p.profile || p.kind;
   return `<article class="product-card" data-kind="${escapeHTML(p.kind)}" data-product-id="${p.id}">
-    <a class="product-picture" href="${productURL(p.id)}" aria-label="Conhecer ${escapeHTML(p.name)}">${photo(p)}${promotionIDs.has(p.id) ? `<span class="product-flags"><span class="discount-badge"><b>${savingsPercent(p)}%</b><small>NO PIX</small></span></span>` : ''}</a>
+    <a class="product-picture" href="${productURL(p.id)}" aria-label="Conhecer ${escapeHTML(p.name)}">${photo(p)}${hasPromotion(p) ? `<span class="product-flags"><span class="discount-badge" aria-label="${promotionPercent(p)}% de desconto no cartão em relação ao preço anterior"><b>${promotionPercent(p)}%</b><small>OFF</small></span></span>` : ''}</a>
     <div class="product-meta"><span>${escapeHTML(p.brand === '-' ? 'VERUS' : p.brand)}</span><span>${p.size !== '-' ? escapeHTML(p.size) : p.kind === 'Roupa' ? 'MODA' : ''}</span></div>
     <h3><a href="${productURL(p.id)}">${escapeHTML(p.name)}</a></h3><p class="product-profile">${escapeHTML(profile)}</p>
     ${price(p)}<div class="card-actions"><a class="text-link" href="${productURL(p.id)}">Ver detalhes →</a><button class="add-small" type="button" data-action="add" data-id="${p.id}" aria-label="Adicionar ${escapeHTML(p.name)} à sacola">${icons.plus} Adicionar</button></div>
@@ -254,7 +262,7 @@ function setupHome() {
   const oldProduct = location.hash.match(/^#produto-(\d+)$/);
   if (oldProduct) { location.replace(productURL(oldProduct[1])); return; }
   setupCampaign();
-  $('#featured-grid').innerHTML = ['12','66','88','49','22','43','92','78'].map(productByID).map(p => productCard(p,true)).join('');
+  $('#featured-grid').innerHTML = ['26','12','88','22','6','7','8','15','11','31','36','42','53','54'].map(productByID).filter(hasPromotion).map(p => productCard(p,true)).join('');
   $$('[data-photo]').forEach(el => { el.innerHTML = photo(productByID(el.dataset.photo)); });
   renderKits();
   $('#collection').innerHTML = collections.map(([value,label]) => `<option value="${value}">${label}</option>`).join('');
