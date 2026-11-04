@@ -11,7 +11,8 @@ const whatsappURL = text => `https://wa.me/5511944787024?text=${encodeURICompone
 const isHome = document.body.dataset.page === 'home';
 const isCart = document.body.dataset.page === 'cart';
 const contacts = { instagram: 'verusoriginal', whatsapp: '(11) 94478-7024' };
-const promotionIDs = new Set(['12','66','88','49','22','43','92','78']);
+const hasPromotion = p => Number.isFinite(p.previousCard) && p.previousCard > p.card && p.card > 0;
+const promotionPercent = p => (Math.floor((p.previousCard - p.card) / p.previousCard * 1000) / 10).toLocaleString('pt-BR', {maximumFractionDigits:1});
 const savingsPercent = p => (Math.floor((p.card - p.pix) / p.card * 1000) / 10).toLocaleString('pt-BR', {maximumFractionDigits:1});
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const productByID = id => items.find(p => p.id === String(id));
@@ -26,10 +27,10 @@ const icons = {
 };
 
 const collections = [
-  ['todos','Todas as categorias'], ['promocoes','Promoções · vantagens no Pix'], ['perfumes','Todos os perfumes'],
+  ['todos','Todas as categorias'], ['promocoes','Perfumes em promoção'], ['perfumes','Todos os perfumes'],
   ['masculinos','Perfumes masculinos'], ['masculinos-arabes','Masculinos · árabes'], ['masculinos-nicho','Masculinos · perfumes de nicho'],
   ['femininos','Perfumes femininos'], ['femininos-arabes','Femininos · árabes'], ['femininos-nicho','Femininos · perfumes de nicho'],
-  ['unissex','Perfumes unissex'], ['aerossois','Aerossóis'], ['ambiente','Ambiente'], ['spray-corporal','Spray corporal'],
+  ['unissex','Perfumes unissex'], ['aerossois-ambientes','Aerossóis ambientes'], ['spray-corporal','Spray corporal'],
   ['hidratantes','Hidratantes corporais'], ['moda','Toda a moda'], ['oversized','Camisetas oversized'], ['casuais','Camisetas casuais'], ['polos','Polos']
 ];
 
@@ -39,7 +40,7 @@ function matchesCollection(p, collection) {
   const male = gender === 'masculino' || gender === 'unissex';
   const female = gender === 'feminino' || gender === 'unissex';
   switch (collection) {
-    case 'promocoes': return p.pix !== null && p.card > p.pix && promotionIDs.has(p.id);
+    case 'promocoes': return hasPromotion(p);
     case 'perfumes': return p.kind === 'Perfume';
     case 'masculinos': return p.kind === 'Perfume' && male;
     case 'femininos': return p.kind === 'Perfume' && female;
@@ -48,9 +49,10 @@ function matchesCollection(p, collection) {
     case 'masculinos-nicho': return p.kind === 'Perfume' && male && cat.includes('nicho');
     case 'femininos-nicho': return p.kind === 'Perfume' && female && cat.includes('nicho');
     case 'unissex': return p.kind === 'Perfume' && gender === 'unissex';
-    case 'aerossois':
     case 'spray-corporal': return p.kind === 'Spray corporal';
-    case 'ambiente': return p.kind === 'Spray ambiente';
+    case 'aerossois':
+    case 'ambiente':
+    case 'aerossois-ambientes': return p.kind === 'Spray ambiente';
     case 'hidratantes': return p.kind === 'Hidratante';
     case 'moda': return p.kind === 'Roupa';
     case 'oversized': return p.category === 'Camisetas oversized';
@@ -62,18 +64,25 @@ function matchesCollection(p, collection) {
 
 function photo(p, eager = false) {
   if (p.photoPlaceholder) return '<span class="photo-pending">VERUS<small>Spray de ambiente</small><small>Foto em atualização</small></span>';
+  if (p.photo) {
+    const width = Number(p.photo.width);
+    const height = Number(p.photo.height);
+    if (p.photo.src && Number.isInteger(width) && Number.isInteger(height) && width > 0 && height > 0) {
+      return `<span class="photo-window original-photo" style="--photo-ratio:${width} / ${height}"><img src="${escapeHTML(p.photo.src)}" width="${width}" height="${height}" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async" alt="${escapeHTML(p.photoLabel || `${p.name} — ${p.brand}`)}"></span>`;
+    }
+  }
   return `<span class="photo-window ${p.layout === 'fashion' ? 'fashion-photo' : ''}"><img src="${p.catalog}" width="2000" height="1410" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async" alt="${escapeHTML(p.photoLabel || `${p.name} — ${p.brand}`)}"></span>`;
 }
 
 function price(p, detailed = false) {
   if (p.pix === null) return '<div class="price-block"><div class="price-main">Consulte o valor</div></div>';
-  return `<div class="price-block"><div class="price-main">${money(p.card)}<small>no cartão</small></div><div class="price-installment">até <b>3x de ${money(p.card / 3)}</b> sem juros</div><div class="pix-offer"><span><span class="pix-symbol" aria-hidden="true">◆</span><b>${money(p.pix)}</b> no Pix</span><small>com <strong>${savingsPercent(p)}% de desconto</strong>${detailed ? ' em relação ao cartão' : ''}</small></div></div>`;
+  return `<div class="price-block">${hasPromotion(p) ? `<div class="price-before">De <del aria-label="Preço anterior no cartão">${money(p.previousCard)}</del> <span>por</span></div>` : ''}<div class="price-main">${money(p.card)}<small>no cartão</small></div><div class="price-installment">até <b>3x de ${money(p.card / 3)}</b> sem juros</div><div class="pix-offer"><span><span class="pix-symbol" aria-hidden="true">◆</span><b>${money(p.pix)}</b> no Pix</span><small>com <strong>${savingsPercent(p)}% de desconto</strong>${detailed ? ' em relação ao cartão' : ''}</small></div></div>`;
 }
 
 function productCard(p, promotion = false) {
   const profile = p.kind === 'Roupa' ? p.typ : p.profile || p.kind;
   return `<article class="product-card" data-kind="${escapeHTML(p.kind)}" data-product-id="${p.id}">
-    <a class="product-picture" href="${productURL(p.id)}" aria-label="Conhecer ${escapeHTML(p.name)}">${photo(p)}${promotionIDs.has(p.id) ? `<span class="product-flags"><span class="discount-badge"><b>${savingsPercent(p)}%</b><small>NO PIX</small></span></span>` : ''}</a>
+    <a class="product-picture" href="${productURL(p.id)}" aria-label="Conhecer ${escapeHTML(p.name)}">${photo(p)}${hasPromotion(p) ? `<span class="product-flags"><span class="discount-badge" aria-label="${promotionPercent(p)}% de desconto no cartão em relação ao preço anterior"><b>${promotionPercent(p)}%</b><small>OFF</small></span></span>` : ''}</a>
     <div class="product-meta"><span>${escapeHTML(p.brand === '-' ? 'VERUS' : p.brand)}</span><span>${p.size !== '-' ? escapeHTML(p.size) : p.kind === 'Roupa' ? 'MODA' : ''}</span></div>
     <h3><a href="${productURL(p.id)}">${escapeHTML(p.name)}</a></h3><p class="product-profile">${escapeHTML(profile)}</p>
     ${price(p)}<div class="card-actions"><a class="text-link" href="${productURL(p.id)}">Ver detalhes →</a><button class="add-small" type="button" data-action="add" data-id="${p.id}" aria-label="Adicionar ${escapeHTML(p.name)} à sacola">${icons.plus} Adicionar</button></div>
@@ -82,7 +91,7 @@ function productCard(p, promotion = false) {
 
 function renderHeader() {
   const group = (gender, label) => `<div class="nav-group"><button class="nav-toggle" type="button" data-action="menu" aria-expanded="false" aria-controls="${gender}-menu">${label} ${icons.chevron}</button><div class="submenu" id="${gender}-menu" hidden><a href="${collectionURL(gender)}">Ver todos <small>Explore a seleção</small></a><a href="${collectionURL(gender + '-arabes')}">Perfumes árabes <span aria-hidden="true">→</span></a><a href="${collectionURL(gender + '-nicho')}">Perfumes de nicho <span aria-hidden="true">→</span></a></div></div>`;
-  $('#site-header').innerHTML = `<div class="announcement"><span>SUA ESSÊNCIA. SEU ESTILO.</span><span>ATÉ 3X SEM JUROS NO CARTÃO</span></div><header class="header-shell"><div class="header-main wrap"><a class="brand" href="index.html" aria-label="VERUS — início"><img src="verus-assets/logo.webp" alt="" width="58" height="58"><span><span class="brand-name">VERUS</span><span class="brand-tagline">SUA ESSÊNCIA. SEU ESTILO.</span></span></a><form class="search-form" action="index.html#loja" method="get" role="search"><input id="search" name="busca" type="search" placeholder="Qual será sua próxima escolha?" aria-label="Buscar produtos"><button type="submit" aria-label="Buscar">${icons.search}</button></form><div class="header-actions"><a class="service-link" href="${whatsappURL('Olá, VERUS! Gostaria de uma ajuda para escolher.')}" target="_blank" rel="noopener">${icons.chat}<span>PODEMOS AJUDAR?<strong>Fale com a VERUS</strong></span></a><a class="bag-button" href="carrinho.html" aria-label="Ir para o carrinho">${icons.bag}<span class="bag-label">Sacola</span><span class="bag-count" id="bag-count">0</span></a><button type="button" class="mobile-menu-toggle" data-action="mobile-menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-navigation">${icons.menu}</button></div></div><nav class="primary-navigation" id="primary-navigation" aria-label="Categorias"><div class="nav-inner wrap"><a class="nav-link nav-promo" href="index.html#promocoes">PROMOÇÕES</a>${group('masculinos','MASCULINOS')}${group('femininos','FEMININOS')}<a class="nav-link" href="${collectionURL('aerossois')}">AEROSSÓIS</a><a class="nav-link" href="${collectionURL('ambiente')}">AMBIENTE</a><a class="nav-link" href="${collectionURL('spray-corporal')}">SPRAY CORPORAL</a><a class="nav-link" href="${collectionURL('hidratantes')}">HIDRATANTES</a><a class="nav-link" href="${collectionURL('moda')}">MODA</a><a class="nav-link" href="index.html#kits">KITS</a></div></nav></header>`;
+  $('#site-header').innerHTML = `<div class="announcement"><span>SUA ESSÊNCIA. SEU ESTILO.</span><span>ATÉ 3X SEM JUROS NO CARTÃO</span></div><header class="header-shell"><div class="header-main wrap"><a class="brand" href="index.html" aria-label="VERUS — início"><img src="verus-assets/logo.webp" alt="" width="58" height="58"><span><span class="brand-name">VERUS</span><span class="brand-tagline">SUA ESSÊNCIA. SEU ESTILO.</span></span></a><form class="search-form" action="index.html#loja" method="get" role="search"><input id="search" name="busca" type="search" placeholder="Qual será sua próxima escolha?" aria-label="Buscar produtos"><button type="submit" aria-label="Buscar">${icons.search}</button></form><div class="header-actions"><a class="service-link" href="${whatsappURL('Olá, VERUS! Gostaria de uma ajuda para escolher.')}" target="_blank" rel="noopener">${icons.chat}<span>PODEMOS AJUDAR?<strong>Fale com a VERUS</strong></span></a><a class="bag-button" href="carrinho.html" aria-label="Ir para o carrinho">${icons.bag}<span class="bag-label">Sacola</span><span class="bag-count" id="bag-count">0</span></a><button type="button" class="mobile-menu-toggle" data-action="mobile-menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-navigation">${icons.menu}</button></div></div><nav class="primary-navigation" id="primary-navigation" aria-label="Categorias"><div class="nav-inner wrap"><a class="nav-link nav-promo" href="index.html#promocoes">PROMOÇÕES</a>${group('masculinos','MASCULINOS')}${group('femininos','FEMININOS')}<a class="nav-link" href="${collectionURL('aerossois-ambientes')}">AEROSSÓIS AMBIENTES</a><a class="nav-link" href="${collectionURL('spray-corporal')}">SPRAY CORPORAL</a><a class="nav-link" href="${collectionURL('hidratantes')}">HIDRATANTES</a><a class="nav-link" href="${collectionURL('moda')}">MODA</a><a class="nav-link" href="index.html#kits">KITS</a></div></nav></header>`;
   $$('.nav-group').forEach(group => {
     group.addEventListener('pointerenter', e => {
       if (e.pointerType === 'mouse' && window.matchMedia('(min-width: 1001px)').matches) setMenu($('.nav-toggle', group), true);
@@ -225,6 +234,13 @@ function syncFilterURL() {
 }
 
 function renderCatalogue() {
+  const description = $('#collection-description');
+  const collectionCopy = {
+    'aerossois-ambientes': ['Aerossóis ambientes · 300 ml', 'Para perfumar sua casa ou escritório e criar uma atmosfera agradável e acolhedora. O catálogo apresenta opções de Lattafa e Al Wataniah, como Special Oud. Consulte as marcas e fragrâncias disponíveis.'],
+    'spray-corporal': ['Sprays corporais · 200 ml', 'Para perfumar a pele no dia a dia, com opções frescas, delicadas, doces ou intensas. O catálogo reúne marcas como Asdaaf, Lattafa e Armaf, com fragrâncias como Asad, Club de Nuit, Khamrah, Bade’e Al Oud e Ameerat Al Arab. Consulte as opções disponíveis de cada marca.']
+  }[activeCollection];
+  description.hidden = !collectionCopy;
+  description.innerHTML = collectionCopy ? `<h3>${escapeHTML(collectionCopy[0])}</h3><p>${escapeHTML(collectionCopy[1])}</p>` : '';
   const query = normalize(searchTerm.trim()).replace(/[^a-z0-9]+/g,' ').trim();
   let selected = items.filter(p => matchesCollection(p,activeCollection));
   if (query) {
@@ -254,12 +270,13 @@ function setupHome() {
   const oldProduct = location.hash.match(/^#produto-(\d+)$/);
   if (oldProduct) { location.replace(productURL(oldProduct[1])); return; }
   setupCampaign();
-  $('#featured-grid').innerHTML = ['12','66','88','49','22','43','92','78'].map(productByID).map(p => productCard(p,true)).join('');
+  $('#featured-grid').innerHTML = ['26','12','88','22','6','7','8','15','11','31','36','42','53','54'].map(productByID).filter(hasPromotion).map(p => productCard(p,true)).join('');
   $$('[data-photo]').forEach(el => { el.innerHTML = photo(productByID(el.dataset.photo)); });
   renderKits();
   $('#collection').innerHTML = collections.map(([value,label]) => `<option value="${value}">${label}</option>`).join('');
   const params = new URLSearchParams(location.search);
-  const requested = params.get('colecao');
+  const legacyCollection = params.get('colecao');
+  const requested = ['aerossois','ambiente'].includes(legacyCollection) ? 'aerossois-ambientes' : legacyCollection;
   activeCollection = collections.some(([value]) => value === requested) ? requested : 'todos';
   activeSort = ['low','high','az'].includes(params.get('ordem')) ? params.get('ordem') : 'featured';
   searchTerm = params.get('busca') || '';
@@ -296,8 +313,8 @@ function renderProduct() {
   const type = p.kind === 'Roupa' ? p.typ : [p.typ !== '-' ? p.typ : '',p.size !== '-' ? p.size : ''].filter(Boolean).join(' · ');
   const productInfo = p.kind === 'Perfume' ? `${p.occasion.split('. ')[0]}. Conheça as notas que compõem essa fragrância e encontre o seu momento de usar.` : p.kind === 'Roupa' ? `${p.typ}. Um modelo para fazer parte do seu estilo. Confira as cores e os tamanhos abaixo e confirme as opções no atendimento.` : p.description || 'Conheça as opções disponíveis e encontre a que combina com você.';
   const related = items.filter(other => other.id !== p.id && other.kind === p.kind && other.name !== p.name).sort((a,b) => Number(b.brand === p.brand) - Number(a.brand === p.brand)).slice(0,4);
-  const notes = p.kind === 'Perfume' ? `<section class="fragrance-story" aria-labelledby="notes-heading"><div class="section-heading"><div><span class="eyebrow">CONHEÇA A FRAGRÂNCIA</span><h2 id="notes-heading">Uma história em <em>três notas.</em></h2><p>Cada etapa revela um pouco mais da sua assinatura.</p></div></div><div class="notes-grid">${[['top','Topo','A primeira impressão'],['heart','Coração','A personalidade'],['base','Fundo','O que permanece']].map(([key,title,subtitle],i) => `<article class="note-card"><span class="note-number" aria-hidden="true">0${i + 1}</span><span class="eyebrow">${subtitle}</span><h3>Notas de ${title.toLowerCase()}</h3><p>${escapeHTML(p.notes[key])}</p></article>`).join('')}</div><section class="occasion" aria-labelledby="occasion-heading"><div><span class="eyebrow">O MOMENTO CERTO É O SEU</span><h2 id="occasion-heading">Quando <em>usar.</em></h2></div><p>${escapeHTML(p.occasion)}</p></section></section>` : `<section class="fragrance-story" aria-labelledby="description-heading"><div class="section-heading"><div><span class="eyebrow">OS DETALHES FAZEM A DIFERENÇA</span><h2 id="description-heading">Feito para o seu <em>ritual.</em></h2></div></div><div class="product-description">${p.kind === 'Roupa' ? `<h3>Tecido e tamanhos</h3><p>${escapeHTML(p.typ)}</p><div class="size-tags">${(p.sizes || '').split(', ').filter(Boolean).map(size => `<span>${escapeHTML(size)}</span>`).join('')}</div>${p.variants ? `<p class="variants-copy"><b>Cores e tamanhos do catálogo</b><br>${escapeHTML(p.variants)}</p>` : ''}<p class="purchase-note">Confirme a disponibilidade da cor e do tamanho desejados no atendimento.</p>` : `<h3>${escapeHTML(p.kind === 'Hidratante' ? 'Cuidado que acompanha sua essência' : 'Mais formas de perfumar')}</h3><p>${escapeHTML(p.description || 'Consulte as opções disponíveis com a VERUS.')}</p>${p.profile ? `<p class="variants-copy"><b>Perfil:</b> ${escapeHTML(p.profile)}</p>` : ''}`}</div></section>`;
-  $('#conteudo').innerHTML = `<div class="wrap"><nav class="breadcrumbs" aria-label="Caminho da página"><a href="index.html">Início</a><span aria-hidden="true">/</span><a href="${collectionURL(p.kind === 'Perfume' ? 'perfumes' : p.kind === 'Roupa' ? 'moda' : p.kind === 'Hidratante' ? 'hidratantes' : p.kind === 'Spray ambiente' ? 'ambiente' : 'spray-corporal')}">${category}</a><span aria-hidden="true">/</span><span aria-current="page">${escapeHTML(p.name)}</span></nav><section class="product-layout" aria-labelledby="product-title"><div class="product-gallery">${photo(p,true)}<span class="gallery-caption">SUA ESSÊNCIA. SEU ESTILO.</span></div><div class="product-info"><span class="eyebrow">${escapeHTML(p.brand === '-' ? 'VERUS' : p.brand)}</span><h1 id="product-title">${escapeHTML(p.name)}</h1><div class="product-chips"><span class="chip">${escapeHTML(type)}</span>${p.kind === 'Perfume' ? `<span class="chip">${p.gender === 'unissex' ? 'Unissex' : p.gender === 'feminino' ? 'Feminino' : 'Masculino'}</span>` : ''}${p.profile && p.kind === 'Perfume' ? `<span class="chip">${escapeHTML(p.profile)}</span>` : ''}</div><p class="product-intro">${escapeHTML(productInfo)}</p>${sameProduct.length > 1 ? `<div class="size-options"><span>Volume</span>${sameProduct.map(other => `<a href="${productURL(other.id)}" ${other.id === p.id ? 'aria-current="page"' : ''}>${escapeHTML(other.size)}</a>`).join('')}</div>` : ''}<div class="product-buy-box">${price(p,true)}<div class="product-purchase-actions"><div class="quantity"><button type="button" data-action="quantity-minus" aria-label="Diminuir quantidade">−</button><output id="product-quantity" aria-label="Quantidade" aria-live="polite">1</output><button type="button" data-action="quantity-plus" aria-label="Aumentar quantidade">+</button></div><button class="button" type="button" data-action="add-product" data-id="${p.id}">${icons.bag} Adicionar à sacola</button></div><p class="purchase-note">Pix à vista ou até 3x sem juros no cartão. Acima de 3x, parcelamento sujeito a juros. Disponibilidade e frete confirmados no atendimento.</p></div><a class="product-help" href="${whatsappURL(`Olá, VERUS! Quero saber mais sobre ${p.name} ${p.size !== '-' ? '(' + p.size + ')' : ''}.`)}" target="_blank" rel="noopener">${icons.chat} Quer uma ajuda para escolher? Fale com a gente →</a></div></section>${notes}<section class="related-section" aria-labelledby="related-heading"><div class="section-heading"><div><span class="eyebrow">CONTINUE DESCOBRINDO</span><h2 id="related-heading">Outras boas <em>escolhas.</em></h2></div><a class="text-link" href="index.html#loja">Explorar a curadoria →</a></div><div class="product-grid">${related.map(other => productCard(other)).join('')}</div></section></div>`;
+  const notes = p.kind === 'Perfume' ? `<section class="fragrance-story" aria-labelledby="notes-heading"><div class="section-heading"><div><span class="eyebrow">CONHEÇA A FRAGRÂNCIA</span><h2 id="notes-heading">Uma história em <em>três notas.</em></h2><p>Cada etapa revela um pouco mais da sua assinatura.</p></div></div><div class="notes-grid">${[['top','Topo','A primeira impressão'],['heart','Coração','A personalidade'],['base','Fundo','O que permanece']].map(([key,title,subtitle],i) => `<article class="note-card"><span class="note-number" aria-hidden="true">0${i + 1}</span><span class="eyebrow">${subtitle}</span><h3>Notas de ${title.toLowerCase()}</h3><p>${escapeHTML(p.notes[key])}</p></article>`).join('')}</div><section class="occasion" aria-labelledby="occasion-heading"><div><span class="eyebrow">O MOMENTO CERTO É O SEU</span><h2 id="occasion-heading">Quando <em>usar.</em></h2></div><p>${escapeHTML(p.occasion)}</p></section></section>` : `<section class="fragrance-story" aria-labelledby="description-heading"><div class="section-heading"><div><span class="eyebrow">OS DETALHES FAZEM A DIFERENÇA</span><h2 id="description-heading">Feito para o seu <em>ritual.</em></h2></div></div><div class="product-description">${p.kind === 'Roupa' ? `<h3>Tecido e tamanhos</h3><p>${escapeHTML(p.typ)}</p><div class="size-tags">${(p.sizes || '').split(', ').filter(Boolean).map(size => `<span>${escapeHTML(size)}</span>`).join('')}</div>${p.variants ? `<p class="variants-copy"><b>Cores e tamanhos do catálogo</b><br>${escapeHTML(p.variants)}</p>` : ''}<p class="purchase-note">Confirme a disponibilidade da cor e do tamanho desejados no atendimento.</p>` : `<h3>${escapeHTML(p.kind === 'Hidratante' ? 'Cuidado que acompanha sua essência' : 'Mais formas de perfumar')}</h3><p>${escapeHTML(p.description || 'Consulte as opções disponíveis com a VERUS.')}</p>${p.usage ? `<p class="variants-copy"><b>Uso:</b> ${escapeHTML(p.usage)}</p><p><b>Volume:</b> ${escapeHTML(p.size)}</p><p>${escapeHTML(p.fragranceOptions)}</p>` : ''}${p.profile ? `<p class="variants-copy"><b>Perfil:</b> ${escapeHTML(p.profile)}</p>` : ''}`}</div></section>`;
+  $('#conteudo').innerHTML = `<div class="wrap"><nav class="breadcrumbs" aria-label="Caminho da página"><a href="index.html">Início</a><span aria-hidden="true">/</span><a href="${collectionURL(p.kind === 'Perfume' ? 'perfumes' : p.kind === 'Roupa' ? 'moda' : p.kind === 'Hidratante' ? 'hidratantes' : p.kind === 'Spray ambiente' ? 'aerossois-ambientes' : 'spray-corporal')}">${category}</a><span aria-hidden="true">/</span><span aria-current="page">${escapeHTML(p.name)}</span></nav><section class="product-layout" aria-labelledby="product-title"><div class="product-gallery">${photo(p,true)}<span class="gallery-caption">SUA ESSÊNCIA. SEU ESTILO.</span></div><div class="product-info"><span class="eyebrow">${escapeHTML(p.brand === '-' ? 'VERUS' : p.brand)}</span><h1 id="product-title">${escapeHTML(p.name)}</h1><div class="product-chips"><span class="chip">${escapeHTML(type)}</span>${p.kind === 'Perfume' ? `<span class="chip">${p.gender === 'unissex' ? 'Unissex' : p.gender === 'feminino' ? 'Feminino' : 'Masculino'}</span>` : ''}${p.profile && p.kind === 'Perfume' ? `<span class="chip">${escapeHTML(p.profile)}</span>` : ''}</div><p class="product-intro">${escapeHTML(productInfo)}</p>${sameProduct.length > 1 ? `<div class="size-options"><span>Volume</span>${sameProduct.map(other => `<a href="${productURL(other.id)}" ${other.id === p.id ? 'aria-current="page"' : ''}>${escapeHTML(other.size)}</a>`).join('')}</div>` : ''}<div class="product-buy-box">${price(p,true)}<div class="product-purchase-actions"><div class="quantity"><button type="button" data-action="quantity-minus" aria-label="Diminuir quantidade">−</button><output id="product-quantity" aria-label="Quantidade" aria-live="polite">1</output><button type="button" data-action="quantity-plus" aria-label="Aumentar quantidade">+</button></div><button class="button" type="button" data-action="add-product" data-id="${p.id}">${icons.bag} Adicionar à sacola</button></div><p class="purchase-note">Pix à vista ou até 3x sem juros no cartão. Acima de 3x, parcelamento sujeito a juros. Disponibilidade e frete confirmados no atendimento.</p></div><a class="product-help" href="${whatsappURL(`Olá, VERUS! Quero saber mais sobre ${p.name} ${p.size !== '-' ? '(' + p.size + ')' : ''}.`)}" target="_blank" rel="noopener">${icons.chat} Quer uma ajuda para escolher? Fale com a gente →</a></div></section>${notes}<section class="related-section" aria-labelledby="related-heading"><div class="section-heading"><div><span class="eyebrow">CONTINUE DESCOBRINDO</span><h2 id="related-heading">Outras boas <em>escolhas.</em></h2></div><a class="text-link" href="index.html#loja">Explorar a curadoria →</a></div><div class="product-grid">${related.map(other => productCard(other)).join('')}</div></section></div>`;
 }
 
 function resetFilters() {
@@ -352,6 +369,45 @@ document.addEventListener('keydown', event => {
   }
 });
 
+function removeNetlifyBranding() {
+  const watchedRoots = new WeakSet();
+  const isBrandingLabel = value => /^powered\s*by\s*netlify$/i.test(String(value || '').trim());
+
+  function inspect(root) {
+    if (!root.querySelectorAll) return;
+    const links = root.matches?.('a') ? [root, ...root.querySelectorAll('a')] : [...root.querySelectorAll('a')];
+    links.forEach(link => {
+      if ([link.innerText, link.getAttribute('aria-label'), link.getAttribute('title')].some(isBrandingLabel)) link.remove();
+    });
+    [root, ...root.querySelectorAll('*')].forEach(element => {
+      if (element.shadowRoot) watch(element.shadowRoot);
+    });
+  }
+
+  function watch(root) {
+    if (watchedRoots.has(root)) return;
+    watchedRoots.add(root);
+    inspect(root);
+    new MutationObserver(records => {
+      records.forEach(record => {
+        if (record.type === 'childList') {
+          record.addedNodes.forEach(inspect);
+          const link = record.target.closest?.('a');
+          if (link) inspect(link);
+        } else {
+          const element = record.target.nodeType === Node.TEXT_NODE ? record.target.parentElement : record.target;
+          const link = element?.closest?.('a');
+          if (link) inspect(link);
+        }
+      });
+    }).observe(root, {childList:true, subtree:true, characterData:true, attributes:true, attributeFilter:['aria-label','title']});
+  }
+
+  watch(document.body);
+  window.addEventListener('load', () => inspect(document.body), {once:true});
+}
+
+removeNetlifyBranding();
 renderHeader();
 renderFooter();
 if (isHome) setupHome(); else if (isCart) renderCartPage(); else renderProduct();

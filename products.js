@@ -123,7 +123,8 @@ const items = [
       "base": "Almíscar, mirra, ambroxan e baunilha"
     },
     "occasion": "Elegante, quente e envolvente. Ideal para encontros, jantares e ocasiões especiais, especialmente em dias amenos ou frios. Uma fragrância sofisticada e marcante, com toque frutado, especiado e amadeirado.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "previousCard": 283
   },
   {
     "name": "Ameer Al Arab",
@@ -144,7 +145,8 @@ const items = [
       "base": "Patchouli, açafrão e sândalo"
     },
     "occasion": "Elegante, marcante e sofisticado. Ideal para encontros, eventos e ocasiões especiais, especialmente em noites ou dias amenos. Uma fragrância especiada e amadeirada que transmite presença e personalidade.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "previousCard": 267
   },
   {
     "name": "Ameer Al Arab Imperium",
@@ -165,7 +167,8 @@ const items = [
       "base": "Âmbar, almíscar e sândalo"
     },
     "occasion": "Fresco, elegante e marcante. Ideal para o dia a dia, trabalho, encontros e ocasiões casuais, especialmente em dias quentes ou amenos. Uma combinação cítrica, aromática e amadeirada que transmite sensação de limpeza e sofisticação.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "previousCard": 244
   },
   {
     "name": "Ameerat Al Arab",
@@ -228,7 +231,8 @@ const items = [
       "base": "Especiadas e atalcadas"
     },
     "occasion": "Fresco, elegante e versátil. Ideal para o dia a dia, trabalho, passeios e ocasiões especiais, especialmente em dias quentes ou amenos.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "previousCard": 251
   },
   {
     "name": "Asad",
@@ -249,7 +253,8 @@ const items = [
       "base": "Âmbar, baunilha, madeiras secas, benjoim e ládano"
     },
     "occasion": "Intenso, marcante e sofisticado. Ideal para noites frias, encontros e ocasiões especiais. Uma fragrância quente e envolvente, perfeita para momentos em que você deseja transmitir presença e confiança.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "previousCard": 332
   },
   {
     "name": "Asad Bourbon",
@@ -312,7 +317,8 @@ const items = [
       "base": "Casca de baunilha negra, âmbar, patchouli e cedro"
     },
     "occasion": "Fresco, aromático e marcante. Ideal para o dia a dia, encontros e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "previousCard": 311
   },
   {
     "name": "Attar Al Wesal Elixir",
@@ -459,7 +465,8 @@ const items = [
       "base": "Almíscar, âmbar-gris, patchouli e baunilha"
     },
     "occasion": "Elegante, marcante e sofisticado. Ideal para noites, eventos formais e ocasiões especiais, especialmente no outono e inverno.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "previousCard": 362
   },
   {
     "name": "Club de Nuit Woman",
@@ -544,7 +551,8 @@ const items = [
       "base": "Âmbar, baunilha de Madagascar e almíscar branco"
     },
     "occasion": "Fresco, frutado e vibrante. Ideal para dias quentes, passeios, encontros e ocasiões especiais. Uma fragrância elegante e luminosa, perfeita para o verão.",
-    "gender": "unissex"
+    "gender": "unissex",
+    "previousCard": 1435
   },
   {
     "name": "Eros",
@@ -649,7 +657,8 @@ const items = [
       "base": "Cera de abelha, caramelo, patchouli e alcaçuz"
     },
     "occasion": "Doce, marcante e sensual. Ideal para encontros, festas e ocasiões especiais, especialmente à noite.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "previousCard": 160
   },
   {
     "name": "Hawas Black",
@@ -756,7 +765,8 @@ const items = [
       "base": "Patchouli, ambroxan, baunilha e vetiver"
     },
     "occasion": "Feminino, elegante e marcante. Ideal para encontros, noites e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "previousCard": 238
   },
   {
     "name": "Invictus",
@@ -882,7 +892,8 @@ const items = [
       "base": "Tabaco, âmbar, pralinê, fava-tonka e benjoim"
     },
     "occasion": "Intenso, misterioso e envolvente. Ideal para noites, encontros e ocasiões especiais, especialmente em dias frios ou amenos.",
-    "gender": "unissex"
+    "gender": "unissex",
+    "previousCard": 320
   },
   {
     "name": "Khamrah Qahwa",
@@ -1113,7 +1124,8 @@ const items = [
       "base": "Madeiras nobres"
     },
     "occasion": "Feminino, elegante e sofisticado. Ideal para encontros, passeios e ocasiões especiais, especialmente durante o dia ou em dias amenos.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "previousCard": 178
   },
   {
     "name": "Malikat Al Arab Rose",
@@ -1134,7 +1146,8 @@ const items = [
       "base": "Fava-tonka, âmbar e sândalo"
     },
     "occasion": "Feminino, doce e sofisticado. Ideal para encontros, passeios e ocasiões especiais, especialmente durante o dia ou em dias amenos.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "previousCard": 185
   },
   {
     "name": "Manaal",
@@ -1848,7 +1861,8 @@ const items = [
       "base": "Baunilha, almíscar e sândalo"
     },
     "occasion": "Doce, cremoso e feminino. Ideal para o dia a dia, encontros e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "previousCard": 310
   },
   {
     "name": "Yara Candy",
@@ -1951,10 +1965,10 @@ const items = [
     "description": "Hidratação intensa e prolongada, com fórmula hipoalergênica, textura cremosa e rápida absorção. Deixa a pele macia e delicadamente perfumada com uma fragrância doce e envolvente, que combina algodão-doce, chocolate, frutas e flores."
   },
   {
-    "name": "Consulte opções disponíveis",
+    "name": "Spray corporal Asdaaf",
     "brand": "Asdaaf",
     "kind": "Spray corporal",
-    "typ": "-",
+    "typ": "Spray corporal",
     "size": "200ml",
     "pix": 52.0,
     "card": 55.0,
@@ -1964,14 +1978,16 @@ const items = [
     "catalog": "verus-assets/catalogo/95.webp",
     "layout": "perfume",
     "photoLabel": "Opções de sprays corporais do catálogo",
-    "profile": "Diversas",
-    "description": "Os sprays corporais árabes são ideais ' para perfumar a pele com fragrâncias marcantes e envolventes, perfeitas para o dia a dia. Com opções de diferentes marcas e perfis olfativos, oferecem desde aromas frescos e delicados até fragrâncias doces, intensas e sofisticadas. à Trabalhamos com opções de marcas como Lattafa, Asdaaf, Armaf e outras, à incluindo fragrâncias conhecidas como Asad, Club de Nuit, Khamrah, Bade'e Al Oud, Ameerat Al Arab e muito mais. CONSULTE AS OPCÕES DISPONÍVEIS DE MARCAS E FRAGRÂNCIAS."
+    "profile": "Fragrâncias variadas",
+    "description": "Os sprays corporais árabes perfumam a pele com fragrâncias marcantes e envolventes para o dia a dia. O catálogo reúne opções frescas e delicadas, doces, intensas e sofisticadas. Consulte as fragrâncias disponíveis da marca antes de finalizar seu pedido.",
+    "usage": "Para perfumar a pele no dia a dia.",
+    "fragranceOptions": "Asad, Club de Nuit, Khamrah, Bade’e Al Oud e Ameerat Al Arab são exemplos da linha corporal no catálogo. As opções variam conforme a marca e a disponibilidade."
   },
   {
-    "name": "Consulte opções disponíveis",
+    "name": "Spray corporal Lattafa",
     "brand": "Lattafa",
     "kind": "Spray corporal",
-    "typ": "-",
+    "typ": "Spray corporal",
     "size": "200ml",
     "pix": 52.0,
     "card": 55.0,
@@ -1981,14 +1997,16 @@ const items = [
     "catalog": "verus-assets/catalogo/96.webp",
     "layout": "perfume",
     "photoLabel": "Opções de sprays corporais do catálogo",
-    "profile": "Diversas",
-    "description": "Os sprays corporais árabes são ideais ' para perfumar a pele com fragrâncias marcantes e envolventes, perfeitas para o dia a dia. Com opções de diferentes marcas e perfis olfativos, oferecem desde aromas frescos e delicados até fragrâncias doces, intensas e sofisticadas. à Trabalhamos com opções de marcas como Lattafa, Asdaaf, Armaf e outras, à incluindo fragrâncias conhecidas como Asad, Club de Nuit, Khamrah, Bade'e Al Oud, Ameerat Al Arab e muito mais. CONSULTE AS OPCÕES DISPONÍVEIS DE MARCAS E FRAGRÂNCIAS."
+    "profile": "Fragrâncias variadas",
+    "description": "Os sprays corporais árabes perfumam a pele com fragrâncias marcantes e envolventes para o dia a dia. O catálogo reúne opções frescas e delicadas, doces, intensas e sofisticadas. Consulte as fragrâncias disponíveis da marca antes de finalizar seu pedido.",
+    "usage": "Para perfumar a pele no dia a dia.",
+    "fragranceOptions": "Asad, Club de Nuit, Khamrah, Bade’e Al Oud e Ameerat Al Arab são exemplos da linha corporal no catálogo. As opções variam conforme a marca e a disponibilidade."
   },
   {
-    "name": "Consulte opções disponíveis",
+    "name": "Spray corporal Armaf",
     "brand": "Armaf",
     "kind": "Spray corporal",
-    "typ": "-",
+    "typ": "Spray corporal",
     "size": "200ml",
     "pix": 85.0,
     "card": 89.0,
@@ -1998,25 +2016,29 @@ const items = [
     "catalog": "verus-assets/catalogo/97.webp",
     "layout": "perfume",
     "photoLabel": "Opções de sprays corporais do catálogo",
-    "profile": "Diversas",
-    "description": "Os sprays corporais árabes são ideais ' para perfumar a pele com fragrâncias marcantes e envolventes, perfeitas para o dia a dia. Com opções de diferentes marcas e perfis olfativos, oferecem desde aromas frescos e delicados até fragrâncias doces, intensas e sofisticadas. à Trabalhamos com opções de marcas como Lattafa, Asdaaf, Armaf e outras, à incluindo fragrâncias conhecidas como Asad, Club de Nuit, Khamrah, Bade'e Al Oud, Ameerat Al Arab e muito mais. CONSULTE AS OPCÕES DISPONÍVEIS DE MARCAS E FRAGRÂNCIAS."
+    "profile": "Fragrâncias variadas",
+    "description": "Os sprays corporais árabes perfumam a pele com fragrâncias marcantes e envolventes para o dia a dia. O catálogo reúne opções frescas e delicadas, doces, intensas e sofisticadas. Consulte as fragrâncias disponíveis da marca antes de finalizar seu pedido.",
+    "usage": "Para perfumar a pele no dia a dia.",
+    "fragranceOptions": "Asad, Club de Nuit, Khamrah, Bade’e Al Oud e Ameerat Al Arab são exemplos da linha corporal no catálogo. As opções variam conforme a marca e a disponibilidade."
   },
   {
-    "name": "Consulte opções disponíveis",
+    "name": "Aerossol de ambiente Al Wataniah",
     "brand": "Al Wataniah",
     "kind": "Spray ambiente",
-    "typ": "-",
+    "typ": "Spray de ambiente",
     "size": "300ml",
     "pix": 39.0,
     "card": 41.0,
-    "category": "Sprays de ambiente",
+    "category": "Aerossóis ambientes",
     "id": "98",
     "img": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=800&q=80",
     "catalog": "verus-assets/catalogo/98.webp",
     "layout": "perfume",
     "photoPlaceholder": true,
-    "profile": "Diversas",
-    "description": "Transforme seus ambientes com fragrâncias árabes que proporcionam uma atmosfera agradável, sofisticada e acolhedora. Os sprays de ambiente ajudam a renovar o ar e perfumar os espaços, criando uma sensação de conforto e bem-estar para sua casa ou escritório. Disponíveis em marcas como Lattafa e Al Wataniah, com opções como Special Oud, Sultan Al Ail e outras fragrâncias para diferentes preferências. ONBULTE AS OPCÕES DISPONÍVEIS DE MARCAS E FRAGRÂNCIAS."
+    "profile": "Fragrâncias variadas",
+    "description": "Os sprays de ambiente perfumam os espaços e criam uma atmosfera agradável e acolhedora em casa ou no escritório. O catálogo apresenta marcas como Lattafa e Al Wataniah, com diferentes fragrâncias. Consulte as opções disponíveis antes de finalizar seu pedido.",
+    "usage": "Para perfumar ambientes da casa ou do escritório.",
+    "fragranceOptions": "Special Oud e outras fragrâncias da linha de ambiente. Consulte as marcas e opções disponíveis."
   },
   {
     "id": "103",
