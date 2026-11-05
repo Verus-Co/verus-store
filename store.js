@@ -12,8 +12,8 @@ const isHome = document.body.dataset.page === 'home';
 const isCart = document.body.dataset.page === 'cart';
 const contacts = { instagram: 'verusoriginal', whatsapp: '(11) 94478-7024' };
 const hasPromotion = p => Number.isFinite(p.previousCard) && p.previousCard > p.card && p.card > 0;
-const promotionPercent = p => (Math.floor((p.previousCard - p.card) / p.previousCard * 1000) / 10).toLocaleString('pt-BR', {maximumFractionDigits:1});
-const savingsPercent = p => (Math.floor((p.card - p.pix) / p.card * 1000) / 10).toLocaleString('pt-BR', {maximumFractionDigits:1});
+const promotionPercent = p => Math.round((p.previousCard - p.card) / p.previousCard * 100).toLocaleString('pt-BR');
+const savingsPercent = p => Math.round((p.card - p.pix) / p.card * 100).toLocaleString('pt-BR');
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const productByID = id => items.find(p => p.id === String(id));
 const icons = {
