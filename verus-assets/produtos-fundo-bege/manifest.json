@@ -1,0 +1,926 @@
+{
+  "background": "bege com base de mármore claro",
+  "products": [
+    {
+      "id": "3",
+      "product": "9pm Rebel",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Afnan 9pm Rebel.png",
+      "status": "installed"
+    },
+    {
+      "id": "11",
+      "product": "Ameerati",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Al Wataniah Ameerati 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "15",
+      "product": "Attar Al Wesal",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Al Wataniah Attar Al Wesal.png",
+      "status": "installed"
+    },
+    {
+      "id": "25",
+      "product": "Durrat Al Aroos",
+      "size": "85ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Al Wataniah Durrat Al Aroos 85ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "22",
+      "product": "Club de Nuit Intense Man",
+      "size": "105ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Armaf Club de Nuit Intense Man.png",
+      "status": "installed"
+    },
+    {
+      "id": "23",
+      "product": "Club de Nuit Woman",
+      "size": "105ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Armaf Club de Nuit Woman 105ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "8",
+      "product": "Ameer Al Arab Imperium",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Asdaaf Ameer Al Arab Imperium.png",
+      "status": "installed"
+    },
+    {
+      "id": "7",
+      "product": "Ameer Al Arab",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Asdaaf Ameer Al Arab.png",
+      "status": "installed"
+    },
+    {
+      "id": "9",
+      "product": "Ameerat Al Arab",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Asdaaf Ameerat Al Arab Red 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "10",
+      "product": "Ameerat Al Arab Prive Rose",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Asdaaf Ameerat Al Arab Rose 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "16",
+      "product": "Attar Al Wesal Elixir",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Attar Al Wesal Elixir.jfif",
+      "status": "installed"
+    },
+    {
+      "id": "17",
+      "product": "Azzaro Pour Homme",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Azzaro Pour Homme 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "1",
+      "product": "212 VIP Black",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "CH 212 Vip Black 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "2",
+      "product": "212 VIP Men",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "CH 212 Vip Men 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "39",
+      "product": "J'adore",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Dior J'adore 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "49",
+      "product": "Liquid Brun",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "French Avenue Liquid Brun 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "4",
+      "product": "Acqua di Giò",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "GA Acqua Di Gio 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "93",
+      "product": "Angel",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Angel 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "105",
+      "product": "Asad",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Asad 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "103",
+      "product": "Asad Bourbon",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Asad Bourbon 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "104",
+      "product": "Asad Elixir",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Asad Elixir 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "106",
+      "product": "Asad Zanzibar",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Asad Zanzibar 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "107",
+      "product": "Club de Nuit Iconic",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Club de Nuit Iconic 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "108",
+      "product": "Club de Nuit Intense Man",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Club de Nuit Intense Man 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "109",
+      "product": "Club de Nuit Woman",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Club de Nuit Woman 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "118",
+      "product": "Cool Girl",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Cool Girl 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "110",
+      "product": "Fakhar Black",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Fakhar Black 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "111",
+      "product": "Fakhar Gold",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Fakhar Gold 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "119",
+      "product": "Fantasie",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Fantasie 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "112",
+      "product": "Khamrah",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Khamrah 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "120",
+      "product": "Pure Exlusive",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Pure Exclusive.png",
+      "status": "installed"
+    },
+    {
+      "id": "113",
+      "product": "Royal Amber",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Royal Amber.png",
+      "status": "installed"
+    },
+    {
+      "id": "121",
+      "product": "Sabah Al Ward",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Sabah Al Ward 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "122",
+      "product": "Sabah Al Ward Sugar",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Sabah Sugar 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "116",
+      "product": "Yara",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Yara 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "114",
+      "product": "Yara Candy",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Yara Candy 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "115",
+      "product": "Yara Elixir",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Yara Elixir 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "117",
+      "product": "Yara Moi",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Yara Moi 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "124",
+      "product": "Yara Tous",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "ILB Hidratante Yara Tous 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "24",
+      "product": "Divine Couture",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "JP Gaultier Divine 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "46",
+      "product": "Le Beau Narcisse",
+      "size": "125ml",
+      "sourceType": "uploaded",
+      "sourceFile": "JP Le Beau Narcisse 125ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "47",
+      "product": "Le Male",
+      "size": "125ml",
+      "sourceType": "uploaded",
+      "sourceFile": "JP Le Male 125ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "48",
+      "product": "Le Male Elixir",
+      "size": "125ml",
+      "sourceType": "uploaded",
+      "sourceFile": "JP Le Male Elixir 125ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "34",
+      "product": "Idôle",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lancôme Idôle 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "35",
+      "product": "Idôle Power",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lancôme Idôle Power Intense 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "45",
+      "product": "La vie Est Belle",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lancôme La Vie Est Belle 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "5",
+      "product": "Afeef",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Afeef 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "6",
+      "product": "Al Noble Wazeer",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Al Noble Wazeer.png",
+      "status": "installed"
+    },
+    {
+      "id": "13",
+      "product": "Asad Bourbon",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Asad Bourbon.png",
+      "status": "installed"
+    },
+    {
+      "id": "14",
+      "product": "Asad Elixir",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Asad Elixir.png",
+      "status": "installed"
+    },
+    {
+      "id": "12",
+      "product": "Asad",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Asad.png",
+      "status": "installed"
+    },
+    {
+      "id": "18",
+      "product": "Bade'e Al Oud Amethyst",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Bade'e Al Oud Amethyst 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "19",
+      "product": "Bade'e Al Oud For Glory",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Bade'e Al Oud For Glory.png",
+      "status": "installed"
+    },
+    {
+      "id": "20",
+      "product": "Bade'e Al Oud Honor & Glory",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Bade'e Al Oud Honor & Glory.png",
+      "status": "installed"
+    },
+    {
+      "id": "28",
+      "product": "Fakhar Black",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Fakhar Black.png",
+      "status": "installed"
+    },
+    {
+      "id": "29",
+      "product": "Fakhar Gold",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Fakhar Gold.png",
+      "status": "installed"
+    },
+    {
+      "id": "30",
+      "product": "Fakhar Rose",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Fakhar Rose 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "33",
+      "product": "Hayaati",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Hayaati.png",
+      "status": "installed"
+    },
+    {
+      "id": "40",
+      "product": "Jouri",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Jouri 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "42",
+      "product": "Khamrah Dukhan",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Khamrah Dukhan 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "43",
+      "product": "Khamrah Qahwa",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Khamrah Qahwa.png",
+      "status": "installed"
+    },
+    {
+      "id": "41",
+      "product": "Khamrah",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Khamrah.png",
+      "status": "installed"
+    },
+    {
+      "id": "50",
+      "product": "Maahir Honor",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Maahir Honor 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "56",
+      "product": "Mishlah",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Mishlah.png",
+      "status": "installed"
+    },
+    {
+      "id": "65",
+      "product": "Qaed Al Fursan",
+      "size": "90ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Qaed Al Fursan.png",
+      "status": "installed"
+    },
+    {
+      "id": "81",
+      "product": "The Kingdom Men",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa The Kingdom For Men.png",
+      "status": "installed"
+    },
+    {
+      "id": "89",
+      "product": "Yara Candy",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Yara Candy 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "90",
+      "product": "Yara Elixir",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Yara Elixir 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "91",
+      "product": "Yara Moi",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Yara Moi.png",
+      "status": "installed"
+    },
+    {
+      "id": "92",
+      "product": "Yara Tous",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Lattafa Yara Tous 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "36",
+      "product": "Intrude",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Maison Alhambra Intrude 80ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "70",
+      "product": "Salvo",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Maison Alhambra Salvo.png",
+      "status": "installed"
+    },
+    {
+      "id": "84",
+      "product": "Victorioso",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Maison Alhambra Victorioso.png",
+      "status": "installed"
+    },
+    {
+      "id": "54",
+      "product": "Malikat Al Arab Rose",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Malikat rose.png",
+      "status": "installed"
+    },
+    {
+      "id": "57",
+      "product": "Musamam White Intense",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Musamam white.png",
+      "status": "installed"
+    },
+    {
+      "id": "37",
+      "product": "Invictus",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Paco Rabanne Invictus 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "38",
+      "product": "Invictus",
+      "size": "200ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Paco Rabanne Invictus 200ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "64",
+      "product": "Philos Pura",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Philos Pura.png",
+      "status": "installed"
+    },
+    {
+      "id": "32",
+      "product": "Hawas Black",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Rasasi Hawas Black 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "61",
+      "product": "Pacific Aura",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Rayhaan Pacific Aura Pour Homme.png",
+      "status": "installed"
+    },
+    {
+      "id": "66",
+      "product": "Royal Amber",
+      "size": "80ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Royal amber.png",
+      "status": "installed"
+    },
+    {
+      "id": "69",
+      "product": "Sabah Al Ward Sugar",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Sabah sugar.png",
+      "status": "installed"
+    },
+    {
+      "id": "68",
+      "product": "Sabah Al Ward",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Sabah.png",
+      "status": "installed"
+    },
+    {
+      "id": "71",
+      "product": "Salvo Elixir",
+      "size": "60ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Salvo Elixir.png",
+      "status": "installed"
+    },
+    {
+      "id": "74",
+      "product": "Shagaf Al Ward Gardenia",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Shagaf Gardenia.png",
+      "status": "installed"
+    },
+    {
+      "id": "73",
+      "product": "Shagaf Al Ward",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Shagaf.png",
+      "status": "installed"
+    },
+    {
+      "id": "75",
+      "product": "So Candid Pour Femme",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "So candid femme.png",
+      "status": "installed"
+    },
+    {
+      "id": "77",
+      "product": "Spectre Ghost",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Spectre Ghost.png",
+      "status": "installed"
+    },
+    {
+      "id": "79",
+      "product": "Supremacy Collector's Edition",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Supremacy.png",
+      "status": "installed"
+    },
+    {
+      "id": "82",
+      "product": "Tibyan",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Tibyan.png",
+      "status": "installed"
+    },
+    {
+      "id": "27",
+      "product": "Eros",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Versace Eros EDT 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "85",
+      "product": "Vulcan Baie",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Vulcan Baie.png",
+      "status": "installed"
+    },
+    {
+      "id": "86",
+      "product": "Vulcan Feu",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Vulcan Feu.png",
+      "status": "installed"
+    },
+    {
+      "id": "87",
+      "product": "Vulcan Sable",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Vulcan Sable.png",
+      "status": "installed"
+    },
+    {
+      "id": "26",
+      "product": "Erba Pura",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Xerjoff Erba Pura 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "88",
+      "product": "Yara",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Yara.png",
+      "status": "installed"
+    },
+    {
+      "id": "31",
+      "product": "Famous",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Zirconia Privé Famous 100ml.png",
+      "status": "installed"
+    },
+    {
+      "id": "51",
+      "product": "Magnata",
+      "size": "100ml",
+      "sourceType": "uploaded",
+      "sourceFile": "Zirconia Privé Magnata.png",
+      "status": "installed"
+    },
+    {
+      "id": "21",
+      "product": "Bareeq Al Dhahab",
+      "size": "100ml",
+      "sourceType": "catalogue",
+      "sourceFile": "21.webp",
+      "status": "installed"
+    },
+    {
+      "id": "44",
+      "product": "La Belle Rosea",
+      "size": "100ml",
+      "sourceType": "catalogue",
+      "sourceFile": "44.webp",
+      "status": "installed"
+    },
+    {
+      "id": "52",
+      "product": "Maktub La Vie",
+      "size": "100ml",
+      "sourceType": "catalogue",
+      "sourceFile": "52.webp",
+      "status": "installed"
+    },
+    {
+      "id": "53",
+      "product": "Malikat Al Arab",
+      "size": "100ml",
+      "sourceType": "catalogue",
+      "sourceFile": "53.webp",
+      "status": "installed"
+    },
+    {
+      "id": "55",
+      "product": "Manaal",
+      "size": "100ml",
+      "sourceType": "catalogue",
+      "sourceFile": "55.webp",
+      "status": "installed"
+    },
+    {
+      "id": "58",
+      "product": "MYSLF",
+      "size": "100ml",
+      "sourceType": "catalogue",
+      "sourceFile": "58.webp",
+      "status": "installed"
+    },
+    {
+      "id": "59",
+      "product": "MYSLF Le Parfum",
+      "size": "100ml",
+      "sourceType": "catalogue",
+      "sourceFile": "59.webp",
+      "status": "installed"
+    },
+    {
+      "id": "60",
+      "product": "Opulent Dubai",
+      "size": "100ml",
+      "sourceType": "catalogue",
+      "sourceFile": "60.webp",
+      "status": "installed"
+    },
+    {
+      "id": "62",
+      "product": "Paradoxe",
+      "size": "90ml",
+      "sourceType": "catalogue",
+      "sourceFile": "62.webp",
+      "status": "installed"
+    },
+    {
+      "id": "63",
+      "product": "Paradoxe Intense",
+      "size": "90ml",
+      "sourceType": "catalogue",
+      "sourceFile": "63.webp",
+      "status": "installed"
+    },
+    {
+      "id": "67",
+      "product": "Royal Amber",
+      "size": "150ml",
+      "sourceType": "catalogue",
+      "sourceFile": "67.webp",
+      "status": "installed"
+    },
+    {
+      "id": "72",
+      "product": "Scandal",
+      "size": "80ml",
+      "sourceType": "catalogue",
+      "sourceFile": "72.webp",
+      "status": "installed"
+    },
+    {
+      "id": "76",
+      "product": "So Candid Pour Homme",
+      "size": "100ml",
+      "sourceType": "catalogue",
+      "sourceFile": "76.webp",
+      "status": "installed"
+    },
+    {
+      "id": "78",
+      "product": "Stronger With You Intensely",
+      "size": "100ml",
+      "sourceType": "catalogue",
+      "sourceFile": "78.webp",
+      "status": "installed"
+    },
+    {
+      "id": "80",
+      "product": "Tharwah Gold",
+      "size": "100ml",
+      "sourceType": "catalogue",
+      "sourceFile": "80.webp",
+      "status": "installed"
+    },
+    {
+      "id": "83",
+      "product": "Very Good Girl Elixir",
+      "size": "50ml",
+      "sourceType": "catalogue",
+      "sourceFile": "83.webp",
+      "status": "installed"
+    },
+    {
+      "id": "123",
+      "product": "Victoria",
+      "size": "200ml",
+      "sourceType": "catalogue",
+      "sourceFile": "123.webp",
+      "status": "installed"
+    }
+  ],
+  "note": "Intrude: volume de 100 ml confirmado pela loja; indicação na embalagem da ilustração corrigida."
+}

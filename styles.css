@@ -133,3 +133,12 @@ netlify-badge,[id*="netlify-badge"],[class*="netlify-badge"],iframe[title="Power
 .banner-arrow svg{display:block;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
 .banner-arrow:hover,.banner-arrow:focus-visible{opacity:1;background:#fffdf6ed}.banner-arrow:focus-visible{outline:2px solid #123d32;outline-offset:2px}
 @media(max-width:600px){.campaign-banners .campaign-banner{aspect-ratio:2.6}.banner-arrow{width:30px;height:44px;padding:8px;background:#fffdf67a}.banner-arrow-previous{left:3px}.banner-arrow-next{right:3px}.banner-arrow svg{width:16px;height:16px}}
+
+/* Fotos padronizadas de perfumes e hidratantes: toda a área do cartão. */
+.product-picture:has(.standard-photo){padding:0;height:auto;aspect-ratio:1;border-radius:0;background:#e9d8be}
+.photo-window.standard-photo{overflow:hidden;background:#e9d8be;border-radius:0}
+.photo-window.standard-photo img{width:100%;height:100%;object-fit:cover}
+.product-card:hover .product-picture .standard-photo{transform:none}
+.product-gallery:has(>.standard-photo){padding:0;min-height:0;aspect-ratio:1;overflow:hidden;align-self:start;border-radius:0;background:#e9d8be}
+.product-gallery>.photo-window.standard-photo{width:100%;height:100%;aspect-ratio:1}
+.cart-item-photo:has(.standard-photo){padding:0}

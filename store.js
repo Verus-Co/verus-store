@@ -70,7 +70,7 @@ function photo(p, eager = false) {
     const width = Number(p.photo.width);
     const height = Number(p.photo.height);
     if (p.photo.src && Number.isInteger(width) && Number.isInteger(height) && width > 0 && height > 0) {
-      return `<span class="photo-window original-photo" style="--photo-ratio:${width} / ${height}"><img src="${escapeHTML(p.photo.src)}" width="${width}" height="${height}" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async" alt="${escapeHTML(p.photoLabel || `${p.name} — ${p.brand}`)}"></span>`;
+      return `<span class="photo-window original-photo${p.photo.background === 'bege' ? ' standard-photo' : ''}" style="--photo-ratio:${width} / ${height}"><img src="${escapeHTML(p.photo.src)}" width="${width}" height="${height}" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async" alt="${escapeHTML(p.photoLabel || `${p.name} — ${p.brand}`)}"></span>`;
     }
   }
   return `<span class="photo-window ${p.layout === 'fashion' ? 'fashion-photo' : ''}"><img src="${p.catalog}" width="2000" height="1410" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async" alt="${escapeHTML(p.photoLabel || `${p.name} — ${p.brand}`)}"></span>`;

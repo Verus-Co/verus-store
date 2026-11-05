@@ -18,7 +18,14 @@ const items = [
       "base": "Baunilha e almíscar"
     },
     "occasion": "Intenso, quente e sensual. Ideal para noites, encontros e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/1.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "212 VIP Black — Carolina Herrera — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "212 VIP Men",
@@ -39,7 +46,14 @@ const items = [
       "base": "Madeira de kingwood, âmbar e almíscar"
     },
     "occasion": "Fresco, vibrante e sofisticado. Ideal para noites, drinks, encontros e eventos sociais. Uma fragrância marcante, com toque cítrico, especiado e amadeirado.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/2.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "212 VIP Men — Carolina Herrera — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "9pm Rebel",
@@ -60,7 +74,14 @@ const items = [
       "base": "Caramelo, madeiras secas, âmbar-gris e almíscar"
     },
     "occasion": "Jovem, moderno e envolvente. Ideal para encontros, festas e ocasiões especiais, especialmente em dias amenos ou à noite. Uma fragrância marcante e sofisticada, com um toque frutado e adocicado.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/3.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "9pm Rebel — Afnan — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Acqua di Giò",
@@ -81,7 +102,14 @@ const items = [
       "base": "Patchouli, almíscar branco, cedro e âmbar"
     },
     "occasion": "Fresco, leve e elegante. Ideal para o dia a dia, trabalho, passeios e dias quentes. Uma fragrância limpa e revigorante, perfeita para o verão.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/4.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Acqua di Giò — Giorgio Armani — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Afeef",
@@ -102,7 +130,14 @@ const items = [
       "base": "Sândalo, âmbar, pralinê e patchouli"
     },
     "occasion": "Floral, elegante e delicado. Ideal para encontros, passeios e ocasiões especiais, especialmente durante o dia ou em dias amenos.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/5.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Afeef — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Al Noble Wazeer",
@@ -124,7 +159,14 @@ const items = [
     },
     "occasion": "Elegante, quente e envolvente. Ideal para encontros, jantares e ocasiões especiais, especialmente em dias amenos ou frios. Uma fragrância sofisticada e marcante, com toque frutado, especiado e amadeirado.",
     "gender": "masculino",
-    "previousCard": 308
+    "previousCard": 308,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/6.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Al Noble Wazeer — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Ameer Al Arab",
@@ -146,7 +188,14 @@ const items = [
     },
     "occasion": "Elegante, marcante e sofisticado. Ideal para encontros, eventos e ocasiões especiais, especialmente em noites ou dias amenos. Uma fragrância especiada e amadeirada que transmite presença e personalidade.",
     "gender": "masculino",
-    "previousCard": 267
+    "previousCard": 267,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/7.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Ameer Al Arab — Asdaaf — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Ameer Al Arab Imperium",
@@ -168,7 +217,14 @@ const items = [
     },
     "occasion": "Fresco, elegante e marcante. Ideal para o dia a dia, trabalho, encontros e ocasiões casuais, especialmente em dias quentes ou amenos. Uma combinação cítrica, aromática e amadeirada que transmite sensação de limpeza e sofisticação.",
     "gender": "masculino",
-    "previousCard": 325
+    "previousCard": 325,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/8.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Ameer Al Arab Imperium — Asdaaf — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Ameerat Al Arab",
@@ -189,7 +245,14 @@ const items = [
       "base": "Açafrão, pimenta e jasmim"
     },
     "occasion": "Intenso, exótico e sofisticado. Ideal para noites, encontros e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/9.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Ameerat Al Arab — Asdaaf — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Ameerat Al Arab Prive Rose",
@@ -210,7 +273,14 @@ const items = [
       "base": "Fava-tonka, âmbar e sândalo"
     },
     "occasion": "Delicado, feminino e elegante. Ideal para encontros, passeios e ocasiões especiais, especialmente durante o dia ou em dias amenos.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/10.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Ameerat Al Arab Prive Rose — Asdaaf — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Ameerati",
@@ -232,7 +302,14 @@ const items = [
     },
     "occasion": "Fresco, elegante e versátil. Ideal para o dia a dia, trabalho, passeios e ocasiões especiais, especialmente em dias quentes ou amenos.",
     "gender": "feminino",
-    "previousCard": 251
+    "previousCard": 251,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/11.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Ameerati — Al Wataniah — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Asad",
@@ -254,7 +331,14 @@ const items = [
     },
     "occasion": "Intenso, marcante e sofisticado. Ideal para noites frias, encontros e ocasiões especiais. Uma fragrância quente e envolvente, perfeita para momentos em que você deseja transmitir presença e confiança.",
     "gender": "masculino",
-    "previousCard": 342
+    "previousCard": 342,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/12.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Asad — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Asad Bourbon",
@@ -275,7 +359,14 @@ const items = [
       "base": "Vetiver, baunilha Bourbon e âmbar"
     },
     "occasion": "Doce, quente e envolvente. Ideal para encontros, noites e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/13.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Asad Bourbon — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Asad Elixir",
@@ -296,7 +387,14 @@ const items = [
       "base": "Patchouli, olíbano, cashmeran e âmbar seco"
     },
     "occasion": "Intenso, ousado e marcante. Ideal para noites, encontros e ocasiões especiais, especialmente em dias frios ou amenos. Uma fragrância sofisticada e envolvente, com presença poderosa.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/14.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Asad Elixir — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Attar Al Wesal",
@@ -318,7 +416,14 @@ const items = [
     },
     "occasion": "Fresco, aromático e marcante. Ideal para o dia a dia, encontros e ocasiões especiais, especialmente em dias amenos ou frios.",
     "gender": "masculino",
-    "previousCard": 311
+    "previousCard": 311,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/15.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Attar Al Wesal — Al Wataniah — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Attar Al Wesal Elixir",
@@ -339,7 +444,14 @@ const items = [
       "base": "Patchouli, vetiver, baunilha e âmbar"
     },
     "occasion": "Fresco, elegante e sofisticado. Ideal para o dia a dia, encontros e ocasiões especiais, podendo ser usado de dia ou à noite.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/16.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Attar Al Wesal Elixir — Al Wataniah — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Azzaro Pour Homme",
@@ -360,7 +472,14 @@ const items = [
       "base": "Couro, fava-tonka, âmbar, almíscar e musgo de carvalho"
     },
     "occasion": "Clássico, elegante e marcante. Ideal para o dia a dia, trabalho, encontros e ocasiões formais.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/17.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Azzaro Pour Homme — Azzaro — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Bade'e Al Oud Amethyst",
@@ -381,7 +500,14 @@ const items = [
       "base": "Oud, âmbar e baunilha"
     },
     "occasion": "Quente, sofisticado e envolvente. Ideal para encontros, noites e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/18.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Bade'e Al Oud Amethyst — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Bade'e Al Oud For Glory",
@@ -402,7 +528,14 @@ const items = [
       "base": "Framboesa, patchouli e âmbar seco"
     },
     "occasion": "Intenso, sofisticado e envolvente. Ideal para noites, encontros e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/19.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Bade'e Al Oud For Glory — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Bade'e Al Oud Honor & Glory",
@@ -423,7 +556,14 @@ const items = [
       "base": "Baunilha, cashmeran, sândalo e musgo"
     },
     "occasion": "Doce, quente e envolvente. Ideal para encontros, passeios e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "unissex"
+    "gender": "unissex",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/20.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Bade'e Al Oud Honor & Glory — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Bareeq Al Dhahab",
@@ -444,7 +584,14 @@ const items = [
       "base": "Almíscar, incenso, âmbar, resinas e notas amadeiradas"
     },
     "occasion": "Quente, sofisticado e marcante. Ideal para noites, eventos, jantares e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/21.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Bareeq Al Dhahab — Al Wataniah — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Club de Nuit Intense Man",
@@ -466,7 +613,14 @@ const items = [
     },
     "occasion": "Elegante, marcante e sofisticado. Ideal para noites, eventos formais e ocasiões especiais, especialmente no outono e inverno.",
     "gender": "masculino",
-    "previousCard": 362
+    "previousCard": 362,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/22.webp",
+      "width": 1122,
+      "height": 1402,
+      "background": "bege"
+    },
+    "photoLabel": "Club de Nuit Intense Man — Armaf — 105ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Club de Nuit Woman",
@@ -487,7 +641,14 @@ const items = [
       "base": "Almíscar, patchouli, baunilha e vetiver"
     },
     "occasion": "Feminino, elegante e romântico. Ideal para encontros, eventos sociais e ocasiões especiais, especialmente na primavera e no verão.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/23.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Club de Nuit Woman — Armaf — 105ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Divine Couture",
@@ -509,7 +670,14 @@ const items = [
       "base": "Benjoim"
     },
     "occasion": "Doce, sensual e envolvente. Ideal para encontros, festas e ocasiões especiais, especialmente à noite.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/24.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Divine Couture — Jean Paul Gaultier — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Durrat Al Aroos",
@@ -530,7 +698,14 @@ const items = [
       "base": "Fava-tonka e madeira de guaiaco"
     },
     "occasion": "Quente, elegante e sofisticado. Ideal para encontros, noites e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/25.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Durrat Al Aroos — Al Wataniah — 85ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Erba Pura",
@@ -552,7 +727,14 @@ const items = [
     },
     "occasion": "Fresco, frutado e vibrante. Ideal para dias quentes, passeios, encontros e ocasiões especiais. Uma fragrância elegante e luminosa, perfeita para o verão.",
     "gender": "unissex",
-    "previousCard": 1435
+    "previousCard": 1435,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/26.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Erba Pura — Xerjoff — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Eros",
@@ -573,7 +755,14 @@ const items = [
       "base": "Cedro, vetiver, patchouli, sândalo e baunilha"
     },
     "occasion": "Fresco, marcante e sensual. Ideal para encontros, festas, saídas noturnas e ocasiões especiais.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/27.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Eros — Versace — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Fakhar Black",
@@ -594,7 +783,14 @@ const items = [
       "base": "Musgo de carvalho e patchouli"
     },
     "occasion": "Fresco, elegante e versátil. Ideal para o dia a dia, trabalho, encontros e ocasiões casuais, especialmente em dias amenos ou quentes.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/28.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Fakhar Black — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Fakhar Gold",
@@ -615,7 +811,14 @@ const items = [
       "base": "Cashmeran, couro, ládano e âmbar"
     },
     "occasion": "Intenso, elegante e sofisticado. Ideal para noites, encontros e ocasiões especiais. Sua combinação frutada e floral traz uma presença marcante e envolvente.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/29.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Fakhar Gold — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Fakhar Rose",
@@ -636,7 +839,14 @@ const items = [
       "base": "Baunilha, sândalo, ambroxan e almíscar branco"
     },
     "occasion": "Feminino, delicado e sensual. Ideal para encontros, passeios e ocasiões especiais, especialmente durante o dia ou em dias amenos.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/30.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Fakhar Rose — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Famous",
@@ -658,7 +868,14 @@ const items = [
     },
     "occasion": "Doce, marcante e sensual. Ideal para encontros, festas e ocasiões especiais, especialmente à noite.",
     "gender": "feminino",
-    "previousCard": 160
+    "previousCard": 160,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/31.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Famous — Zirconia Privé — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Hawas Black",
@@ -679,7 +896,14 @@ const items = [
       "base": "Musgo de carvalho, âmbar e notas amadeiradas"
     },
     "occasion": "Fresco, sofisticado e marcante. Ideal para encontros, trabalho, eventos e ocasiões especiais, especialmente à noite ou em dias amenos.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/32.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Hawas Black — Rasasi — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Hayaati",
@@ -700,7 +924,14 @@ const items = [
       "base": "Almíscar e baunilha"
     },
     "occasion": "Fresco, confortável e versátil. Ideal para o dia a dia, trabalho, lazer e encontros, especialmente em dias amenos ou quentes.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/33.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Hayaati — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Idôle",
@@ -722,7 +953,14 @@ const items = [
       "base": "Almíscar branco, baunilha, patchouli e cedro"
     },
     "occasion": "Fresco, delicado e sofisticado. Ideal para o dia a dia, encontros e ocasiões especiais, especialmente na primavera e no verão.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/34.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Idôle — Lancôme — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Idôle Power",
@@ -744,7 +982,14 @@ const items = [
       "base": "Sândalo"
     },
     "occasion": "Doce, feminino e marcante. Ideal para encontros, eventos e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/35.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Idôle Power — Lancôme — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Intrude",
@@ -766,7 +1011,14 @@ const items = [
     },
     "occasion": "Feminino, elegante e marcante. Ideal para encontros, noites e ocasiões especiais, especialmente em dias amenos ou frios.",
     "gender": "feminino",
-    "previousCard": 287
+    "previousCard": 287,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/36.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Intrude — Maison Alhambra — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Invictus",
@@ -787,7 +1039,14 @@ const items = [
       "base": "Madeira de guaiaco, patchouli e âmbar-cinzento"
     },
     "occasion": "Fresco, esportivo e versátil. Ideal para o dia a dia, trabalho, academia e dias quentes.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/37.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Invictus — Rabanne — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Invictus",
@@ -808,7 +1067,14 @@ const items = [
       "base": "Madeira de guaiaco, patchouli e âmbar-cinzento"
     },
     "occasion": "Fresco, esportivo e versátil. Ideal para o dia a dia, trabalho, academia e dias quentes.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/38.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Invictus — Rabanne — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "J'adore",
@@ -829,7 +1095,14 @@ const items = [
       "base": "Madeiras e notas florais envolventes"
     },
     "occasion": "Feminino, elegante e sofisticado. Ideal para encontros, eventos e ocasiões especiais, especialmente durante o dia ou em dias amenos.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/39.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "J'adore — Dior — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Jouri",
@@ -850,7 +1123,14 @@ const items = [
       "base": "Baunilha, fava-tonka e patchouli"
     },
     "occasion": "Feminino, doce e vibrante. Ideal para o dia a dia, encontros e ocasiões especiais, especialmente em dias quentes ou amenos.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/40.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Jouri — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Khamrah",
@@ -871,7 +1151,14 @@ const items = [
       "base": "Fava-tonka torrada, benjoim do Laos, mirra, Akigalawood, baunilha e madeira de âmbar"
     },
     "occasion": "Doce, quente e envolvente. Ideal para encontros, noites e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/41.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Khamrah — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Khamrah Dukhan",
@@ -893,7 +1180,14 @@ const items = [
     },
     "occasion": "Intenso, misterioso e envolvente. Ideal para noites, encontros e ocasiões especiais, especialmente em dias frios ou amenos.",
     "gender": "unissex",
-    "previousCard": 320
+    "previousCard": 320,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/42.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Khamrah Dukhan — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Khamrah Qahwa",
@@ -914,7 +1208,14 @@ const items = [
       "base": "Café Arábica, fava-tonka, almíscar, benjoim e baunilha"
     },
     "occasion": "Doce, quente e envolvente. Ideal para encontros, noites e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/43.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Khamrah Qahwa — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "La Belle Rosea",
@@ -935,7 +1236,14 @@ const items = [
       "base": "Baunilha"
     },
     "occasion": "Fresco, feminino e sensual. Ideal para dias quentes, encontros, passeios e ocasiões especiais. Uma fragrância delicada e envolvente, com toque floral e adocicado.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/44.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "La Belle Rosea — Jean Paul Gaultier — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "La vie Est Belle",
@@ -956,7 +1264,14 @@ const items = [
       "base": "Patchouli, fava-tonka, baunilha e pralinê"
     },
     "occasion": "Doce, sofisticado e envolvente. Ideal para encontros, eventos e ocasiões especiais, de dia ou à noite, especialmente em dias amenos ou frios.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/45.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "La vie Est Belle — Lancôme — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Le Beau Narcisse",
@@ -977,7 +1292,14 @@ const items = [
       "base": "Fava-tonka"
     },
     "occasion": "Sensual, sofisticado e envolvente. Ideal para encontros, noites e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/46.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Le Beau Narcisse — Jean Paul Gaultier — 125ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Le Male",
@@ -998,7 +1320,14 @@ const items = [
       "base": "Baunilha"
     },
     "occasion": "Fresco, doce e marcante. Ideal para encontros, saídas e ocasiões especiais, especialmente à noite.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/47.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Le Male — Jean Paul Gaultier — 125ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Le Male Elixir",
@@ -1019,7 +1348,14 @@ const items = [
       "base": "Benjoim"
     },
     "occasion": "Doce, intenso e sensual. Ideal para noites, encontros e ocasiões especiais, especialmente em dias frios ou amenos.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/48.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Le Male Elixir — Jean Paul Gaultier — 125ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Liquid Brun",
@@ -1040,7 +1376,14 @@ const items = [
       "base": "Almíscar, pralinê, ambroxan e madeira de guaiaco"
     },
     "occasion": "Doce, quente e sofisticado. Ideal para noites, encontros e ocasiões especiais, especialmente em dias frios ou amenos.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/49.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Liquid Brun — French Avenue — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Maahir Honor",
@@ -1061,7 +1404,14 @@ const items = [
       "base": "Cedro, almíscar e âmbar"
     },
     "occasion": "Fresco, aromático e elegante. Ideal para o dia a dia, trabalho, passeios e encontros, especialmente em dias quentes ou amenos.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/50.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Maahir Honor — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Magnata",
@@ -1082,7 +1432,14 @@ const items = [
       "base": "Almíscar, folha de patchouli, madeira de guaiaco e madeira de teca"
     },
     "occasion": "Fresco, intenso e sofisticado. Ideal para o dia a dia, trabalho, encontros e ocasiões especiais, especialmente à noite.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/51.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Magnata — Zirconia Privé — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Maktub La Vie",
@@ -1103,7 +1460,14 @@ const items = [
       "base": "Âmbar, cedro e almíscar"
     },
     "occasion": "Vibrante, quente e marcante. Ideal para encontros, passeios, eventos e ocasiões especiais, podendo ser usado de dia ou à noite.",
-    "gender": "unissex"
+    "gender": "unissex",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/52.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Maktub La Vie — Bidaya — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Malikat Al Arab",
@@ -1125,7 +1489,14 @@ const items = [
     },
     "occasion": "Feminino, elegante e sofisticado. Ideal para encontros, passeios e ocasiões especiais, especialmente durante o dia ou em dias amenos.",
     "gender": "feminino",
-    "previousCard": 216
+    "previousCard": 216,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/53.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Malikat Al Arab — Manasik — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Malikat Al Arab Rose",
@@ -1147,7 +1518,14 @@ const items = [
     },
     "occasion": "Feminino, doce e sofisticado. Ideal para encontros, passeios e ocasiões especiais, especialmente durante o dia ou em dias amenos.",
     "gender": "feminino",
-    "previousCard": 230
+    "previousCard": 230,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/54.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Malikat Al Arab Rose — Manasik — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Manaal",
@@ -1168,7 +1546,14 @@ const items = [
       "base": "Baunilha, cacau e sândalo"
     },
     "occasion": "Doce, cremoso e sofisticado. Ideal para encontros, noites e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/55.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Manaal — Ard Al Zaafaran — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Mishlah",
@@ -1189,7 +1574,14 @@ const items = [
       "base": "Almíscar, cedro, âmbar e olíbano"
     },
     "occasion": "Elegante, refinado e versátil. Ideal para o dia a dia, trabalho, encontros e ocasiões especiais. Uma fragrância limpa e sofisticada, com toque amadeirado e atalcado.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/56.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Mishlah — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Musamam White Intense",
@@ -1210,7 +1602,14 @@ const items = [
       "base": "Sândalo, almíscar e benjoim"
     },
     "occasion": "Exótico, intenso e sofisticado. Ideal para noites, encontros e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "unissex"
+    "gender": "unissex",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/57.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Musamam White Intense — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "MYSLF",
@@ -1231,7 +1630,14 @@ const items = [
       "base": "Patchouli da Indonésia e Ambrofix™"
     },
     "occasion": "Fresco, elegante e sofisticado. Ideal para o dia a dia, trabalho, encontros e ocasiões especiais. Uma fragrância moderna e marcante, com equilíbrio entre frescor floral e madeiras quentes.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/58.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "MYSLF — Yves Saint Laurent — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "MYSLF Le Parfum",
@@ -1252,7 +1658,14 @@ const items = [
       "base": "Baunilha Bourbon, âmbar, patchouli e madeiras sensuais"
     },
     "occasion": "Intenso, sensual e sofisticado. Ideal para noites, encontros e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/59.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "MYSLF Le Parfum — Yves Saint Laurent — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Opulent Dubai",
@@ -1273,7 +1686,14 @@ const items = [
       "base": "Âmbar-gris, notas amadeiradas, musgo de carvalho e benjoim"
     },
     "occasion": "Fresco, sofisticado e marcante. Ideal para o dia a dia, encontros e ocasiões especiais, podendo ser usado de dia ou à noite.",
-    "gender": "unissex"
+    "gender": "unissex",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/60.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Opulent Dubai — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Pacific Aura",
@@ -1294,7 +1714,14 @@ const items = [
       "base": "Figo, tâmaras e ambreta"
     },
     "occasion": "Fresco, revigorante e elegante. Ideal para dias quentes, uso diário, passeios e ocasiões casuais. Uma fragrância limpa e vibrante, perfeita para o verão.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/61.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Pacific Aura — Rayhaan — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Paradoxe",
@@ -1315,7 +1742,14 @@ const items = [
       "base": "Âmbar, benjoim, baunilha Bourbon e almíscar branco"
     },
     "occasion": "Feminino, elegante e envolvente. Ideal para encontros, trabalho e ocasiões especiais, especialmente durante o dia ou à noite.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/62.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Paradoxe — Prada — 90ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Paradoxe Intense",
@@ -1336,7 +1770,14 @@ const items = [
       "base": "Âmbar, baunilha e almíscar branco"
     },
     "occasion": "Intenso, elegante e envolvente. Ideal para encontros, noites e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/63.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Paradoxe Intense — Prada — 90ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Philos Pura",
@@ -1357,7 +1798,14 @@ const items = [
       "base": "Almíscar branco, baunilha de Madagascar e âmbar"
     },
     "occasion": "Fresco, frutado e envolvente. Ideal para o dia a dia, passeios, encontros e ocasiões casuais, especialmente em dias quentes ou amenos.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/64.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Philos Pura — Maison Alhambra — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Qaed Al Fursan",
@@ -1378,7 +1826,14 @@ const items = [
       "base": "Madeira de oud, cedro e âmbar"
     },
     "occasion": "Frutado, marcante e envolvente. Ideal para encontros, passeios e ocasiões especiais, especialmente em dias amenos ou noites.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/65.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Qaed Al Fursan — Lattafa — 90ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Royal Amber",
@@ -1399,7 +1854,14 @@ const items = [
       "base": "Madeiras, baunilha e almíscar"
     },
     "occasion": "Marcante, sofisticado e envolvente. Ideal para encontros, eventos e ocasiões especiais, especialmente à noite. Uma fragrância quente e elegante, perfeita para deixar presença.",
-    "gender": "unissex"
+    "gender": "unissex",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/66.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Royal Amber — Orientica — 80ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Royal Amber",
@@ -1420,7 +1882,14 @@ const items = [
       "base": "Madeiras, baunilha e almíscar"
     },
     "occasion": "Marcante, sofisticado e envolvente. Ideal para encontros, eventos e ocasiões especiais, especialmente à noite. Uma fragrância quente e elegante, perfeita para deixar presença.",
-    "gender": "unissex"
+    "gender": "unissex",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/67.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Royal Amber — Orientica — 150ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Sabah Al Ward",
@@ -1441,7 +1910,14 @@ const items = [
       "base": "Baunilha, fava-tonka e patchouli"
     },
     "occasion": "Doce, feminino e envolvente. Ideal para o dia a dia, encontros e ocasiões especiais, especialmente em dias amenos ou quentes.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/68.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Sabah Al Ward — Al Wataniah — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Sabah Al Ward Sugar",
@@ -1462,7 +1938,14 @@ const items = [
       "base": "Âmbar, almíscar, baunilha, patchouli, cashmeran, musgo de carvalho e pétalas de rosa"
     },
     "occasion": "Doce, feminino e envolvente. Ideal para o dia a dia, encontros e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/69.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Sabah Al Ward Sugar — Al Wataniah — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Salvo",
@@ -1483,7 +1966,14 @@ const items = [
       "base": "Ambroxan, cedro e ládano"
     },
     "occasion": "Fresco, especiado e marcante. Ideal para o dia a dia, trabalho, encontros e ocasiões noturnas.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/70.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Salvo — Maison Alhambra — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Salvo Elixir",
@@ -1504,7 +1994,14 @@ const items = [
       "base": "Âmbar, baunilha, benjoim e ládano"
     },
     "occasion": "Intenso, marcante e sofisticado. Ideal para noites, encontros e ocasiões especiais, especialmente em dias frios ou amenos.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/71.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Salvo Elixir — Maison Alhambra — 60ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Scandal",
@@ -1525,7 +2022,14 @@ const items = [
       "base": "Patchouli"
     },
     "occasion": "Doce, marcante e sensual. Ideal para encontros, festas e ocasiões especiais, especialmente à noite.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/72.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Scandal — Jean Paul Gaultier — 80ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Shagaf Al Ward",
@@ -1546,7 +2050,14 @@ const items = [
       "base": "Âmbar e cedro"
     },
     "occasion": "Feminino, elegante e sofisticado. Ideal para encontros, eventos e ocasiões especiais, especialmente em dias amenos ou à noite.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/73.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Shagaf Al Ward — Al Wataniah — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Shagaf Al Ward Gardenia",
@@ -1567,7 +2078,14 @@ const items = [
       "base": "Cedro, âmbar, musgo e almíscar"
     },
     "occasion": "Fresco, feminino e delicado. Ideal para o dia a dia, encontros e ocasiões especiais, especialmente em dias quentes ou durante o dia.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/74.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Shagaf Al Ward Gardenia — Al Wataniah — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "So Candid Pour Femme",
@@ -1588,7 +2106,14 @@ const items = [
       "base": "Cera de abelha, caramelo, patchouli e alcaçuz"
     },
     "occasion": "Doce, feminino e sensual. Ideal para encontros, festas e ocasiões especiais, especialmente à noite.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/75.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "So Candid Pour Femme — Maison Alhambra — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "So Candid Pour Homme",
@@ -1609,7 +2134,14 @@ const items = [
       "base": "Vetiver, âmbar e cedro"
     },
     "occasion": "Fresco, elegante e sofisticado. Ideal para o dia a dia, trabalho, encontros e ocasiões especiais, de dia ou à noite.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/76.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "So Candid Pour Homme — Maison Alhambra — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Spectre Ghost",
@@ -1630,7 +2162,14 @@ const items = [
       "base": "Baunilha, benjoim, sândalo, cedro, âmbar-gris, patchouli e almíscar"
     },
     "occasion": "Elegante, quente e marcante. Ideal para encontros, noites e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/77.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Spectre Ghost — French Avenue — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Stronger With You Intensely",
@@ -1651,7 +2190,14 @@ const items = [
       "base": "Baunilha, âmbar, fava-tonka e camurça"
     },
     "occasion": "Doce, quente e intenso. Ideal para encontros, noites e ocasiões especiais, especialmente em dias frios ou amenos.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/78.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Stronger With You Intensely — Giorgio Armani — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Supremacy Collector's Edition",
@@ -1672,7 +2218,14 @@ const items = [
       "base": "Musgo de carvalho, almíscar e âmbar-gris"
     },
     "occasion": "Elegante, fresco e sofisticado. Ideal para encontros, eventos e ocasiões especiais, especialmente em dias amenos ou à noite.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/79.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Supremacy Collector's Edition — Afnan — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Tharwah Gold",
@@ -1693,7 +2246,14 @@ const items = [
       "base": "Baunilha, vetiver e âmbar"
     },
     "occasion": "Doce, elegante e sofisticado. Ideal para encontros, eventos e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/80.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Tharwah Gold — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "The Kingdom Men",
@@ -1714,7 +2274,14 @@ const items = [
       "base": "Benjoim, fava-tonka e ládano"
     },
     "occasion": "Refrescante, elegante e sofisticado. Ideal para o dia a dia, trabalho, encontros e ocasiões especiais.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/81.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "The Kingdom Men — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Tibyan",
@@ -1735,7 +2302,14 @@ const items = [
       "base": "Baunilha, almíscar e sândalo"
     },
     "occasion": "Doce, feminino e envolvente. Ideal para o dia a dia, encontros e ocasiões especiais, especialmente em dias quentes ou amenos.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/82.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Tibyan — Al Wataniah — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Very Good Girl Elixir",
@@ -1756,7 +2330,14 @@ const items = [
       "base": "Baunilha e cacau"
     },
     "occasion": "Doce, intenso e sedutor. Ideal para noites, encontros e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/83.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Very Good Girl Elixir — Carolina Herrera — 50ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Victorioso",
@@ -1777,7 +2358,14 @@ const items = [
       "base": "Âmbar cinzento, musgo de carvalho, madeira guaiac e patchouli"
     },
     "occasion": "Fresco, elegante e versátil. Ideal para o dia a dia, encontros e ocasiões casuais, especialmente em dias quentes.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/84.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Victorioso — Maison Alhambra — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Vulcan Baie",
@@ -1798,7 +2386,14 @@ const items = [
       "base": "Âmbar, almíscar, patchouli, sândalo e olíbano"
     },
     "occasion": "Frutado, vibrante e marcante. Ideal para o dia a dia, encontros, passeios e ocasiões especiais, podendo ser usado de dia ou à noite.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/85.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Vulcan Baie — French Avenue — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Vulcan Feu",
@@ -1819,7 +2414,14 @@ const items = [
       "base": "Fava-tonka, cedro, âmbar-gris e musgo"
     },
     "occasion": "Frutado, vibrante e marcante. Ideal para dias quentes, passeios, encontros e ocasiões especiais. Uma fragrância tropical e sofisticada, com presença sem perder o frescor.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/86.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Vulcan Feu — French Avenue — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Vulcan Sable",
@@ -1840,7 +2442,14 @@ const items = [
       "base": "Benjoim, patchouli e baunilha"
     },
     "occasion": "Quente, intenso e sofisticado. Ideal para noites, encontros e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "masculino"
+    "gender": "masculino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/87.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Vulcan Sable — French Avenue — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Yara",
@@ -1862,7 +2471,14 @@ const items = [
     },
     "occasion": "Doce, cremoso e feminino. Ideal para o dia a dia, encontros e ocasiões especiais, especialmente em dias amenos ou frios.",
     "gender": "feminino",
-    "previousCard": 310
+    "previousCard": 310,
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/88.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Yara — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Yara Candy",
@@ -1883,7 +2499,14 @@ const items = [
       "base": "Sândalo, baunilha, almíscar e âmbar"
     },
     "occasion": "Doce, divertido e vibrante. Ideal para o dia a dia, encontros e passeios, especialmente em dias quentes ou amenos.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/89.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Yara Candy — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Yara Elixir",
@@ -1904,7 +2527,14 @@ const items = [
       "base": "Baunilha, caramelo, âmbar e almíscar"
     },
     "occasion": "Doce, intenso e envolvente. Ideal para encontros, noites e ocasiões especiais, especialmente em dias frios ou amenos.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/90.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Yara Elixir — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Yara Moi",
@@ -1925,7 +2555,14 @@ const items = [
       "base": "Patchouli e sândalo"
     },
     "occasion": "Doce, elegante e envolvente. Ideal para encontros, noites e ocasiões especiais, especialmente em dias amenos ou frios.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/91.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Yara Moi — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Yara Tous",
@@ -1946,7 +2583,14 @@ const items = [
       "base": "Cashmeran, baunilha e almíscar"
     },
     "occasion": "Tropical, doce e envolvente. Ideal para o dia a dia, passeios, encontros e dias quentes, especialmente no verão.",
-    "gender": "feminino"
+    "gender": "feminino",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/92.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Yara Tous — Lattafa — 100ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Angel",
@@ -1962,7 +2606,14 @@ const items = [
     "catalog": "verus-assets/catalogo/93.webp",
     "layout": "perfume",
     "profile": "Gourmand, floral e frutal",
-    "description": "Hidratação intensa e prolongada, com fórmula hipoalergênica, textura cremosa e rápida absorção. Deixa a pele macia e delicadamente perfumada com uma fragrância doce e envolvente, que combina algodão-doce, chocolate, frutas e flores."
+    "description": "Hidratação intensa e prolongada, com fórmula hipoalergênica, textura cremosa e rápida absorção. Deixa a pele macia e delicadamente perfumada com uma fragrância doce e envolvente, que combina algodão-doce, chocolate, frutas e flores.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/93.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Angel — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "name": "Spray corporal Asdaaf",
@@ -2054,7 +2705,14 @@ const items = [
     "catalog": "verus-assets/catalogo/103.webp",
     "layout": "perfume",
     "profile": "Amadeirada",
-    "description": "Hidratação profunda e duradoura, com manteiga de karité e óleo de amêndoas. Sua textura cremosa e de rápida absorção deixa a pele macia, nutrida e aveludada, delicadamente perfumada com uma fragrância amadeirada quente e sofisticada."
+    "description": "Hidratação profunda e duradoura, com manteiga de karité e óleo de amêndoas. Sua textura cremosa e de rápida absorção deixa a pele macia, nutrida e aveludada, delicadamente perfumada com uma fragrância amadeirada quente e sofisticada.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/103.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Asad Bourbon — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "104",
@@ -2070,7 +2728,14 @@ const items = [
     "catalog": "verus-assets/catalogo/104.webp",
     "layout": "perfume",
     "profile": "Oriental e amadeirada",
-    "description": "Hidratação intensa e prolongada, com textura cremosa e rápida absorção. Deixa a pele macia e aveludada, delicadamente perfumada com uma fragrância masculina, quente e envolvente, marcada por especiarias e notas amadeiradas."
+    "description": "Hidratação intensa e prolongada, com textura cremosa e rápida absorção. Deixa a pele macia e aveludada, delicadamente perfumada com uma fragrância masculina, quente e envolvente, marcada por especiarias e notas amadeiradas.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/104.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Asad Elixir — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "105",
@@ -2086,7 +2751,14 @@ const items = [
     "catalog": "verus-assets/catalogo/105.webp",
     "layout": "perfume",
     "profile": "Floral e amadeirada",
-    "description": "ASAD E Hidratação profunda e duradoura, com manteiga de karité e óleo de amêndoas. Sua textura cremosa e de rápida absorção deixa a pele macia, nutrida e aveludada, delicadamente perfumada com uma fragrância floral e amadeirada, sofisticada e envolvente."
+    "description": "ASAD E Hidratação profunda e duradoura, com manteiga de karité e óleo de amêndoas. Sua textura cremosa e de rápida absorção deixa a pele macia, nutrida e aveludada, delicadamente perfumada com uma fragrância floral e amadeirada, sofisticada e envolvente.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/105.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Asad — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "106",
@@ -2102,7 +2774,14 @@ const items = [
     "catalog": "verus-assets/catalogo/106.webp",
     "layout": "perfume",
     "profile": "Aromática e especiada",
-    "description": "Hidratação intensa e prolongada, com textura cremosa, rápida absorção e toque seco. Deixa a pele macia e confortável, delicadamente perfumada com uma fragrância masculina, exótica e marcante, com notas aromáticas e especiadas."
+    "description": "Hidratação intensa e prolongada, com textura cremosa, rápida absorção e toque seco. Deixa a pele macia e confortável, delicadamente perfumada com uma fragrância masculina, exótica e marcante, com notas aromáticas e especiadas.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/106.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Asad Zanzibar — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "107",
@@ -2118,7 +2797,14 @@ const items = [
     "catalog": "verus-assets/catalogo/107.webp",
     "layout": "perfume",
     "profile": "Cítrica, aromática e amadeirada",
-    "description": "CLUB DE NUIT ICONIO E Hidratação intensa e prolongada, com textura cremosa e rápida absorção. Deixa a pele macia, hidratada e aveludada, delicadamente perfumada com uma fragrância masculina, fresca e sofisticada, que combina notas cítricas e aromáticas com um fundo amadeirado."
+    "description": "CLUB DE NUIT ICONIO E Hidratação intensa e prolongada, com textura cremosa e rápida absorção. Deixa a pele macia, hidratada e aveludada, delicadamente perfumada com uma fragrância masculina, fresca e sofisticada, que combina notas cítricas e aromáticas com um fundo amadeirado.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/107.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Club de Nuit Iconic — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "108",
@@ -2134,7 +2820,14 @@ const items = [
     "catalog": "verus-assets/catalogo/108.webp",
     "layout": "perfume",
     "profile": "Cítrica, amadeirada e esfumaçada",
-    "description": "Hidratação e nutrição da pele, com textura leve e rápida absorção. Deixa a pele macia e suave, delicadamente perfumada com uma fragrância masculina, marcante e sofisticada, que combina frescor cítrico com notas amadeiradas e esfumaçadas."
+    "description": "Hidratação e nutrição da pele, com textura leve e rápida absorção. Deixa a pele macia e suave, delicadamente perfumada com uma fragrância masculina, marcante e sofisticada, que combina frescor cítrico com notas amadeiradas e esfumaçadas.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/108.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Club de Nuit Intense Man — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "109",
@@ -2150,7 +2843,14 @@ const items = [
     "catalog": "verus-assets/catalogo/109.webp",
     "layout": "perfume",
     "profile": "floral e amadeirada",
-    "description": "Hidratação profunda e duradoura, com textura leve e cremosa. Deixa a pele macia, suave e aveludada, delicadamente perfumada com uma fragrância floral e amadeirada, trazendo elegância e sofisticação."
+    "description": "Hidratação profunda e duradoura, com textura leve e cremosa. Deixa a pele macia, suave e aveludada, delicadamente perfumada com uma fragrância floral e amadeirada, trazendo elegância e sofisticação.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/109.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Club de Nuit Woman — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "110",
@@ -2166,7 +2866,14 @@ const items = [
     "catalog": "verus-assets/catalogo/110.webp",
     "layout": "perfume",
     "profile": "Aromática, especiada e amadeirada",
-    "description": "ISABELLE LA BELLE E Hidratação profunda e duradoura, com textura cremosa e rápida absorção. Deixa a pele macia, sedosa e delicadamente perfumada, proporcionando uma sensação de cuidado e sofisticação no dia a dia."
+    "description": "ISABELLE LA BELLE E Hidratação profunda e duradoura, com textura cremosa e rápida absorção. Deixa a pele macia, sedosa e delicadamente perfumada, proporcionando uma sensação de cuidado e sofisticação no dia a dia.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/110.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Fakhar Black — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "111",
@@ -2182,7 +2889,14 @@ const items = [
     "catalog": "verus-assets/catalogo/111.webp",
     "layout": "perfume",
     "profile": "Frutal",
-    "description": "Hidratação intensa e prolongada, com textura cremosa e rápida absorção. Deixa a pele macia e aveludada, delicadamente perfumada com uma fragrância sofisticada, marcante e envolvente."
+    "description": "Hidratação intensa e prolongada, com textura cremosa e rápida absorção. Deixa a pele macia e aveludada, delicadamente perfumada com uma fragrância sofisticada, marcante e envolvente.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/111.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Fakhar Gold — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "112",
@@ -2198,7 +2912,14 @@ const items = [
     "catalog": "verus-assets/catalogo/112.webp",
     "layout": "perfume",
     "profile": "Gourmand '",
-    "description": "Hidratação intensiva e duradoura, com textura leve e rápida absorção. Deixa a pele macia e suave, delicadamente perfumada com uma fragrância doce, quente e envolvente."
+    "description": "Hidratação intensiva e duradoura, com textura leve e rápida absorção. Deixa a pele macia e suave, delicadamente perfumada com uma fragrância doce, quente e envolvente.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/112.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Khamrah — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "113",
@@ -2214,7 +2935,14 @@ const items = [
     "catalog": "verus-assets/catalogo/113.webp",
     "layout": "perfume",
     "profile": "Ambarada",
-    "description": "Hidratação intensiva e duradoura, com textura leve e rápida absorção. Deixa a pele macia e aveludada, delicadamente perfumada com uma fragrância ambarada e envolvente."
+    "description": "Hidratação intensiva e duradoura, com textura leve e rápida absorção. Deixa a pele macia e aveludada, delicadamente perfumada com uma fragrância ambarada e envolvente.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/113.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Royal Amber — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "114",
@@ -2230,7 +2958,14 @@ const items = [
     "catalog": "verus-assets/catalogo/114.webp",
     "layout": "perfume",
     "profile": "Gourmand e frutal",
-    "description": "Hidratação profunda e prolongada, com textura cremosa, leve e de rápida absorção. Deixa a pele macia e sedosa, delicadamente perfumada com uma fragrância doce e vibrante, que combina frutas açucaradas com notas gourmand de baunilha e caramelo."
+    "description": "Hidratação profunda e prolongada, com textura cremosa, leve e de rápida absorção. Deixa a pele macia e sedosa, delicadamente perfumada com uma fragrância doce e vibrante, que combina frutas açucaradas com notas gourmand de baunilha e caramelo.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/114.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Yara Candy — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "115",
@@ -2246,7 +2981,14 @@ const items = [
     "catalog": "verus-assets/catalogo/115.webp",
     "layout": "perfume",
     "profile": "Âmbar e baunilh",
-    "description": "YARA ELIXIR E Hidratação intensa e prolongada, com textura cremosa e rápida absorção. Deixa a pele macia e sedosa, delicadamente perfumada com uma fragrância doce, cremosa e envolvente."
+    "description": "YARA ELIXIR E Hidratação intensa e prolongada, com textura cremosa e rápida absorção. Deixa a pele macia e sedosa, delicadamente perfumada com uma fragrância doce, cremosa e envolvente.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/115.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Yara Elixir — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "116",
@@ -2262,7 +3004,14 @@ const items = [
     "catalog": "verus-assets/catalogo/116.webp",
     "layout": "perfume",
     "profile": "Floral e baunilha",
-    "description": "Hidratação intensa e prolongada, com textura cremosa e leve. Deixa a pele macia, sedosa e luminosa, delicadamente perfumada com uma fragrância doce, cremosa e envolvente."
+    "description": "Hidratação intensa e prolongada, com textura cremosa e leve. Deixa a pele macia, sedosa e luminosa, delicadamente perfumada com uma fragrância doce, cremosa e envolvente.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/116.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Yara — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "117",
@@ -2278,7 +3027,14 @@ const items = [
     "catalog": "verus-assets/catalogo/117.webp",
     "layout": "perfume",
     "profile": "Floral, gourmand e amadeirada í",
-    "description": "YARA MOI E Hidratação intensa e prolongada, com textura cremosa e rápida absorção. Deixa a pele macia e sedosa, delicadamente perfumada com uma fragrância floral, doce e cremosa."
+    "description": "YARA MOI E Hidratação intensa e prolongada, com textura cremosa e rápida absorção. Deixa a pele macia e sedosa, delicadamente perfumada com uma fragrância floral, doce e cremosa.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/117.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Yara Moi — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "118",
@@ -2294,7 +3050,14 @@ const items = [
     "catalog": "verus-assets/catalogo/118.webp",
     "layout": "perfume",
     "profile": "Floral e gourmand",
-    "description": "BODY CREAM COOL GIRL E Hidratação intensa e refrescante, com textura leve e rápida absorção. Deixa a pele macia e suave, delicadamente perfumada com uma fragrância feminina, fresca e moderna."
+    "description": "BODY CREAM COOL GIRL E Hidratação intensa e refrescante, com textura leve e rápida absorção. Deixa a pele macia e suave, delicadamente perfumada com uma fragrância feminina, fresca e moderna.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/118.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Cool Girl — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "119",
@@ -2310,7 +3073,14 @@ const items = [
     "catalog": "verus-assets/catalogo/119.webp",
     "layout": "perfume",
     "profile": "Frutal e floral",
-    "description": "BODY SOUFFLE Hidratação profunda e prolongada, com textura cremosa e sedosa. Deixa a pele macia e aveludada, delicadamente perfumada com uma fragrância frutada e floral."
+    "description": "BODY SOUFFLE Hidratação profunda e prolongada, com textura cremosa e sedosa. Deixa a pele macia e aveludada, delicadamente perfumada com uma fragrância frutada e floral.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/119.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Fantasie — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "120",
@@ -2326,7 +3096,14 @@ const items = [
     "catalog": "verus-assets/catalogo/120.webp",
     "layout": "perfume",
     "profile": "Frutal",
-    "description": "PURE EXCLUSIVE Hidratação profunda e duradoura, com textura leve e rápida absorção. Deixa a pele macia, aveludada e delicadamente perfumada com uma fragrância floral."
+    "description": "PURE EXCLUSIVE Hidratação profunda e duradoura, com textura leve e rápida absorção. Deixa a pele macia, aveludada e delicadamente perfumada com uma fragrância floral.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/120.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Pure Exlusive — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "121",
@@ -2342,7 +3119,14 @@ const items = [
     "catalog": "verus-assets/catalogo/121.webp",
     "layout": "perfume",
     "profile": "floral",
-    "description": "SABAH AL WARD E Hidratação profunda e duradoura, com textura leve e rápida absorção. Deixa a pele macia, aveludada e delicadamente perfumada com uma fragrância floral."
+    "description": "SABAH AL WARD E Hidratação profunda e duradoura, com textura leve e rápida absorção. Deixa a pele macia, aveludada e delicadamente perfumada com uma fragrância floral.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/121.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Sabah Al Ward — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "122",
@@ -2358,7 +3142,14 @@ const items = [
     "catalog": "verus-assets/catalogo/122.webp",
     "layout": "perfume",
     "profile": "Floral oriental '",
-    "description": "SABAH SUGAR Hidratação profunda e prolongada, com textura leve e rápida absorção. Deixa a pele macia, sedosa e delicadamente perfumada, com uma fragrância doce, frutada e envolvente."
+    "description": "SABAH SUGAR Hidratação profunda e prolongada, com textura leve e rápida absorção. Deixa a pele macia, sedosa e delicadamente perfumada, com uma fragrância doce, frutada e envolvente.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/122.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Sabah Al Ward Sugar — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "123",
@@ -2374,7 +3165,14 @@ const items = [
     "catalog": "verus-assets/catalogo/123.webp",
     "layout": "perfume",
     "profile": "Floral e frutal",
-    "description": "Hidratação intensa e prolongada, com textura cremosa e rápida absorção. Deixa a pele macia, sedosa e aveludada, delicadamente perfumada com uma fragrância floral e frutada, complementada por notas amadeiradas e um toque suave de baunilha."
+    "description": "Hidratação intensa e prolongada, com textura cremosa e rápida absorção. Deixa a pele macia, sedosa e aveludada, delicadamente perfumada com uma fragrância floral e frutada, complementada por notas amadeiradas e um toque suave de baunilha.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/123.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Victoria — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "124",
@@ -2390,7 +3188,14 @@ const items = [
     "catalog": "verus-assets/catalogo/124.webp",
     "layout": "perfume",
     "profile": "Floral e frutal",
-    "description": "Hidratação intensa e prolongada, com textura leve e rápida absorção. Deixa a pele macia e sedosa, delicadamente perfumada com uma fragrância floral e frutada, fresca e tropical."
+    "description": "Hidratação intensa e prolongada, com textura leve e rápida absorção. Deixa a pele macia e sedosa, delicadamente perfumada com uma fragrância floral e frutada, fresca e tropical.",
+    "photo": {
+      "src": "verus-assets/produtos-fundo-bege/124.webp",
+      "width": 1254,
+      "height": 1254,
+      "background": "bege"
+    },
+    "photoLabel": "Yara Tous — Isabelle La Belle — 200ml, com frasco e embalagem em fundo bege"
   },
   {
     "id": "125",
