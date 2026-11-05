@@ -12,8 +12,8 @@ const isHome = document.body.dataset.page === 'home';
 const isCart = document.body.dataset.page === 'cart';
 const contacts = { instagram: 'verusoriginal', whatsapp: '(11) 94478-7024' };
 const hasPromotion = p => Number.isFinite(p.previousCard) && p.previousCard > p.card && p.card > 0;
-const promotionPercent = p => (Math.floor((p.previousCard - p.card) / p.previousCard * 1000) / 10).toLocaleString('pt-BR', {maximumFractionDigits:1});
-const savingsPercent = p => (Math.floor((p.card - p.pix) / p.card * 1000) / 10).toLocaleString('pt-BR', {maximumFractionDigits:1});
+const promotionPercent = p => Math.round((p.previousCard - p.card) / p.previousCard * 100).toLocaleString('pt-BR');
+const savingsPercent = p => Math.round((p.card - p.pix) / p.card * 100).toLocaleString('pt-BR');
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const productByID = id => items.find(p => p.id === String(id));
 const icons = {
@@ -31,7 +31,7 @@ const collections = [
   ['masculinos','Perfumes masculinos'], ['masculinos-arabes','Masculinos · árabes'], ['masculinos-nicho','Masculinos · perfumes de nicho'],
   ['femininos','Perfumes femininos'], ['femininos-arabes','Femininos · árabes'], ['femininos-nicho','Femininos · perfumes de nicho'],
   ['unissex','Perfumes unissex'], ['aerossois-ambientes','Aerossóis ambientes'], ['spray-corporal','Spray corporal'],
-  ['hidratantes','Hidratantes corporais'], ['moda','Toda a moda'], ['oversized','Camisetas oversized'], ['casuais','Camisetas casuais'], ['polos','Polos']
+  ['hidratantes','Hidratantes corporais'], ['moda','Toda a moda'], ['oversized','Oversized'], ['plus-size','Plus size'], ['camisetas','Camisetas'], ['polos','Polos']
 ];
 
 function matchesCollection(p, collection) {
@@ -56,7 +56,9 @@ function matchesCollection(p, collection) {
     case 'hidratantes': return p.kind === 'Hidratante';
     case 'moda': return p.kind === 'Roupa';
     case 'oversized': return p.category === 'Camisetas oversized';
-    case 'casuais': return p.category === 'Camisetas casuais';
+    case 'plus-size': return p.kind === 'Roupa' && p.category === 'Plus size';
+    case 'casuais':
+    case 'camisetas': return p.kind === 'Roupa' && p.category === 'Camisetas casuais';
     case 'polos': return p.category === 'Polos';
     default: return true;
   }
@@ -68,7 +70,7 @@ function photo(p, eager = false) {
     const width = Number(p.photo.width);
     const height = Number(p.photo.height);
     if (p.photo.src && Number.isInteger(width) && Number.isInteger(height) && width > 0 && height > 0) {
-      return `<span class="photo-window original-photo" style="--photo-ratio:${width} / ${height}"><img src="${escapeHTML(p.photo.src)}" width="${width}" height="${height}" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async" alt="${escapeHTML(p.photoLabel || `${p.name} — ${p.brand}`)}"></span>`;
+      return `<span class="photo-window original-photo${p.photo.background === 'bege' ? ' standard-photo' : ''}" style="--photo-ratio:${width} / ${height}"><img src="${escapeHTML(p.photo.src)}" width="${width}" height="${height}" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async" alt="${escapeHTML(p.photoLabel || `${p.name} — ${p.brand}`)}"></span>`;
     }
   }
   return `<span class="photo-window ${p.layout === 'fashion' ? 'fashion-photo' : ''}"><img src="${p.catalog}" width="2000" height="1410" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async" alt="${escapeHTML(p.photoLabel || `${p.name} — ${p.brand}`)}"></span>`;
@@ -91,7 +93,7 @@ function productCard(p, promotion = false) {
 
 function renderHeader() {
   const group = (gender, label) => `<div class="nav-group"><button class="nav-toggle" type="button" data-action="menu" aria-expanded="false" aria-controls="${gender}-menu">${label} ${icons.chevron}</button><div class="submenu" id="${gender}-menu" hidden><a href="${collectionURL(gender)}">Ver todos <small>Explore a seleção</small></a><a href="${collectionURL(gender + '-arabes')}">Perfumes árabes <span aria-hidden="true">→</span></a><a href="${collectionURL(gender + '-nicho')}">Perfumes de nicho <span aria-hidden="true">→</span></a></div></div>`;
-  $('#site-header').innerHTML = `<div class="announcement"><span>SUA ESSÊNCIA. SEU ESTILO.</span><span>ATÉ 3X SEM JUROS NO CARTÃO</span></div><header class="header-shell"><div class="header-main wrap"><a class="brand" href="index.html" aria-label="VERUS — início"><img src="verus-assets/logo.webp" alt="" width="58" height="58"><span><span class="brand-name">VERUS</span><span class="brand-tagline">SUA ESSÊNCIA. SEU ESTILO.</span></span></a><form class="search-form" action="index.html#loja" method="get" role="search"><input id="search" name="busca" type="search" placeholder="Qual será sua próxima escolha?" aria-label="Buscar produtos"><button type="submit" aria-label="Buscar">${icons.search}</button></form><div class="header-actions"><a class="service-link" href="${whatsappURL('Olá, VERUS! Gostaria de uma ajuda para escolher.')}" target="_blank" rel="noopener">${icons.chat}<span>PODEMOS AJUDAR?<strong>Fale com a VERUS</strong></span></a><a class="bag-button" href="carrinho.html" aria-label="Ir para o carrinho">${icons.bag}<span class="bag-label">Sacola</span><span class="bag-count" id="bag-count">0</span></a><button type="button" class="mobile-menu-toggle" data-action="mobile-menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-navigation">${icons.menu}</button></div></div><nav class="primary-navigation" id="primary-navigation" aria-label="Categorias"><div class="nav-inner wrap"><a class="nav-link nav-promo" href="index.html#promocoes">PROMOÇÕES</a>${group('masculinos','MASCULINOS')}${group('femininos','FEMININOS')}<a class="nav-link" href="${collectionURL('aerossois-ambientes')}">AEROSSÓIS AMBIENTES</a><a class="nav-link" href="${collectionURL('spray-corporal')}">SPRAY CORPORAL</a><a class="nav-link" href="${collectionURL('hidratantes')}">HIDRATANTES</a><a class="nav-link" href="${collectionURL('moda')}">MODA</a><a class="nav-link" href="index.html#kits">KITS</a></div></nav></header>`;
+  $('#site-header').innerHTML = `<div class="announcement"><span>SUA ESSÊNCIA. SEU ESTILO.</span><span>ATÉ 3X SEM JUROS NO CARTÃO</span></div><header class="header-shell"><div class="header-main wrap"><a class="brand" href="index.html" aria-label="VERUS — início"><img src="verus-assets/logo.webp" alt="" width="58" height="58"><span><span class="brand-name">VERUS</span><span class="brand-tagline">SUA ESSÊNCIA. SEU ESTILO.</span></span></a><form class="search-form" action="index.html#loja" method="get" role="search"><input id="search" name="busca" type="search" placeholder="Qual será sua próxima escolha?" aria-label="Buscar produtos"><button type="submit" aria-label="Buscar">${icons.search}</button></form><div class="header-actions"><a class="service-link" href="${whatsappURL('Olá, VERUS! Gostaria de uma ajuda para escolher.')}" target="_blank" rel="noopener">${icons.chat}<span>PODEMOS AJUDAR?<strong>Fale com a VERUS</strong></span></a><a class="bag-button" href="carrinho.html" aria-label="Ir para o carrinho">${icons.bag}<span class="bag-label">Sacola</span><span class="bag-count" id="bag-count">0</span></a><button type="button" class="mobile-menu-toggle" data-action="mobile-menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-navigation">${icons.menu}</button></div></div><nav class="primary-navigation" id="primary-navigation" aria-label="Categorias"><div class="nav-inner wrap"><a class="nav-link nav-promo" href="index.html#promocoes">PROMOÇÕES</a>${group('masculinos','MASCULINOS')}${group('femininos','FEMININOS')}<a class="nav-link" href="${collectionURL('aerossois-ambientes')}">AEROSSÓIS AMBIENTES</a><a class="nav-link" href="${collectionURL('spray-corporal')}">SPRAY CORPORAL</a><a class="nav-link" href="${collectionURL('hidratantes')}">HIDRATANTES</a><div class="nav-group"><button class="nav-toggle" type="button" data-action="menu" aria-expanded="false" aria-controls="moda-menu">MODA ${icons.chevron}</button><div class="submenu" id="moda-menu" hidden><a href="${collectionURL('moda')}">Ver todos <small>Explore a seleção</small></a>${[['oversized','Oversized'],['plus-size','Plus size'],['camisetas','Camisetas'],['polos','Polos']].map(([value,label]) => `<a href="${collectionURL(value)}">${label} <span aria-hidden="true">→</span></a>`).join('')}</div></div><a class="nav-link" href="index.html#kits">KITS</a></div></nav></header>`;
   $$('.nav-group').forEach(group => {
     group.addEventListener('pointerenter', e => {
       if (e.pointerType === 'mouse' && window.matchMedia('(min-width: 1001px)').matches) setMenu($('.nav-toggle', group), true);
@@ -207,20 +209,17 @@ const campaignSlides = [
   }
 ];
 let slideIndex = 0;
-let slidesPaused = false;
 let carouselTimer;
 
 function showSlide(index) {
   slideIndex = (index + campaignSlides.length) % campaignSlides.length;
   $$('.campaign-slide').forEach((slide, i) => { slide.hidden = i !== slideIndex; });
-  $$('.campaign-dots button').forEach((button, i) => button.setAttribute('aria-pressed', String(i === slideIndex)));
-  $('#campaign-index').textContent = `${String(slideIndex + 1).padStart(2,'0')} / ${String(campaignSlides.length).padStart(2,'0')}`;
   $('.campaign').dataset.currentTheme = campaignSlides[slideIndex].theme;
 }
 
 function resetCarouselTimer() {
   clearInterval(carouselTimer);
-  if (slidesPaused || reducedMotion.matches || document.hidden) return;
+  if (reducedMotion.matches || document.hidden) return;
   carouselTimer = setInterval(() => {
     if (!$('.campaign').contains(document.activeElement) && !$('.campaign').matches(':hover')) showSlide(slideIndex + 1);
   }, 7000);
@@ -229,7 +228,6 @@ function resetCarouselTimer() {
 function setupCampaign() {
   $('.campaign').classList.add('campaign-banners');
   $('#campaign-slides').innerHTML = campaignSlides.map((slide, i) => `<article class="campaign-slide" aria-roledescription="slide" aria-label="${i + 1} de ${campaignSlides.length}" ${i ? 'hidden' : ''}><a class="campaign-banner-link" href="${slide.href}"><img class="campaign-banner" src="verus-assets/banners/${slide.image}.webp" alt="${escapeHTML(slide.label)}" width="${slide.width}" height="${slide.height}" ${i ? 'loading="lazy"' : 'fetchpriority="high"'}></a></article>`).join('');
-  $('#campaign-dots').innerHTML = campaignSlides.map((slide, i) => `<button type="button" data-action="slide" data-index="${i}" aria-label="Ver destaque ${i + 1}: ${escapeHTML(slide.label)}" aria-pressed="${i === 0}"></button>`).join('');
   showSlide(0);
   resetCarouselTimer();
   document.addEventListener('visibilitychange', resetCarouselTimer);
@@ -300,13 +298,13 @@ function setupHome() {
   const oldProduct = location.hash.match(/^#produto-(\d+)$/);
   if (oldProduct) { location.replace(productURL(oldProduct[1])); return; }
   setupCampaign();
-  $('#featured-grid').innerHTML = ['26','12','88','22','6','7','8','15','11','31','36','42','53','54'].map(productByID).filter(hasPromotion).map(p => productCard(p,true)).join('');
+  $('#featured-grid').innerHTML = ['26','12','88','22','6','7','8','15','11','31','36','42','53','54','51'].map(productByID).filter(hasPromotion).map(p => productCard(p,true)).join('');
   $$('[data-photo]').forEach(el => { el.innerHTML = photo(productByID(el.dataset.photo)); });
   renderKits();
   $('#collection').innerHTML = collections.map(([value,label]) => `<option value="${value}">${label}</option>`).join('');
   const params = new URLSearchParams(location.search);
   const legacyCollection = params.get('colecao');
-  const requested = ['aerossois','ambiente'].includes(legacyCollection) ? 'aerossois-ambientes' : legacyCollection;
+  const requested = ['aerossois','ambiente'].includes(legacyCollection) ? 'aerossois-ambientes' : legacyCollection === 'casuais' ? 'camisetas' : legacyCollection;
   activeCollection = collections.some(([value]) => value === requested) ? requested : 'todos';
   activeSort = ['low','high','az'].includes(params.get('ordem')) ? params.get('ordem') : 'featured';
   searchTerm = params.get('busca') || '';
@@ -380,12 +378,9 @@ document.addEventListener('click', event => {
   if (action === 'checkout') checkout();
   if (action === 'clear-filters' && isHome) resetFilters();
   if (action === 'load-more') { visibleLimit += 24;renderCatalogue(); }
-  if (action === 'slide') { showSlide(Number(button.dataset.index));resetCarouselTimer(); }
   if (action === 'slide-next') { showSlide(slideIndex + 1);resetCarouselTimer(); }
   if (action === 'slide-previous') { showSlide(slideIndex - 1);resetCarouselTimer(); }
-  if (action === 'slide-pause') {
-    slidesPaused = !slidesPaused;button.setAttribute('aria-pressed',String(slidesPaused));button.setAttribute('aria-label',slidesPaused ? 'Reproduzir destaques' : 'Pausar destaques');button.textContent = slidesPaused ? '>' : 'II';resetCarouselTimer();
-  }
+
 });
 
 document.addEventListener('keydown', event => {

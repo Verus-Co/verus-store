@@ -125,3 +125,20 @@
 netlify-badge,[id*="netlify-badge"],[class*="netlify-badge"],iframe[title="Powered by Netlify"],a[aria-label="Powered by Netlify"]{display:none!important}
 
 .campaign-banners .campaign-slide::before,.campaign-banners .campaign-slide::after{display:none}.campaign-banners .campaign-controls{width:calc(100% - 48px);max-width:1296px;margin:0 auto}
+
+/* Navegação discreta sobre as laterais do banner. */
+.campaign-banners .campaign-banner{aspect-ratio:2.7;object-fit:cover}
+.banner-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:5;display:grid;place-items:center;width:40px;height:48px;padding:10px;border:0;border-radius:4px;background:#fffdf6a6;color:#123d32;cursor:pointer;opacity:.72;transition:opacity .2s,background .2s}
+.banner-arrow-previous{left:12px}.banner-arrow-next{right:12px}
+.banner-arrow svg{display:block;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.banner-arrow:hover,.banner-arrow:focus-visible{opacity:1;background:#fffdf6ed}.banner-arrow:focus-visible{outline:2px solid #123d32;outline-offset:2px}
+@media(max-width:600px){.campaign-banners .campaign-banner{aspect-ratio:2.6}.banner-arrow{width:30px;height:44px;padding:8px;background:#fffdf67a}.banner-arrow-previous{left:3px}.banner-arrow-next{right:3px}.banner-arrow svg{width:16px;height:16px}}
+
+/* Fotos padronizadas de perfumes e hidratantes: toda a área do cartão. */
+.product-picture:has(.standard-photo){padding:0;height:auto;aspect-ratio:1;border-radius:0;background:#e9d8be}
+.photo-window.standard-photo{overflow:hidden;background:#e9d8be;border-radius:0}
+.photo-window.standard-photo img{width:100%;height:100%;object-fit:cover}
+.product-card:hover .product-picture .standard-photo{transform:none}
+.product-gallery:has(>.standard-photo){padding:0;min-height:0;aspect-ratio:1;overflow:hidden;align-self:start;border-radius:0;background:#e9d8be}
+.product-gallery>.photo-window.standard-photo{width:100%;height:100%;aspect-ratio:1}
+.cart-item-photo:has(.standard-photo){padding:0}
