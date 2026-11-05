@@ -254,7 +254,7 @@ const items = [
     },
     "occasion": "Intenso, marcante e sofisticado. Ideal para noites frias, encontros e ocasiões especiais. Uma fragrância quente e envolvente, perfeita para momentos em que você deseja transmitir presença e confiança.",
     "gender": "masculino",
-    "previousCard": 332
+    "previousCard": 342
   },
   {
     "name": "Asad Bourbon",
