@@ -124,7 +124,7 @@ const items = [
     },
     "occasion": "Elegante, quente e envolvente. Ideal para encontros, jantares e ocasiões especiais, especialmente em dias amenos ou frios. Uma fragrância sofisticada e marcante, com toque frutado, especiado e amadeirado.",
     "gender": "masculino",
-    "previousCard": 283
+    "previousCard": 308
   },
   {
     "name": "Ameer Al Arab",
