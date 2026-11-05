@@ -298,7 +298,7 @@ function setupHome() {
   const oldProduct = location.hash.match(/^#produto-(\d+)$/);
   if (oldProduct) { location.replace(productURL(oldProduct[1])); return; }
   setupCampaign();
-  $('#featured-grid').innerHTML = ['26','12','88','22','6','7','8','15','11','31','36','42','53','54'].map(productByID).filter(hasPromotion).map(p => productCard(p,true)).join('');
+  $('#featured-grid').innerHTML = ['26','12','88','22','6','7','8','15','11','31','36','42','53','54','51'].map(productByID).filter(hasPromotion).map(p => productCard(p,true)).join('');
   $$('[data-photo]').forEach(el => { el.innerHTML = photo(productByID(el.dataset.photo)); });
   renderKits();
   $('#collection').innerHTML = collections.map(([value,label]) => `<option value="${value}">${label}</option>`).join('');

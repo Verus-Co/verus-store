@@ -1439,7 +1439,8 @@ const items = [
       "height": 1254,
       "background": "bege"
     },
-    "photoLabel": "Magnata — Zirconia Privé — 100ml, com frasco e embalagem em fundo bege"
+    "photoLabel": "Magnata — Zirconia Privé — 100ml, com frasco e embalagem em fundo bege",
+    "previousCard": 180
   },
   {
     "name": "Maktub La Vie",
