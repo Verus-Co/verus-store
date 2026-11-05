@@ -1125,7 +1125,7 @@ const items = [
     },
     "occasion": "Feminino, elegante e sofisticado. Ideal para encontros, passeios e ocasiões especiais, especialmente durante o dia ou em dias amenos.",
     "gender": "feminino",
-    "previousCard": 178
+    "previousCard": 216
   },
   {
     "name": "Malikat Al Arab Rose",
