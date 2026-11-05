@@ -1147,7 +1147,7 @@ const items = [
     },
     "occasion": "Feminino, doce e sofisticado. Ideal para encontros, passeios e ocasiões especiais, especialmente durante o dia ou em dias amenos.",
     "gender": "feminino",
-    "previousCard": 185
+    "previousCard": 230
   },
   {
     "name": "Manaal",
