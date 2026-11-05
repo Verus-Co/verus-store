@@ -1,0 +1,1542 @@
+[
+  {
+    "modelID": "125",
+    "modelName": "Oversized Jordan",
+    "colors": {
+      "Preta": [
+        "P"
+      ],
+      "Off white": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "Azul-marinho": [
+        "P"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Preta",
+    "catalogue": "verus-assets/catalogo/125.webp"
+  },
+  {
+    "modelID": "126",
+    "modelName": "Oversized Lakers",
+    "colors": {
+      "Off white": [
+        "P",
+        "G",
+        "GG"
+      ],
+      "Cinza": [
+        "P"
+      ],
+      "Azul-marinho": [
+        "P"
+      ],
+      "Preta": [
+        "P"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/126.webp"
+  },
+  {
+    "modelID": "127",
+    "modelName": "Oversized Adidas",
+    "colors": {
+      "Azul-marinho": [
+        "P",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "Cinza": [
+        "M",
+        "GG"
+      ],
+      "Preta": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Azul-marinho",
+    "catalogue": "verus-assets/catalogo/127.webp"
+  },
+  {
+    "modelID": "128",
+    "modelName": "Oversized Palm Angels",
+    "colors": {
+      "Off white": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "P",
+        "GG"
+      ],
+      "Cinza": [
+        "P",
+        "M",
+        "GG"
+      ],
+      "Azul-marinho": [
+        "P",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/128.webp"
+  },
+  {
+    "modelID": "129",
+    "modelName": "Oversized Champion",
+    "colors": {
+      "Off white": [
+        "P",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "Cinza": [
+        "P",
+        "G",
+        "GG"
+      ],
+      "Azul-marinho": [
+        "P",
+        "M",
+        "G"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/129.webp"
+  },
+  {
+    "modelID": "130",
+    "modelName": "Oversized I Need A Freak",
+    "colors": {
+      "Off white": [
+        "M",
+        "GG"
+      ],
+      "Azul-marinho": [
+        "M"
+      ],
+      "Bege": [
+        "M",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/130.webp"
+  },
+  {
+    "modelID": "131",
+    "modelName": "Oversized New Era",
+    "colors": {
+      "Gelo": [
+        "M",
+        "GG"
+      ],
+      "Marrom": [
+        "M"
+      ],
+      "Amarela": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Caqui": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Bege": [
+        "M",
+        "G"
+      ],
+      "Off white": [
+        "M",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Gelo",
+    "catalogue": "verus-assets/catalogo/131.webp"
+  },
+  {
+    "modelID": "132",
+    "modelName": "Oversized Nike Street Box",
+    "colors": {
+      "Caqui escuro": [
+        "M",
+        "G"
+      ],
+      "Preta": [
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Caqui escuro",
+    "catalogue": "verus-assets/catalogo/132.webp"
+  },
+  {
+    "modelID": "133",
+    "modelName": "Oversized Supreme Bank",
+    "colors": {
+      "Vinho": [
+        "M"
+      ],
+      "Bege": [
+        "M",
+        "GG"
+      ],
+      "Lilás": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Verde": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Vinho",
+    "catalogue": "verus-assets/catalogo/133.webp"
+  },
+  {
+    "modelID": "134",
+    "modelName": "Oversized Anti Social Club",
+    "colors": {
+      "Preta": [
+        "M",
+        "GG"
+      ],
+      "Branca": [
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Preta",
+    "catalogue": "verus-assets/catalogo/134.webp"
+  },
+  {
+    "modelID": "135",
+    "modelName": "Oversized Anti Social Club · variação 2",
+    "colors": {
+      "Preta": [
+        "M",
+        "GG"
+      ],
+      "Branca": [
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Preta",
+    "catalogue": "verus-assets/catalogo/135.webp"
+  },
+  {
+    "modelID": "136",
+    "modelName": "Oversized Swoosh By Nike",
+    "colors": {
+      "Preta": [
+        "M",
+        "GG"
+      ],
+      "Amarela": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Azul-marinho": [
+        "GG"
+      ],
+      "Bege": [
+        "M",
+        "G"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/136.webp"
+  },
+  {
+    "modelID": "137",
+    "modelName": "Oversized Nike",
+    "colors": {
+      "Bege": [
+        "GG"
+      ],
+      "Caqui": [
+        "M",
+        "GG"
+      ],
+      "Caqui claro": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Azul-marinho": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Marrom": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Salmão": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/137.webp"
+  },
+  {
+    "modelID": "138",
+    "modelName": "Oversized Jesus Saved My Life",
+    "colors": {
+      "Off white": [
+        "GG"
+      ],
+      "Azul-marinho": [
+        "P"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/138.webp"
+  },
+  {
+    "modelID": "139",
+    "modelName": "Oversized Jesus The Way",
+    "colors": {
+      "Preta": [
+        "P",
+        "GG"
+      ],
+      "Off white": [
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Preta",
+    "catalogue": "verus-assets/catalogo/139.webp"
+  },
+  {
+    "modelID": "140",
+    "modelName": "Oversized Only Jesus Can",
+    "colors": {
+      "Azul-marinho": [
+        "P",
+        "M",
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Azul-marinho",
+    "catalogue": "verus-assets/catalogo/140.webp"
+  },
+  {
+    "modelID": "141",
+    "modelName": "Oversized Jesus Is The Way",
+    "colors": {
+      "Azul-marinho": [
+        "P",
+        "M",
+        "GG"
+      ],
+      "Off white": [
+        "P",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Azul-marinho",
+    "catalogue": "verus-assets/catalogo/141.webp"
+  },
+  {
+    "modelID": "142",
+    "modelName": "Oversized Emotions",
+    "colors": {
+      "Verde musgo": [
+        "G",
+        "GG"
+      ],
+      "Bege": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Chumbo": [
+        "M"
+      ],
+      "Creme": [
+        "M",
+        "GG"
+      ],
+      "Laranja": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Azul-marinho": [
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Verde musgo",
+    "catalogue": "verus-assets/catalogo/142.webp"
+  },
+  {
+    "modelID": "143",
+    "modelName": "Oversized Jordan · variação 2",
+    "colors": {
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Branca": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Branca",
+    "catalogue": "verus-assets/catalogo/143.webp"
+  },
+  {
+    "modelID": "144",
+    "modelName": "Oversized Hoop",
+    "colors": {
+      "Branca": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Branca",
+    "catalogue": "verus-assets/catalogo/144.webp"
+  },
+  {
+    "modelID": "145",
+    "modelName": "Oversized Kobe Bryant",
+    "colors": {
+      "Branca": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Branca",
+    "catalogue": "verus-assets/catalogo/145.webp"
+  },
+  {
+    "modelID": "146",
+    "modelName": "Oversized Jordan Legacy 23",
+    "colors": {
+      "Branca": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M"
+      ],
+      "Preta": [
+        "M"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Branca",
+    "catalogue": "verus-assets/catalogo/146.webp"
+  },
+  {
+    "modelID": "147",
+    "modelName": "Oversized Jordan Court Legacy",
+    "colors": {
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Branca": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Branca",
+    "catalogue": "verus-assets/catalogo/147.webp"
+  },
+  {
+    "modelID": "148",
+    "modelName": "Oversized Corteiz",
+    "colors": {
+      "Preta": [
+        "M",
+        "GG"
+      ],
+      "Branca": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Preta",
+    "catalogue": "verus-assets/catalogo/148.webp"
+  },
+  {
+    "modelID": "149",
+    "modelName": "Oversized Real Madrid 2001-02",
+    "colors": {
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Branca": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Branca",
+    "catalogue": "verus-assets/catalogo/149.webp"
+  },
+  {
+    "modelID": "150",
+    "modelName": "Oversized La Pool",
+    "colors": {
+      "Bege": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Creme": [
+        "M",
+        "G"
+      ],
+      "Laranja": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Azul-marinho": [
+        "M",
+        "G"
+      ],
+      "Verde": [
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Azul-marinho",
+    "catalogue": "verus-assets/catalogo/150.webp"
+  },
+  {
+    "modelID": "151",
+    "modelName": "Oversized Ronaldinho Bruxo",
+    "colors": {
+      "Branca": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Branca",
+    "catalogue": "verus-assets/catalogo/151.webp"
+  },
+  {
+    "modelID": "152",
+    "modelName": "Oversized Mercurial Legacy",
+    "colors": {
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Branca": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Branca",
+    "catalogue": "verus-assets/catalogo/152.webp"
+  },
+  {
+    "modelID": "153",
+    "modelName": "Oversized Cr7",
+    "colors": {
+      "Branca": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Branca",
+    "catalogue": "verus-assets/catalogo/153.webp"
+  },
+  {
+    "modelID": "154",
+    "modelName": "Oversized Travis Barca",
+    "colors": {
+      "Off white": [
+        "M"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/154.webp"
+  },
+  {
+    "modelID": "155",
+    "modelName": "Oversized La",
+    "colors": {
+      "Bege": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Cinza": [
+        "M",
+        "GG"
+      ],
+      "Creme": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Laranja": [
+        "M",
+        "G"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Bege",
+    "catalogue": "verus-assets/catalogo/155.webp"
+  },
+  {
+    "modelID": "156",
+    "modelName": "Oversized Celtics",
+    "colors": {
+      "Bege": [
+        "M"
+      ],
+      "Lilás": [
+        "M",
+        "G"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Bege",
+    "catalogue": "verus-assets/catalogo/156.webp"
+  },
+  {
+    "modelID": "157",
+    "modelName": "Oversized Corteiz · variação 2",
+    "colors": {
+      "Preta": [
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Preta",
+    "catalogue": "verus-assets/catalogo/157.webp"
+  },
+  {
+    "modelID": "158",
+    "modelName": "Oversized Supreme",
+    "colors": {
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Bege": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Lilás": [
+        "G",
+        "GG"
+      ],
+      "Bordô": [
+        "M"
+      ],
+      "Verde": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/158.webp"
+  },
+  {
+    "modelID": "159",
+    "modelName": "Oversized Nike Nocta",
+    "colors": {
+      "Bege": [
+        "GG"
+      ],
+      "Verde": [
+        "M",
+        "GG"
+      ],
+      "Lilás": [
+        "M",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Lilás",
+    "catalogue": "verus-assets/catalogo/159.webp"
+  },
+  {
+    "modelID": "160",
+    "modelName": "Oversized Supreme · variação 2",
+    "colors": {
+      "Lilás": [
+        "M",
+        "GG"
+      ],
+      "Off white": [
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Lilás",
+    "catalogue": "verus-assets/catalogo/160.webp"
+  },
+  {
+    "modelID": "161",
+    "modelName": "Oversized Nike · variação 2",
+    "colors": {
+      "Preta": [
+        "G",
+        "GG"
+      ],
+      "Azul-marinho": [
+        "M"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Azul-marinho",
+    "catalogue": "verus-assets/catalogo/161.webp"
+  },
+  {
+    "modelID": "162",
+    "modelName": "Oversized Nike · variação 3",
+    "colors": {
+      "Caqui": [
+        "M"
+      ],
+      "Bege": [
+        "M"
+      ],
+      "Amarela": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Bege",
+    "catalogue": "verus-assets/catalogo/162.webp"
+  },
+  {
+    "modelID": "163",
+    "modelName": "Oversized Palm Angels · variação 2",
+    "colors": {
+      "Azul-marinho": [
+        "M",
+        "GG"
+      ],
+      "Off white": [
+        "GG"
+      ],
+      "Amarela": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Bege": [
+        "M",
+        "GG"
+      ],
+      "Caqui claro": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/163.webp"
+  },
+  {
+    "modelID": "164",
+    "modelName": "Oversized Off-White",
+    "colors": {
+      "Off white": [
+        "M",
+        "GG"
+      ],
+      "Bege": [
+        "M",
+        "G"
+      ],
+      "Amarela": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Cinza": [
+        "M",
+        "GG"
+      ],
+      "Marrom": [
+        "M"
+      ],
+      "Caramelo": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/164.webp"
+  },
+  {
+    "modelID": "165",
+    "modelName": "Oversized Off-White · variação 2",
+    "colors": {
+      "Branca": [
+        "M"
+      ],
+      "Amarela": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Bege": [
+        "M",
+        "G"
+      ],
+      "Azul-marinho": [
+        "M"
+      ],
+      "Off white": [
+        "M",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Branca",
+    "catalogue": "verus-assets/catalogo/165.webp"
+  },
+  {
+    "modelID": "166",
+    "modelName": "Oversized Corteiz · variação 3",
+    "colors": {
+      "Caqui": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Lilás": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "GG"
+      ],
+      "Verde": [
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Preta",
+    "catalogue": "verus-assets/catalogo/166.webp"
+  },
+  {
+    "modelID": "167",
+    "modelName": "Oversized The North Face",
+    "colors": {
+      "Branca": [
+        "M",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Branca",
+    "catalogue": "verus-assets/catalogo/167.webp"
+  },
+  {
+    "modelID": "168",
+    "modelName": "Oversized Corteiz · variação 4",
+    "colors": {
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Preta",
+    "catalogue": "verus-assets/catalogo/168.webp"
+  },
+  {
+    "modelID": "169",
+    "modelName": "Camiseta Nike",
+    "colors": {
+      "Verde militar": [
+        "M"
+      ],
+      "Caqui escuro": [
+        "M"
+      ],
+      "Amarela": [
+        "M",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Verde militar",
+    "catalogue": "verus-assets/catalogo/169.webp"
+  },
+  {
+    "modelID": "170",
+    "modelName": "Camiseta Puma",
+    "colors": {
+      "Verde militar": [
+        "M",
+        "GG"
+      ],
+      "Caqui escuro": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M"
+      ],
+      "Bege": [
+        "M",
+        "G"
+      ],
+      "Azul claro": [
+        "M"
+      ],
+      "Amarela": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Azul claro",
+    "catalogue": "verus-assets/catalogo/170.webp"
+  },
+  {
+    "modelID": "171",
+    "modelName": "Camiseta Boss",
+    "colors": {
+      "Amarela": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Azul-Caribe": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Bege": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Caqui": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Verde militar": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/171.webp"
+  },
+  {
+    "modelID": "172",
+    "modelName": "Camiseta Adidas",
+    "colors": {
+      "Azul claro": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Amarela": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Caqui escuro": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "GG"
+      ],
+      "Verde": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Caqui claro": [
+        "G"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/172.webp"
+  },
+  {
+    "modelID": "173",
+    "modelName": "Camiseta Adidas · variação 2",
+    "colors": {
+      "Amarela": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Verde militar": [
+        "M",
+        "GG"
+      ],
+      "Oliva": [
+        "M",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Amarela",
+    "catalogue": "verus-assets/catalogo/173.webp"
+  },
+  {
+    "modelID": "174",
+    "modelName": "Camiseta Zara",
+    "colors": {
+      "Oliva": [
+        "M",
+        "G"
+      ],
+      "Amarela": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Oliva",
+    "catalogue": "verus-assets/catalogo/174.webp"
+  },
+  {
+    "modelID": "175",
+    "modelName": "Camiseta Nike · variação 2",
+    "colors": {
+      "Amarela": [
+        "M",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Amarela",
+    "catalogue": "verus-assets/catalogo/175.webp"
+  },
+  {
+    "modelID": "176",
+    "modelName": "Oversized Denim Tears",
+    "colors": {
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/176.webp"
+  },
+  {
+    "modelID": "177",
+    "modelName": "Oversized Off-White · variação 3",
+    "colors": {
+      "Creme": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Bege": [
+        "M",
+        "GG"
+      ],
+      "Laranja": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Azul-marinho": [
+        "M"
+      ],
+      "Musgo": [
+        "M"
+      ],
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Creme",
+    "catalogue": "verus-assets/catalogo/177.webp"
+  },
+  {
+    "modelID": "178",
+    "modelName": "Oversized Regata Adidas",
+    "colors": {
+      "Off white": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "M",
+        "G"
+      ],
+      "Azul-marinho": [
+        "M",
+        "G"
+      ],
+      "Caqui claro": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Caqui": [
+        "M",
+        "G"
+      ],
+      "Bege": [
+        "M"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/178.webp"
+  },
+  {
+    "modelID": "179",
+    "modelName": "Oversized Plus Size Tom & Jerry",
+    "colors": {
+      "Off white": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "Preta": [
+        "G1",
+        "G2",
+        "G3"
+      ]
+    },
+    "hasBackPhoto": true,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/179.webp"
+  },
+  {
+    "modelID": "180",
+    "modelName": "Oversized Plus Size Ny",
+    "colors": {
+      "Preta": [
+        "G2",
+        "G3"
+      ],
+      "Off white": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "Bege": [
+        "G2"
+      ],
+      "Oliva": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "Verde primavera": [
+        "G3"
+      ],
+      "Amarela": [
+        "G1",
+        "G3"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Preta",
+    "catalogue": "verus-assets/catalogo/180.webp"
+  },
+  {
+    "modelID": "181",
+    "modelName": "Oversized Plus Size Jordan",
+    "colors": {
+      "Caqui": [
+        "G3"
+      ],
+      "Verde abacate": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "Branca": [
+        "G2",
+        "G3"
+      ],
+      "Off white": [
+        "G2",
+        "G3"
+      ],
+      "Verde primavera": [
+        "G2",
+        "G3"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Caqui",
+    "catalogue": "verus-assets/catalogo/181.webp"
+  },
+  {
+    "modelID": "182",
+    "modelName": "Camiseta Polo Slim Tricô",
+    "colors": {
+      "Off white": [
+        "P",
+        "M",
+        "G"
+      ],
+      "Chumbo": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "Bege": [
+        "G",
+        "GG"
+      ],
+      "Laranja": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Azul-marinho": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "Verde musgo": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "Marrom": [
+        "P",
+        "M",
+        "G"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Off white",
+    "catalogue": "verus-assets/catalogo/182.webp"
+  },
+  {
+    "modelID": "183",
+    "modelName": "Camiseta Polo Tricô",
+    "colors": {
+      "Azul": [
+        "P"
+      ],
+      "Marrom": [
+        "P",
+        "GG"
+      ],
+      "Verde": [
+        "P"
+      ],
+      "Marte": [
+        "P",
+        "GG"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Azul",
+    "catalogue": "verus-assets/catalogo/183.webp"
+  },
+  {
+    "modelID": "184",
+    "modelName": "Camiseta Polo Tricô · variação 2",
+    "colors": {
+      "Cinza": [
+        "P",
+        "G",
+        "GG"
+      ],
+      "Preta": [
+        "P"
+      ],
+      "Off white": [
+        "P",
+        "GG"
+      ],
+      "Marrom": [
+        "G"
+      ]
+    },
+    "hasBackPhoto": false,
+    "referenceColor": "Cinza",
+    "catalogue": "verus-assets/catalogo/184.webp"
+  }
+]

@@ -142,3 +142,46 @@ netlify-badge,[id*="netlify-badge"],[class*="netlify-badge"],iframe[title="Power
 .product-gallery:has(>.standard-photo){padding:0;min-height:0;aspect-ratio:1;overflow:hidden;align-self:start;border-radius:0;background:#e9d8be}
 .product-gallery>.photo-window.standard-photo{width:100%;height:100%;aspect-ratio:1}
 .cart-item-photo:has(.standard-photo){padding:0}
+
+/* Produtos de moda por cor, galeria e escolha de tamanho. */
+.photo-window.fashion-gallery-photo{display:block;position:relative;width:100%;height:100%;aspect-ratio:1;overflow:hidden;border-radius:10px;background:#ededeb}
+.photo-window.fashion-gallery-photo img{position:absolute;max-width:none;width:var(--crop-width);height:var(--crop-height);left:var(--crop-left);top:var(--crop-top);object-fit:fill}
+.product-card[data-kind=Roupa] .product-picture{height:auto;aspect-ratio:1;padding:0}
+.product-card[data-kind=Roupa] .card-actions{gap:10px}
+.clothing-choose{white-space:nowrap;justify-content:center;font-size:10px}
+.product-gallery.fashion-product-gallery{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;min-height:0;padding:24px;gap:16px}
+.fashion-gallery-main{width:100%;max-width:530px;aspect-ratio:1;min-width:0}
+.fashion-gallery-main>.photo-window{width:100%;height:100%}
+.gallery-thumbs{display:flex;gap:12px;align-items:flex-start;justify-content:center;width:100%}
+.gallery-thumb{width:82px;padding:5px;border:1px solid #d1d7cc;background:white;color:var(--forest);cursor:pointer}
+.gallery-thumb[aria-pressed=true]{border:2px solid var(--forest);padding:4px}
+.gallery-thumb>.photo-window{height:70px;border-radius:4px;aspect-ratio:1}
+.gallery-thumb>span:last-child{display:block;margin-top:6px;font-size:10px;text-align:center}
+.gallery-thumb:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.photo-reference-note{font-size:10px;color:#6c7566;line-height:1.7;text-align:center;margin:0;max-width:450px}
+.clothing-options{margin:23px 0 25px;min-width:0}
+.current-color{font-size:13px;margin-bottom:10px}
+.other-colors{display:flex;gap:8px;flex-wrap:wrap}
+.other-colors a{border:1px solid #d5d9ce;padding:9px 13px;font-size:11px;line-height:1.5;transition:border-color .2s,background .2s}
+.other-colors a[aria-current]{border-color:var(--forest);background:#eff3ed;color:var(--forest)}
+.other-colors a:hover{border-color:var(--forest)}
+.clothing-size{border:0;padding:0;margin:23px 0 0;min-width:0;overflow:visible}
+.clothing-size legend{font-size:12px;margin-bottom:12px}
+.clothing-size-choices{display:flex;gap:9px;flex-wrap:wrap}
+.size-option{position:relative;display:inline-block}
+.size-button{display:grid;place-items:center;position:relative;cursor:pointer;width:46px;height:42px;padding:0;background:transparent;border:1px solid #c7cfc3;color:var(--forest);font-size:12px;transition:background .2s,border-color .2s}
+.size-button[aria-checked=true]{background:var(--forest);color:white;border-color:var(--forest)}
+.size-button[aria-disabled=true]{border-color:#e3e4df;background:#f5f5f0;color:#aaa;cursor:not-allowed}
+.size-button[aria-disabled=true]>span{opacity:.55;text-decoration:line-through}
+.size-button:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.size-hint{position:absolute;left:0;bottom:calc(100% + 9px);z-index:10;width:max-content;max-width:190px;padding:9px 11px;background:var(--forest);color:white;font-size:10px;line-height:1.5;white-space:nowrap;border-radius:4px;box-shadow:0 4px 14px #102f2726;pointer-events:none}
+.size-option:last-child .size-hint{left:auto;right:0}
+.size-hint[hidden]{display:none}
+.fashion-whatsapp{width:100%;margin-top:12px;gap:10px}
+.fashion-whatsapp svg{width:18px;height:18px}
+.button:disabled{cursor:not-allowed;opacity:.45;transform:none;box-shadow:none}
+.selected-size-note{font-size:11px;line-height:1.8;color:var(--forest);margin-top:12px}
+.cart-edit-link{display:inline-block;font-size:11px;margin:4px 0 12px}
+.cart-needs-selection{background:#faf7ef;padding-inline:12px}
+.cart-selection-note{color:#8a5a20;font-size:11px;line-height:1.7;margin-top:12px}
+@media(max-width:600px){.product-card[data-kind=Roupa] .card-actions>.text-link{display:none}.clothing-choose{width:100%;font-size:10px;padding:12px 7px}.product-gallery.fashion-product-gallery{padding:12px;gap:12px}.other-colors a{font-size:10px;padding:9px 11px}.size-button{width:44px;height:44px}.size-hint{font-size:10px}.cart-needs-selection{padding-inline:8px}}

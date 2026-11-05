@@ -64,7 +64,15 @@ function matchesCollection(p, collection) {
   }
 }
 
-function photo(p, eager = false) {
+function photo(p, eager = false, viewIndex = 0) {
+  if (p.kind === 'Roupa' && p.gallery?.length) {
+    const view = p.gallery[viewIndex] || p.gallery[0];
+    if (view.crop) {
+      const [x,y,width,height] = view.crop;
+      return `<span class="photo-window fashion-gallery-photo" style="--crop-width:${view.sourceWidth / width * 100}%;--crop-height:${view.sourceHeight / height * 100}%;--crop-left:${-x / width * 100}%;--crop-top:${-y / height * 100}%"><img src="${escapeHTML(view.src)}" width="${view.sourceWidth}" height="${view.sourceHeight}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" alt="${escapeHTML(p.name+' — '+view.label)}"></span>`;
+    }
+    return `<span class="photo-window original-photo fashion-standalone-photo"><img src="${escapeHTML(view.src)}" width="${view.width}" height="${view.height}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" alt="${escapeHTML(p.name+' — '+view.label)}"></span>`;
+  }
   if (p.photoPlaceholder) return '<span class="photo-pending">VERUS<small>Spray de ambiente</small><small>Foto em atualização</small></span>';
   if (p.photo) {
     const width = Number(p.photo.width);
@@ -87,7 +95,7 @@ function productCard(p, promotion = false) {
     <a class="product-picture" href="${productURL(p.id)}" aria-label="Conhecer ${escapeHTML(p.name)}">${photo(p)}${hasPromotion(p) ? `<span class="product-flags"><span class="discount-badge" aria-label="${promotionPercent(p)}% de desconto no cartão em relação ao preço anterior"><b>${promotionPercent(p)}%</b><small>OFF</small></span></span>` : ''}</a>
     <div class="product-meta"><span>${escapeHTML(p.brand === '-' ? 'VERUS' : p.brand)}</span><span>${p.size !== '-' ? escapeHTML(p.size) : p.kind === 'Roupa' ? 'MODA' : ''}</span></div>
     <h3><a href="${productURL(p.id)}">${escapeHTML(p.name)}</a></h3><p class="product-profile">${escapeHTML(profile)}</p>
-    ${price(p)}<div class="card-actions"><a class="text-link" href="${productURL(p.id)}">Ver detalhes →</a><button class="add-small" type="button" data-action="add" data-id="${p.id}" aria-label="Adicionar ${escapeHTML(p.name)} à sacola">${icons.plus} Adicionar</button></div>
+    ${price(p)}<div class="card-actions"><a class="text-link" href="${productURL(p.id)}">Ver detalhes →</a>${p.kind==='Roupa' ? `<a class="add-small clothing-choose" href="${productURL(p.id)}">Escolher tamanho</a>` : `<button class="add-small" type="button" data-action="add" data-id="${p.id}" aria-label="Adicionar ${escapeHTML(p.name)} à sacola">${icons.plus} Adicionar</button>`}</div>
   </article>`;
 }
 
@@ -115,12 +123,36 @@ function renderFooter() {
   $('#site-footer').innerHTML = `<footer class="footer"><div class="wrap"><div class="footer-main"><div><a class="brand" href="index.html"><img src="verus-assets/logo.webp" alt="Logo VERUS" width="58" height="58"><span><span class="brand-name">VERUS</span><span class="footer-brand-description">Perfumaria e Moda</span></span></a><p>Sua essência. Seu estilo.</p></div><div><h3>ESTAMOS NO WHATSAPP</h3><a class="footer-contact" href="${whatsappURL('Olá, VERUS! Gostaria de atendimento.')}" target="_blank" rel="noopener">${icons.chat}<span>${contacts.whatsapp}</span></a></div><div><h3>REDES SOCIAIS</h3><a class="instagram-link" href="https://www.instagram.com/${contacts.instagram}/" target="_blank" rel="noopener" aria-label="Instagram da VERUS, @${contacts.instagram}"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg><span>@${contacts.instagram}</span></a></div></div><div class="footer-bottom"><span>© ${new Date().getFullYear()} VERUS · Perfumaria e Moda</span><span>Sua essência. Seu estilo.</span></div></div></footer><a class="whatsapp-float" href="${whatsappURL('Olá, VERUS! Gostaria de atendimento.')}" target="_blank" rel="noopener" aria-label="Falar com a VERUS pelo WhatsApp">${icons.chat}</a>`;
 }
 
+function availableSizes(p) { return (p.sizes || '').split(',').map(size => size.trim()).filter(Boolean); }
+function cartLineKey(line) { return `${line.id}::${line.size || ''}`; }
+function needsClothingSelection(line) {
+  const p = productByID(line.id);
+  return p?.kind === 'Roupa' && !availableSizes(p).includes(line.size);
+}
+function editableCartLine(p) {
+  const key = new URLSearchParams(location.search).get('editar');
+  return cart.find(line => cartLineKey(line) === key && productByID(line.id)?.modelID === p.modelID);
+}
+function colorProductURL(id) {
+  const line = currentProduct && editableCartLine(currentProduct);
+  return productURL(id) + (line ? `&editar=${encodeURIComponent(cartLineKey(line))}` : '');
+}
+function clothingMessage(p, size, qty = 1) {
+  return `Olá, VERUS! Gostaria de consultar ${p.modelName || p.name}.\nCor: ${p.color}\nTamanho: ${size}\nQuantidade: ${qty}\nPodem confirmar disponibilidade e frete?`;
+}
+
 let cart = [];
 try {
   const stored = JSON.parse(localStorage.getItem('verusCart') || '[]');
-  if (Array.isArray(stored)) cart = stored.filter(line => line && productByID(line.id) && Number.isInteger(line.qty) && line.qty > 0).map(line => ({id:String(line.id),qty:line.qty}));
+  if (Array.isArray(stored)) stored.forEach(line => {
+    const p = productByID(line?.id);
+    if (!p || !Number.isSafeInteger(line.qty) || line.qty <= 0) return;
+    const size = p.kind === 'Roupa' && availableSizes(p).includes(line.size) ? line.size : '';
+    const normalized = {id:p.id, qty:line.qty, size};
+    const existing = cart.find(other => cartLineKey(other) === cartLineKey(normalized));
+    if (existing) existing.qty += line.qty; else cart.push(normalized);
+  });
 } catch { /* Shopping remains usable when storage is unavailable. */ }
-
 
 function saveCart() {
   try { localStorage.setItem('verusCart', JSON.stringify(cart)); } catch { /* Keep the current session's cart. */ }
@@ -128,15 +160,19 @@ function saveCart() {
 }
 
 function renderCart() {
-  const count = cart.reduce((total, line) => total + line.qty, 0);
+  const count = cart.reduce((total,line) => total + line.qty,0);
   $('#bag-count').textContent = count;
   if (!isCart) return;
   const totalCard = cart.reduce((sum,line) => sum + productByID(line.id).card * line.qty,0);
   const totalPix = cart.reduce((sum,line) => sum + productByID(line.id).pix * line.qty,0);
+  const incomplete = cart.some(needsClothingSelection);
   $('#cart-content').innerHTML = cart.length ? `<div class="cart-layout"><section class="cart-items" aria-label="Produtos no carrinho">${cart.map(line => {
     const p = productByID(line.id);
-    return `<article class="cart-page-item"><a class="cart-item-photo" href="${productURL(p.id)}" aria-label="Ver ${escapeHTML(p.name)}">${photo(p)}</a><div class="cart-item-description"><span class="eyebrow">${escapeHTML(p.brand)}</span><h2><a href="${productURL(p.id)}">${escapeHTML(p.name)}</a></h2><p>${escapeHTML(p.size !== '-' ? p.size : p.typ)}</p><div class="cart-unit-price">${money(p.card)} <small>por unidade no cartão</small></div><p class="cart-unit-pix">${money(p.pix)} por unidade no Pix</p><div class="cart-item-controls"><div class="quantity"><button type="button" data-action="cart-minus" data-id="${p.id}" aria-label="Diminuir quantidade de ${escapeHTML(p.name)}">−</button><output aria-label="Quantidade de ${escapeHTML(p.name)}">${line.qty}</output><button type="button" data-action="cart-plus" data-id="${p.id}" aria-label="Aumentar quantidade de ${escapeHTML(p.name)}">+</button></div><button class="remove-item" type="button" data-action="cart-remove" data-id="${p.id}">Remover</button></div></div><div class="cart-item-subtotal"><small>Subtotal no cartão</small><b>${money(p.card * line.qty)}</b></div></article>`;
-  }).join('')}<div class="cart-bottom-actions"><a class="text-link" href="index.html#loja">← Continuar escolhendo</a><button class="text-link" type="button" data-action="cart-clear">Esvaziar carrinho ×</button></div></section><aside class="cart-summary" aria-labelledby="summary-title"><span class="eyebrow">SUAS ESCOLHAS</span><h2 id="summary-title">Resumo do pedido</h2><div class="cart-summary-row"><span>${count} ${count === 1 ? 'produto' : 'produtos'}</span><span id="cart-total">${money(totalCard)}</span></div><div class="cart-summary-total"><span>Total no cartão</span><strong>${money(totalCard)}</strong><small>até 3x de ${money(totalCard / 3)} sem juros</small></div><div class="pix-offer"><span><span class="pix-symbol" aria-hidden="true">◆</span><b id="cart-total-pix">${money(totalPix)}</b> no Pix</span><small>Economize ${money(totalCard - totalPix)} em relação ao cartão</small></div><button class="button" type="button" id="checkout" data-action="checkout">Consultar pedido pelo WhatsApp →</button><p class="cart-summary-note">Confirme disponibilidade, opções e frete no atendimento. Parcelamento acima de 3x sujeito a juros.</p></aside></div>` : '<div class="cart-empty-page"><span class="eyebrow">UMA NOVA ESCOLHA ESPERA POR VOCÊ</span><h2>Seu carrinho está vazio.</h2><p>Explore os perfumes, os cuidados e a moda da VERUS.</p><a class="button" href="index.html#loja">Descobrir a curadoria →</a></div>';
+    const missing = needsClothingSelection(line);
+    const editURL = `${productURL(p.id)}&editar=${encodeURIComponent(cartLineKey(line))}`;
+    const label = missing ? p.modelName : p.name;
+    return `<article class="cart-page-item${missing ? ' cart-needs-selection' : ''}"><a class="cart-item-photo" href="${missing ? editURL : productURL(p.id)}" aria-label="Ver ${escapeHTML(label)}">${photo(p)}</a><div class="cart-item-description"><span class="eyebrow">${escapeHTML(p.brand)}</span><h2><a href="${missing ? editURL : productURL(p.id)}">${escapeHTML(label)}</a></h2>${p.kind === 'Roupa' ? `<p>${missing ? 'Escolha a cor e o tamanho para continuar.' : `Cor: ${escapeHTML(p.color)} · <b>Tamanho: ${escapeHTML(line.size)}</b>`}</p><a class="cart-edit-link text-link" href="${editURL}">${missing ? 'Escolher cor e tamanho' : 'Alterar cor ou tamanho'} →</a>` : `<p>${escapeHTML(p.size !== '-' ? p.size : p.typ)}</p>`}<div class="cart-unit-price">${money(p.card)} <small>por unidade no cartão</small></div><p class="cart-unit-pix">${money(p.pix)} por unidade no Pix</p><div class="cart-item-controls"><div class="quantity"><button type="button" data-action="cart-minus" data-id="${p.id}" data-key="${escapeHTML(cartLineKey(line))}" aria-label="Diminuir quantidade de ${escapeHTML(label)}">−</button><output aria-label="Quantidade de ${escapeHTML(label)}">${line.qty}</output><button type="button" data-action="cart-plus" data-id="${p.id}" data-key="${escapeHTML(cartLineKey(line))}" aria-label="Aumentar quantidade de ${escapeHTML(label)}">+</button></div><button class="remove-item" type="button" data-action="cart-remove" data-id="${p.id}" data-key="${escapeHTML(cartLineKey(line))}">Remover</button></div></div><div class="cart-item-subtotal"><small>Subtotal no cartão</small><b>${money(p.card * line.qty)}</b></div></article>`;
+  }).join('')}<div class="cart-bottom-actions"><a class="text-link" href="index.html#loja">← Continuar escolhendo</a><button class="text-link" type="button" data-action="cart-clear">Esvaziar carrinho ×</button></div></section><aside class="cart-summary" aria-labelledby="summary-title"><span class="eyebrow">SUAS ESCOLHAS</span><h2 id="summary-title">Resumo do pedido</h2><div class="cart-summary-row"><span>${count} ${count === 1 ? 'produto' : 'produtos'}</span><span id="cart-total">${money(totalCard)}</span></div><div class="cart-summary-total"><span>Total no cartão</span><strong>${money(totalCard)}</strong><small>até 3x de ${money(totalCard / 3)} sem juros</small></div><div class="pix-offer"><span><span class="pix-symbol" aria-hidden="true">◆</span><b id="cart-total-pix">${money(totalPix)}</b> no Pix</span><small>Economize ${money(totalCard - totalPix)} em relação ao cartão</small></div><button class="button" type="button" id="checkout" data-action="checkout" ${incomplete ? 'disabled' : ''}>Consultar pedido pelo WhatsApp →</button>${incomplete ? '<p class="cart-selection-note" role="status">Escolha cor e tamanho dos itens destacados para continuar.</p>' : ''}<p class="cart-summary-note">Confirme disponibilidade, opções e frete no atendimento. Parcelamento acima de 3x sujeito a juros.</p></aside></div>` : '<div class="cart-empty-page"><span class="eyebrow">UMA NOVA ESCOLHA ESPERA POR VOCÊ</span><h2>Seu carrinho está vazio.</h2><p>Explore os perfumes, os cuidados e a moda da VERUS.</p><a class="button" href="index.html#loja">Descobrir a curadoria →</a></div>';
   $('#cart-item-count').textContent = `${count} ${count === 1 ? 'item' : 'itens'} no carrinho`;
 }
 
@@ -147,31 +183,40 @@ function renderCartPage() {
 }
 
 let toastTimeout;
-
-
 function showToast(message) {
   const toast = $('#toast');
   toast.innerHTML = `<span>${escapeHTML(message)}</span><a href="carrinho.html">Ver carrinho →</a>`;
-  toast.classList.add('visible');
-  clearTimeout(toastTimeout);
-  toastTimeout = setTimeout(() => toast.classList.remove('visible'), 2200);
+  toast.classList.add('visible');clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => toast.classList.remove('visible'),2200);
 }
 
-function addToCart(id, quantity = 1) {
+function addToCart(id, quantity = 1, size = '') {
   const p = productByID(id);
   if (!p) return;
-  const existing = cart.find(line => line.id === p.id);
-  if (existing) existing.qty += quantity;
-  else cart.push({id:p.id, qty:quantity});
+  if (p.kind === 'Roupa' && !availableSizes(p).includes(size)) {
+    if (currentProduct?.id === p.id) { showToast('Escolha um tamanho disponível.');$('.clothing-size button')?.focus(); }
+    else location.href = productURL(p.id);
+    return;
+  }
+  const editing = p.kind === 'Roupa' && editableCartLine(p);
+  if (editing) cart = cart.filter(line => cartLineKey(line) !== cartLineKey(editing));
+  const normalizedSize = p.kind === 'Roupa' ? size : '';
+  const existing = cart.find(line => line.id === p.id && (line.size || '') === normalizedSize);
+  if (existing) existing.qty += quantity; else cart.push({id:p.id,qty:quantity,size:normalizedSize});
   saveCart();
-  showToast(`${p.name} adicionado à sacola`);
+  showToast(`${p.name}${size ? ' · tamanho '+size : ''} ${editing ? 'atualizado' : 'adicionado'} à sacola`);
+  if (editing) { const url = new URL(location.href);url.searchParams.delete('editar');history.replaceState(null,'',url.pathname+url.search); }
 }
 
 function checkout() {
   if (!cart.length) return;
-  const lines = cart.map(line => { const p = productByID(line.id); return `• ${p.name} ${p.size !== '-' ? '(' + p.size + ')' : ''} — ${line.qty} un. — ${money(p.pix)} Pix / ${money(p.card)} cartão`; });
+  if (cart.some(needsClothingSelection)) { showToast('Escolha cor e tamanho dos itens destacados.');$('.cart-edit-link')?.focus();return; }
+  const lines = cart.map(line => {
+    const p = productByID(line.id);
+    return `• ${p.kind === 'Roupa' ? `${p.modelName} — Cor: ${p.color} — Tamanho: ${line.size}` : p.name+(p.size !== '-' ? ' ('+p.size+')' : '')} — ${line.qty} un. — ${money(p.pix)} Pix / ${money(p.card)} cartão`;
+  });
   const text = 'Olá, VERUS! Gostaria de consultar os seguintes itens:\n\n' + lines.join('\n') + '\n\nPodem confirmar disponibilidade, frete e condições de pagamento?';
-  window.open(whatsappURL(text), '_blank', 'noopener');
+  window.open(whatsappURL(text),'_blank','noopener');
 }
 
 const campaignSlides = [
@@ -273,7 +318,7 @@ function renderCatalogue() {
   let selected = items.filter(p => matchesCollection(p,activeCollection));
   if (query) {
     const name = p => normalize(p.name).replace(/[^a-z0-9]+/g,' ').trim();
-    const exact = selected.filter(p => name(p).replace(/ /g,'') === query.replace(/ /g,''));
+    const exact = selected.filter(p => name(p).replace(/ /g,'') === query.replace(/ /g,'') || (p.kind === 'Roupa' && normalize(p.modelName).replace(/[^a-z0-9]/g,'') === query.replace(/ /g,'')));
     if (exact.length) {
       const perfumes = exact.filter(p => p.kind === 'Perfume');
       selected = perfumes.length ? perfumes : exact;
@@ -322,6 +367,59 @@ function setupHome() {
   }
 }
 
+let selectedClothingSize = '';
+let selectedGalleryView = 0;
+let sizeHintTimer;
+
+function galleryControls(p) {
+  return `<div class="fashion-gallery-main" id="fashion-gallery-main">${photo(p,true,selectedGalleryView)}</div>${p.gallery.length > 1 ? `<div class="gallery-thumbs" role="group" aria-label="Fotos do produto">${p.gallery.map((view,i) => `<button type="button" class="gallery-thumb" data-action="gallery-view" data-index="${i}" aria-pressed="${i===selectedGalleryView}" aria-label="Ver ${escapeHTML(view.label.toLowerCase())}">${photo(p,false,i)}<span>${escapeHTML(view.label)}</span></button>`).join('')}</div>` : ''}${p.photoReference ? '<p class="photo-reference-note">Fotos de referência do modelo; a cor da foto pode diferir da selecionada.</p>' : ''}`;
+}
+
+function clothingOptions(p) {
+  const scale = p.sizeScale || ['P','M','G','GG'];
+  return `<section class="clothing-options" aria-label="Cor e tamanho"><p class="current-color">Cor: <b>${escapeHTML(p.color)}</b></p><div class="other-colors" aria-label="Outras cores deste modelo">${items.filter(other => other.modelID === p.modelID).map(other => `<a href="${colorProductURL(other.id)}" ${other.id===p.id ? 'aria-current="page"' : ''}>${escapeHTML(other.color)}</a>`).join('')}</div><fieldset class="clothing-size"><legend>Escolha o tamanho</legend><div class="clothing-size-choices" role="radiogroup" aria-label="Tamanho">${scale.map(size => {
+    const available = availableSizes(p).includes(size);
+    return `<span class="size-option"><button class="size-button" type="button" role="radio" aria-checked="${selectedClothingSize===size}" aria-disabled="${!available}" aria-label="Tamanho ${size}${available ? '' : ', indisponível nesta cor'}" data-action="clothing-size" data-size="${size}"><span>${size}</span></button>${available ? '' : `<span class="size-hint" role="tooltip" id="size-hint-${size}" hidden>Indisponível nesta cor</span>`}</span>`;
+  }).join('')}</div></fieldset></section>`;
+}
+
+function hideSizeHints() {
+  clearTimeout(sizeHintTimer);sizeHintTimer = null;
+  $$('.size-hint').forEach(hint => { hint.hidden = true; });
+  $$('.size-button').forEach(button => button.removeAttribute('aria-describedby'));
+}
+function showSizeHint(button, pinned = false) {
+  clearTimeout(sizeHintTimer);hideSizeHints();
+  const hint = button.parentElement.querySelector('.size-hint');
+  if (!hint) return;
+  hint.hidden = false;button.setAttribute('aria-describedby',hint.id);
+  if (pinned) sizeHintTimer = setTimeout(hideSizeHints,2600);
+}
+function updateClothingSelection(size) {
+  if (!currentProduct || !availableSizes(currentProduct).includes(size)) return;
+  selectedClothingSize = size;hideSizeHints();
+  $$('.size-button').forEach(button => button.setAttribute('aria-checked',String(button.dataset.size===size)));
+  $('[data-action="add-product"]').disabled = false;
+  $('[data-action="fashion-whatsapp"]').disabled = false;
+  $('#selected-size-note').textContent = `Selecionado: ${currentProduct.color} · tamanho ${size}.`;
+  $('.product-help').href = whatsappURL(clothingMessage(currentProduct,size,productQuantity));
+}
+
+document.addEventListener('pointerover',event => {
+  const button = event.target.closest('.size-button[aria-disabled="true"]');
+  if (button && event.pointerType !== 'touch' && !button.contains(event.relatedTarget)) showSizeHint(button);
+});
+document.addEventListener('pointerout',event => {
+  const button = event.target.closest('.size-button[aria-disabled="true"]');
+  if (button && !button.contains(event.relatedTarget) && !sizeHintTimer) hideSizeHints();
+});
+document.addEventListener('focusin',event => {
+  if (event.target.matches('.size-button[aria-disabled="true"]')) showSizeHint(event.target);
+});
+document.addEventListener('focusout',event => {
+  if (event.target.matches('.size-button') && !sizeHintTimer) hideSizeHints();
+});
+
 let productQuantity = 1;
 let currentProduct;
 
@@ -329,6 +427,16 @@ function renderProduct() {
   const id = new URLSearchParams(location.search).get('id');
   const p = productByID(id);
   currentProduct = p;
+  selectedClothingSize = '';
+  selectedGalleryView = 0;
+  productQuantity = 1;
+  if (p?.kind === 'Roupa') {
+    const editing = editableCartLine(p);
+    if (editing) {
+      productQuantity = editing.qty;
+      if (editing.id === p.id && availableSizes(p).includes(editing.size)) selectedClothingSize = editing.size;
+    }
+  }
   if (!p) {
     document.title = 'Produto não encontrado — VERUS';
     $('#conteudo').innerHTML = '<section class="error-page wrap"><span class="eyebrow">CURADORIA VERUS</span><h1>Vamos encontrar sua próxima escolha?</h1><p>Este produto não foi encontrado.</p><a class="button" href="index.html#loja">Explorar o catálogo</a></section>';
@@ -339,10 +447,10 @@ function renderProduct() {
   const sameProduct = items.filter(other => other.kind === p.kind && other.name === p.name && other.brand === p.brand);
   const category = p.kind === 'Perfume' ? 'Perfumaria' : p.kind === 'Roupa' ? 'Moda' : 'Cuidados';
   const type = p.kind === 'Roupa' ? p.typ : [p.typ !== '-' ? p.typ : '',p.size !== '-' ? p.size : ''].filter(Boolean).join(' · ');
-  const productInfo = p.kind === 'Perfume' ? `${p.occasion.split('. ')[0]}. Conheça as notas que compõem essa fragrância e encontre o seu momento de usar.` : p.kind === 'Roupa' ? `${p.typ}. Um modelo para fazer parte do seu estilo. Confira as cores e os tamanhos abaixo e confirme as opções no atendimento.` : p.description || 'Conheça as opções disponíveis e encontre a que combina com você.';
-  const related = items.filter(other => other.id !== p.id && other.kind === p.kind && other.name !== p.name).sort((a,b) => Number(b.brand === p.brand) - Number(a.brand === p.brand)).slice(0,4);
-  const notes = p.kind === 'Perfume' ? `<section class="fragrance-story" aria-labelledby="notes-heading"><div class="section-heading"><div><span class="eyebrow">CONHEÇA A FRAGRÂNCIA</span><h2 id="notes-heading">Uma história em <em>três notas.</em></h2><p>Cada etapa revela um pouco mais da sua assinatura.</p></div></div><div class="notes-grid">${[['top','Topo','A primeira impressão'],['heart','Coração','A personalidade'],['base','Fundo','O que permanece']].map(([key,title,subtitle],i) => `<article class="note-card"><span class="note-number" aria-hidden="true">0${i + 1}</span><span class="eyebrow">${subtitle}</span><h3>Notas de ${title.toLowerCase()}</h3><p>${escapeHTML(p.notes[key])}</p></article>`).join('')}</div><section class="occasion" aria-labelledby="occasion-heading"><div><span class="eyebrow">O MOMENTO CERTO É O SEU</span><h2 id="occasion-heading">Quando <em>usar.</em></h2></div><p>${escapeHTML(p.occasion)}</p></section></section>` : `<section class="fragrance-story" aria-labelledby="description-heading"><div class="section-heading"><div><span class="eyebrow">OS DETALHES FAZEM A DIFERENÇA</span><h2 id="description-heading">Feito para o seu <em>ritual.</em></h2></div></div><div class="product-description">${p.kind === 'Roupa' ? `<h3>Tecido e tamanhos</h3><p>${escapeHTML(p.typ)}</p><div class="size-tags">${(p.sizes || '').split(', ').filter(Boolean).map(size => `<span>${escapeHTML(size)}</span>`).join('')}</div>${p.variants ? `<p class="variants-copy"><b>Cores e tamanhos do catálogo</b><br>${escapeHTML(p.variants)}</p>` : ''}<p class="purchase-note">Confirme a disponibilidade da cor e do tamanho desejados no atendimento.</p>` : `<h3>${escapeHTML(p.kind === 'Hidratante' ? 'Cuidado que acompanha sua essência' : 'Mais formas de perfumar')}</h3><p>${escapeHTML(p.description || 'Consulte as opções disponíveis com a VERUS.')}</p>${p.usage ? `<p class="variants-copy"><b>Uso:</b> ${escapeHTML(p.usage)}</p><p><b>Volume:</b> ${escapeHTML(p.size)}</p><p>${escapeHTML(p.fragranceOptions)}</p>` : ''}${p.profile ? `<p class="variants-copy"><b>Perfil:</b> ${escapeHTML(p.profile)}</p>` : ''}`}</div></section>`;
-  $('#conteudo').innerHTML = `<div class="wrap"><nav class="breadcrumbs" aria-label="Caminho da página"><a href="index.html">Início</a><span aria-hidden="true">/</span><a href="${collectionURL(p.kind === 'Perfume' ? 'perfumes' : p.kind === 'Roupa' ? 'moda' : p.kind === 'Hidratante' ? 'hidratantes' : p.kind === 'Spray ambiente' ? 'aerossois-ambientes' : 'spray-corporal')}">${category}</a><span aria-hidden="true">/</span><span aria-current="page">${escapeHTML(p.name)}</span></nav><section class="product-layout" aria-labelledby="product-title"><div class="product-gallery">${photo(p,true)}<span class="gallery-caption">SUA ESSÊNCIA. SEU ESTILO.</span></div><div class="product-info"><span class="eyebrow">${escapeHTML(p.brand === '-' ? 'VERUS' : p.brand)}</span><h1 id="product-title">${escapeHTML(p.name)}</h1><div class="product-chips"><span class="chip">${escapeHTML(type)}</span>${p.kind === 'Perfume' ? `<span class="chip">${p.gender === 'unissex' ? 'Unissex' : p.gender === 'feminino' ? 'Feminino' : 'Masculino'}</span>` : ''}${p.profile && p.kind === 'Perfume' ? `<span class="chip">${escapeHTML(p.profile)}</span>` : ''}</div><p class="product-intro">${escapeHTML(productInfo)}</p>${sameProduct.length > 1 ? `<div class="size-options"><span>Volume</span>${sameProduct.map(other => `<a href="${productURL(other.id)}" ${other.id === p.id ? 'aria-current="page"' : ''}>${escapeHTML(other.size)}</a>`).join('')}</div>` : ''}<div class="product-buy-box">${price(p,true)}<div class="product-purchase-actions"><div class="quantity"><button type="button" data-action="quantity-minus" aria-label="Diminuir quantidade">−</button><output id="product-quantity" aria-label="Quantidade" aria-live="polite">1</output><button type="button" data-action="quantity-plus" aria-label="Aumentar quantidade">+</button></div><button class="button" type="button" data-action="add-product" data-id="${p.id}">${icons.bag} Adicionar à sacola</button></div><p class="purchase-note">Pix à vista ou até 3x sem juros no cartão. Acima de 3x, parcelamento sujeito a juros. Disponibilidade e frete confirmados no atendimento.</p></div><a class="product-help" href="${whatsappURL(`Olá, VERUS! Quero saber mais sobre ${p.name} ${p.size !== '-' ? '(' + p.size + ')' : ''}.`)}" target="_blank" rel="noopener">${icons.chat} Quer uma ajuda para escolher? Fale com a gente →</a></div></section>${notes}<section class="related-section" aria-labelledby="related-heading"><div class="section-heading"><div><span class="eyebrow">CONTINUE DESCOBRINDO</span><h2 id="related-heading">Outras boas <em>escolhas.</em></h2></div><a class="text-link" href="index.html#loja">Explorar a curadoria →</a></div><div class="product-grid">${related.map(other => productCard(other)).join('')}</div></section></div>`;
+  const productInfo = p.kind === 'Perfume' ? `${p.occasion.split('. ')[0]}. Conheça as notas que compõem essa fragrância e encontre o seu momento de usar.` : p.kind === 'Roupa' ? `${p.typ}. Um modelo para fazer parte do seu estilo. Escolha sua cor e seu tamanho para consultar a disponibilidade no atendimento.` : p.description || 'Conheça as opções disponíveis e encontre a que combina com você.';
+  const related = items.filter(other => other.id !== p.id && other.kind === p.kind && other.name !== p.name && (p.kind !== 'Roupa' || other.modelID !== p.modelID)).sort((a,b) => Number(b.brand === p.brand) - Number(a.brand === p.brand)).slice(0,4);
+  const notes = p.kind === 'Perfume' ? `<section class="fragrance-story" aria-labelledby="notes-heading"><div class="section-heading"><div><span class="eyebrow">CONHEÇA A FRAGRÂNCIA</span><h2 id="notes-heading">Uma história em <em>três notas.</em></h2><p>Cada etapa revela um pouco mais da sua assinatura.</p></div></div><div class="notes-grid">${[['top','Topo','A primeira impressão'],['heart','Coração','A personalidade'],['base','Fundo','O que permanece']].map(([key,title,subtitle],i) => `<article class="note-card"><span class="note-number" aria-hidden="true">0${i + 1}</span><span class="eyebrow">${subtitle}</span><h3>Notas de ${title.toLowerCase()}</h3><p>${escapeHTML(p.notes[key])}</p></article>`).join('')}</div><section class="occasion" aria-labelledby="occasion-heading"><div><span class="eyebrow">O MOMENTO CERTO É O SEU</span><h2 id="occasion-heading">Quando <em>usar.</em></h2></div><p>${escapeHTML(p.occasion)}</p></section></section>` : `<section class="fragrance-story" aria-labelledby="description-heading"><div class="section-heading"><div><span class="eyebrow">OS DETALHES FAZEM A DIFERENÇA</span><h2 id="description-heading">Feito para o seu <em>ritual.</em></h2></div></div><div class="product-description">${p.kind === 'Roupa' ? `<h3>Tecido e acabamento</h3><p>${escapeHTML(p.typ)}</p><p>Cor: ${escapeHTML(p.color)}</p><p class="purchase-note">Confirme a disponibilidade da cor e do tamanho desejados no atendimento.</p>` : `<h3>${escapeHTML(p.kind === 'Hidratante' ? 'Cuidado que acompanha sua essência' : 'Mais formas de perfumar')}</h3><p>${escapeHTML(p.description || 'Consulte as opções disponíveis com a VERUS.')}</p>${p.usage ? `<p class="variants-copy"><b>Uso:</b> ${escapeHTML(p.usage)}</p><p><b>Volume:</b> ${escapeHTML(p.size)}</p><p>${escapeHTML(p.fragranceOptions)}</p>` : ''}${p.profile ? `<p class="variants-copy"><b>Perfil:</b> ${escapeHTML(p.profile)}</p>` : ''}`}</div></section>`;
+  $('#conteudo').innerHTML = `<div class="wrap"><nav class="breadcrumbs" aria-label="Caminho da página"><a href="index.html">Início</a><span aria-hidden="true">/</span><a href="${collectionURL(p.kind === 'Perfume' ? 'perfumes' : p.kind === 'Roupa' ? 'moda' : p.kind === 'Hidratante' ? 'hidratantes' : p.kind === 'Spray ambiente' ? 'aerossois-ambientes' : 'spray-corporal')}">${category}</a><span aria-hidden="true">/</span><span aria-current="page">${escapeHTML(p.name)}</span></nav><section class="product-layout" aria-labelledby="product-title"><div class="product-gallery${p.kind==='Roupa'?' fashion-product-gallery':''}">${p.kind==='Roupa'?galleryControls(p):photo(p,true)+'<span class="gallery-caption">SUA ESSÊNCIA. SEU ESTILO.</span>'}</div><div class="product-info"><span class="eyebrow">${escapeHTML(p.brand === '-' ? 'VERUS' : p.brand)}</span><h1 id="product-title">${escapeHTML(p.name)}</h1><div class="product-chips"><span class="chip">${escapeHTML(type)}</span>${p.kind === 'Perfume' ? `<span class="chip">${p.gender === 'unissex' ? 'Unissex' : p.gender === 'feminino' ? 'Feminino' : 'Masculino'}</span>` : ''}${p.profile && p.kind === 'Perfume' ? `<span class="chip">${escapeHTML(p.profile)}</span>` : ''}</div><p class="product-intro">${escapeHTML(productInfo)}</p>${sameProduct.length > 1 ? `<div class="size-options"><span>Volume</span>${sameProduct.map(other => `<a href="${productURL(other.id)}" ${other.id === p.id ? 'aria-current="page"' : ''}>${escapeHTML(other.size)}</a>`).join('')}</div>` : ''}${p.kind==='Roupa'?clothingOptions(p):''}<div class="product-buy-box">${price(p,true)}<div class="product-purchase-actions"><div class="quantity"><button type="button" data-action="quantity-minus" aria-label="Diminuir quantidade">−</button><output id="product-quantity" aria-label="Quantidade" aria-live="polite">${productQuantity}</output><button type="button" data-action="quantity-plus" aria-label="Aumentar quantidade">+</button></div><button class="button" type="button" data-action="add-product" data-id="${p.id}" ${p.kind==='Roupa'&&!selectedClothingSize?'disabled':''}>${icons.bag} Adicionar à sacola</button></div>${p.kind==='Roupa'?`<button class="button button-outline fashion-whatsapp" type="button" data-action="fashion-whatsapp" ${!selectedClothingSize?'disabled':''}>${icons.chat} Consultar no WhatsApp</button><p class="selected-size-note" id="selected-size-note" aria-live="polite">${selectedClothingSize?`Selecionado: ${escapeHTML(p.color)} · tamanho ${escapeHTML(selectedClothingSize)}.`:'Selecione um tamanho para continuar.'}</p>`:''}<p class="purchase-note">Pix à vista ou até 3x sem juros no cartão. Acima de 3x, parcelamento sujeito a juros. Disponibilidade e frete confirmados no atendimento.</p></div><a class="product-help" href="${whatsappURL(`Olá, VERUS! Quero saber mais sobre ${p.name} ${p.size !== '-' ? '(' + p.size + ')' : ''}.`)}" target="_blank" rel="noopener">${icons.chat} Quer uma ajuda para escolher? Fale com a gente →</a></div></section>${notes}<section class="related-section" aria-labelledby="related-heading"><div class="section-heading"><div><span class="eyebrow">CONTINUE DESCOBRINDO</span><h2 id="related-heading">Outras boas <em>escolhas.</em></h2></div><a class="text-link" href="index.html#loja">Explorar a curadoria →</a></div><div class="product-grid">${related.map(other => productCard(other)).join('')}</div></section></div>`;
 }
 
 function resetFilters() {
@@ -365,14 +473,25 @@ document.addEventListener('click', event => {
     button.setAttribute('aria-expanded',String(open));button.setAttribute('aria-label',open ? 'Fechar menu' : 'Abrir menu');$('#primary-navigation').dataset.open = String(open);
   }
   if (action === 'add') addToCart(id);
-  if (action === 'add-product') addToCart(id,productQuantity);
+  if (action === 'add-product') addToCart(id,productQuantity,selectedClothingSize);
+  if (action === 'fashion-whatsapp' && availableSizes(currentProduct).includes(selectedClothingSize)) window.open(whatsappURL(clothingMessage(currentProduct,selectedClothingSize,productQuantity)), '_blank', 'noopener');
+  if (action === 'clothing-size') {
+    if (availableSizes(currentProduct).includes(button.dataset.size)) updateClothingSelection(button.dataset.size);
+    else showSizeHint(button,true);
+  }
+  if (action === 'gallery-view') {
+    selectedGalleryView = Number(button.dataset.index);
+    $('#fashion-gallery-main').innerHTML = photo(currentProduct,true,selectedGalleryView);
+    $$('.gallery-thumb').forEach(other => other.setAttribute('aria-pressed',String(other===button)));
+  }
   if (action === 'cart-plus' || action === 'cart-minus' || action === 'cart-remove') {
-    const line = cart.find(line => line.id === id);
+    const line = cart.find(line => cartLineKey(line) === button.dataset.key);
     if (line) line.qty = action === 'cart-remove' ? 0 : line.qty + (action === 'cart-plus' ? 1 : -1);
     cart = cart.filter(line => line.qty > 0);saveCart();
   }
   if (action === 'quantity-minus' || action === 'quantity-plus') {
     productQuantity = Math.max(1,productQuantity + (action === 'quantity-plus' ? 1 : -1));$('#product-quantity').textContent = productQuantity;
+    if (currentProduct?.kind === 'Roupa' && selectedClothingSize) $('.product-help').href = whatsappURL(clothingMessage(currentProduct,selectedClothingSize,productQuantity));
   }
   if (action === 'cart-clear') { cart = [];saveCart(); }
   if (action === 'checkout') checkout();
@@ -384,6 +503,14 @@ document.addEventListener('click', event => {
 });
 
 document.addEventListener('keydown', event => {
+  if (event.target.matches('.size-button') && ['ArrowRight','ArrowLeft','ArrowDown','ArrowUp','Home','End'].includes(event.key)) {
+    event.preventDefault();
+    const buttons = $$('.size-button');
+    let index = buttons.indexOf(event.target);
+    index = event.key==='Home' ? 0 : event.key==='End' ? buttons.length-1 : (index+(['ArrowRight','ArrowDown'].includes(event.key)?1:-1)+buttons.length)%buttons.length;
+    buttons[index].focus();
+    if (buttons[index].getAttribute('aria-disabled')!=='true') updateClothingSelection(buttons[index].dataset.size);
+  }
   if (event.key === 'Escape') {
     $$('.nav-toggle').forEach(button => setMenu(button,false));
     $('#primary-navigation').dataset.open = 'false';

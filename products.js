@@ -3200,7 +3200,60 @@ const items = [
   },
   {
     "id": "125",
-    "name": "Oversized Jordan",
+    "name": "Oversized Jordan · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/125.webp",
+    "layout": "fashion",
+    "sizes": "P",
+    "profile": "",
+    "modelID": "125",
+    "modelName": "Oversized Jordan",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jordan · Preta",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/125.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/125.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "125-off-white",
+    "name": "Oversized Jordan · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3213,11 +3266,100 @@ const items = [
     "layout": "fashion",
     "sizes": "P, M, G, GG",
     "profile": "",
-    "variants": "PRETA: P - OFF WHITE: P, M, G, GG + AZUL MARINHO: P"
+    "modelID": "125",
+    "modelName": "Oversized Jordan",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jordan · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/125.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/125.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "125-azul-marinho",
+    "name": "Oversized Jordan · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/125.webp",
+    "layout": "fashion",
+    "sizes": "P",
+    "profile": "",
+    "modelID": "125",
+    "modelName": "Oversized Jordan",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jordan · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/125.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/125.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "126",
-    "name": "Oversized Lakers",
+    "name": "Oversized Lakers · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3230,11 +3372,259 @@ const items = [
     "layout": "fashion",
     "sizes": "P, G, GG",
     "profile": "",
-    "variants": "OFF WHITE: P,G, GG - CINZA: P + AZUL MARINHO: P - PRETA: P"
+    "modelID": "126",
+    "modelName": "Oversized Lakers",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Lakers · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/126.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/126.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "126-cinza",
+    "name": "Oversized Lakers · Cinza",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/126.webp",
+    "layout": "fashion",
+    "sizes": "P",
+    "profile": "",
+    "modelID": "126",
+    "modelName": "Oversized Lakers",
+    "color": "Cinza",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Lakers · Cinza",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/126.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/126.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "126-azul-marinho",
+    "name": "Oversized Lakers · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/126.webp",
+    "layout": "fashion",
+    "sizes": "P",
+    "profile": "",
+    "modelID": "126",
+    "modelName": "Oversized Lakers",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Lakers · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/126.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/126.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "126-preta",
+    "name": "Oversized Lakers · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/126.webp",
+    "layout": "fashion",
+    "sizes": "P",
+    "profile": "",
+    "modelID": "126",
+    "modelName": "Oversized Lakers",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Lakers · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/126.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/126.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "127",
-    "name": "Oversized Adidas",
+    "name": "Oversized Adidas · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/127.webp",
+    "layout": "fashion",
+    "sizes": "P, G, GG",
+    "profile": "",
+    "modelID": "127",
+    "modelName": "Oversized Adidas",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Adidas · Azul-marinho",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/127.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/127.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "127-off-white",
+    "name": "Oversized Adidas · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3247,11 +3637,153 @@ const items = [
     "layout": "fashion",
     "sizes": "P, M, G, GG",
     "profile": "",
-    "variants": "AZUL MARINHO: P,G, GG - OFF WHITE: P, M, G, GG - CINZA: M, GG * PRETA: P,M, G, GG"
+    "modelID": "127",
+    "modelName": "Oversized Adidas",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Adidas · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/127.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/127.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "127-cinza",
+    "name": "Oversized Adidas · Cinza",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/127.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "127",
+    "modelName": "Oversized Adidas",
+    "color": "Cinza",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Adidas · Cinza",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/127.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/127.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "127-preta",
+    "name": "Oversized Adidas · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/127.webp",
+    "layout": "fashion",
+    "sizes": "P, M, G, GG",
+    "profile": "",
+    "modelID": "127",
+    "modelName": "Oversized Adidas",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Adidas · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/127.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/127.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "128",
-    "name": "Oversized Palm Angels",
+    "name": "Oversized Palm Angels · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3264,11 +3796,259 @@ const items = [
     "layout": "fashion",
     "sizes": "P, M, G, GG",
     "profile": "",
-    "variants": "OFF WHITE: P, M, G, GG - PRETA: P, GG - CINZA: P, M, GG - AZUL MARINHO: P, G, GG"
+    "modelID": "128",
+    "modelName": "Oversized Palm Angels",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Palm Angels · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/128.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/128.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "128-preta",
+    "name": "Oversized Palm Angels · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/128.webp",
+    "layout": "fashion",
+    "sizes": "P, GG",
+    "profile": "",
+    "modelID": "128",
+    "modelName": "Oversized Palm Angels",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Palm Angels · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/128.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/128.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "128-cinza",
+    "name": "Oversized Palm Angels · Cinza",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/128.webp",
+    "layout": "fashion",
+    "sizes": "P, M, GG",
+    "profile": "",
+    "modelID": "128",
+    "modelName": "Oversized Palm Angels",
+    "color": "Cinza",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Palm Angels · Cinza",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/128.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/128.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "128-azul-marinho",
+    "name": "Oversized Palm Angels · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/128.webp",
+    "layout": "fashion",
+    "sizes": "P, G, GG",
+    "profile": "",
+    "modelID": "128",
+    "modelName": "Oversized Palm Angels",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Palm Angels · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/128.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/128.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "129",
-    "name": "Oversized Champion",
+    "name": "Oversized Champion · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/129.webp",
+    "layout": "fashion",
+    "sizes": "P, G, GG",
+    "profile": "",
+    "modelID": "129",
+    "modelName": "Oversized Champion",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Champion · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/129.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/129.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "129-preta",
+    "name": "Oversized Champion · Preta",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3281,11 +4061,312 @@ const items = [
     "layout": "fashion",
     "sizes": "P, M, G, GG",
     "profile": "",
-    "variants": "OFF WHITE: P,G, GG - PRETA: P, M, G, GG - CINZA: P, G, GG » AZUL MARINHO: P, M, G"
+    "modelID": "129",
+    "modelName": "Oversized Champion",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Champion · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/129.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/129.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "129-cinza",
+    "name": "Oversized Champion · Cinza",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/129.webp",
+    "layout": "fashion",
+    "sizes": "P, G, GG",
+    "profile": "",
+    "modelID": "129",
+    "modelName": "Oversized Champion",
+    "color": "Cinza",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Champion · Cinza",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/129.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/129.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "129-azul-marinho",
+    "name": "Oversized Champion · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/129.webp",
+    "layout": "fashion",
+    "sizes": "P, M, G",
+    "profile": "",
+    "modelID": "129",
+    "modelName": "Oversized Champion",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Champion · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/129.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/129.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "130",
-    "name": "Oversized I Need A Freak",
+    "name": "Oversized I Need A Freak · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/130.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "130",
+    "modelName": "Oversized I Need A Freak",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized I Need A Freak · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/130.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/130.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "130-azul-marinho",
+    "name": "Oversized I Need A Freak · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/130.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "130",
+    "modelName": "Oversized I Need A Freak",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized I Need A Freak · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/130.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/130.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "130-bege",
+    "name": "Oversized I Need A Freak · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/130.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "130",
+    "modelName": "Oversized I Need A Freak",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized I Need A Freak · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/130.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/130.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "130-preta",
+    "name": "Oversized I Need A Freak · Preta",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3298,11 +4379,129 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "OFF WHITE: M, GG + AZUL MARINHO: M - BEGE: M, GG - PRETA:M, 6, 6G"
+    "modelID": "130",
+    "modelName": "Oversized I Need A Freak",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized I Need A Freak · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/130.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/130.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "131",
-    "name": "Oversized New Era",
+    "name": "Oversized New Era · Gelo",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/131.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "131",
+    "modelName": "Oversized New Era",
+    "color": "Gelo",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized New Era · Gelo",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/131.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "131-marrom",
+    "name": "Oversized New Era · Marrom",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/131.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "131",
+    "modelName": "Oversized New Era",
+    "color": "Marrom",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized New Era · Marrom",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/131.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "131-amarela",
+    "name": "Oversized New Era · Amarela",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3315,11 +4514,158 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "GELO: M, GG + MARROM: M * AMARELA: M, G, GG - CAQUI-M, G, GG - BEGE: M, G + OFF WHITE: M, GG"
+    "modelID": "131",
+    "modelName": "Oversized New Era",
+    "color": "Amarela",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized New Era · Amarela",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/131.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "131-caqui",
+    "name": "Oversized New Era · Caqui",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/131.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "131",
+    "modelName": "Oversized New Era",
+    "color": "Caqui",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized New Era · Caqui",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/131.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "131-bege",
+    "name": "Oversized New Era · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/131.webp",
+    "layout": "fashion",
+    "sizes": "M, G",
+    "profile": "",
+    "modelID": "131",
+    "modelName": "Oversized New Era",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized New Era · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/131.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "131-off-white",
+    "name": "Oversized New Era · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/131.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "131",
+    "modelName": "Oversized New Era",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized New Era · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/131.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "132",
-    "name": "Oversized Nike Street Box",
+    "name": "Oversized Nike Street Box · Caqui escuro",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3330,13 +4676,184 @@ const items = [
     "img": "",
     "catalog": "verus-assets/catalogo/132.webp",
     "layout": "fashion",
-    "sizes": "M, G, GG",
+    "sizes": "M, G",
     "profile": "",
-    "variants": "CAQUI ESCURO: M, G * PRETA: GG"
+    "modelID": "132",
+    "modelName": "Oversized Nike Street Box",
+    "color": "Caqui escuro",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike Street Box · Caqui escuro",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/132.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/132.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "132-preta",
+    "name": "Oversized Nike Street Box · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/132.webp",
+    "layout": "fashion",
+    "sizes": "GG",
+    "profile": "",
+    "modelID": "132",
+    "modelName": "Oversized Nike Street Box",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike Street Box · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/132.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/132.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "133",
-    "name": "Oversized Supreme Bank",
+    "name": "Oversized Supreme Bank · Vinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/133.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "133",
+    "modelName": "Oversized Supreme Bank",
+    "color": "Vinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme Bank · Vinho",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/133.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "133-bege",
+    "name": "Oversized Supreme Bank · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/133.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "133",
+    "modelName": "Oversized Supreme Bank",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme Bank · Bege",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/133.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "133-lilas",
+    "name": "Oversized Supreme Bank · Lilás",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3349,11 +4866,158 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "VINHO: M - BEGE: M, GG * LILÁS: M, G, GG + VERDE: M, G, GG + PRETA: M, G, GG + OFF WHITE:M, G, GG"
+    "modelID": "133",
+    "modelName": "Oversized Supreme Bank",
+    "color": "Lilás",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme Bank · Lilás",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/133.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "133-verde",
+    "name": "Oversized Supreme Bank · Verde",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/133.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "133",
+    "modelName": "Oversized Supreme Bank",
+    "color": "Verde",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme Bank · Verde",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/133.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "133-preta",
+    "name": "Oversized Supreme Bank · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/133.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "133",
+    "modelName": "Oversized Supreme Bank",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme Bank · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/133.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "133-off-white",
+    "name": "Oversized Supreme Bank · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/133.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "133",
+    "modelName": "Oversized Supreme Bank",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme Bank · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/133.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "134",
-    "name": "Oversized Anti Social Club",
+    "name": "Oversized Anti Social Club · Preta",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3366,11 +5030,100 @@ const items = [
     "layout": "fashion",
     "sizes": "M, GG",
     "profile": "",
-    "variants": "PRETA: M, GG + BRANCA: GG"
+    "modelID": "134",
+    "modelName": "Oversized Anti Social Club",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Anti Social Club · Preta",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/134.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/134.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "134-branca",
+    "name": "Oversized Anti Social Club · Branca",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/134.webp",
+    "layout": "fashion",
+    "sizes": "GG",
+    "profile": "",
+    "modelID": "134",
+    "modelName": "Oversized Anti Social Club",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Anti Social Club · Branca",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/134.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/134.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "135",
-    "name": "Oversized Anti Social Club · variação 2",
+    "name": "Oversized Anti Social Club · variação 2 · Preta",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3381,13 +5134,208 @@ const items = [
     "img": "",
     "catalog": "verus-assets/catalogo/135.webp",
     "layout": "fashion",
-    "sizes": "M, G, GG",
+    "sizes": "M, GG",
     "profile": "",
-    "variants": "PRETA: M, GG + BRANCA: G, GG + OFF WHITE:M, GG"
+    "modelID": "135",
+    "modelName": "Oversized Anti Social Club · variação 2",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Anti Social Club · variação 2 · Preta",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/135.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/135.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "135-branca",
+    "name": "Oversized Anti Social Club · variação 2 · Branca",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/135.webp",
+    "layout": "fashion",
+    "sizes": "G, GG",
+    "profile": "",
+    "modelID": "135",
+    "modelName": "Oversized Anti Social Club · variação 2",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Anti Social Club · variação 2 · Branca",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/135.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/135.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "135-off-white",
+    "name": "Oversized Anti Social Club · variação 2 · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/135.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "135",
+    "modelName": "Oversized Anti Social Club · variação 2",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Anti Social Club · variação 2 · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/135.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/135.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "136",
-    "name": "Oversized Swoosh By Nike",
+    "name": "Oversized Swoosh By Nike · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/136.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "136",
+    "modelName": "Oversized Swoosh By Nike",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Swoosh By Nike · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/136.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/136.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "136-amarela",
+    "name": "Oversized Swoosh By Nike · Amarela",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3400,11 +5348,288 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "PRETA: M, GG - AMARELA: M, G, GG + OFF WHITE: M, G, GG « AZUL MARINHO: GG * BEGE:M, G"
+    "modelID": "136",
+    "modelName": "Oversized Swoosh By Nike",
+    "color": "Amarela",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Swoosh By Nike · Amarela",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/136.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/136.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "136-off-white",
+    "name": "Oversized Swoosh By Nike · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/136.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "136",
+    "modelName": "Oversized Swoosh By Nike",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Swoosh By Nike · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/136.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/136.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "136-azul-marinho",
+    "name": "Oversized Swoosh By Nike · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/136.webp",
+    "layout": "fashion",
+    "sizes": "GG",
+    "profile": "",
+    "modelID": "136",
+    "modelName": "Oversized Swoosh By Nike",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Swoosh By Nike · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/136.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/136.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "136-bege",
+    "name": "Oversized Swoosh By Nike · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/136.webp",
+    "layout": "fashion",
+    "sizes": "M, G",
+    "profile": "",
+    "modelID": "136",
+    "modelName": "Oversized Swoosh By Nike",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Swoosh By Nike · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/136.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/136.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "137",
-    "name": "Oversized Nike",
+    "name": "Oversized Nike · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/137.webp",
+    "layout": "fashion",
+    "sizes": "GG",
+    "profile": "",
+    "modelID": "137",
+    "modelName": "Oversized Nike",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/137.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "137-caqui",
+    "name": "Oversized Nike · Caqui",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/137.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "137",
+    "modelName": "Oversized Nike",
+    "color": "Caqui",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike · Caqui",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/137.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "137-caqui-claro",
+    "name": "Oversized Nike · Caqui claro",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3417,11 +5642,240 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "BEGE: GG + CAQUI: M, GG * CAQUI CLAO: M, G, GG + AZUL MARINHO: M, G, GG + MARROM: M, G, GG - OFF WHITE: GG"
+    "modelID": "137",
+    "modelName": "Oversized Nike",
+    "color": "Caqui claro",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike · Caqui claro",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/137.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "137-azul-marinho",
+    "name": "Oversized Nike · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/137.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "137",
+    "modelName": "Oversized Nike",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/137.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "137-marrom",
+    "name": "Oversized Nike · Marrom",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/137.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "137",
+    "modelName": "Oversized Nike",
+    "color": "Marrom",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike · Marrom",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/137.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "137-off-white",
+    "name": "Oversized Nike · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/137.webp",
+    "layout": "fashion",
+    "sizes": "GG",
+    "profile": "",
+    "modelID": "137",
+    "modelName": "Oversized Nike",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/137.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "137-preta",
+    "name": "Oversized Nike · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/137.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "137",
+    "modelName": "Oversized Nike",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/137.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "137-salmao",
+    "name": "Oversized Nike · Salmão",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/137.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "137",
+    "modelName": "Oversized Nike",
+    "color": "Salmão",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike · Salmão",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/137.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "138",
-    "name": "Oversized Jesus Saved My Life",
+    "name": "Oversized Jesus Saved My Life · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3432,13 +5886,102 @@ const items = [
     "img": "",
     "catalog": "verus-assets/catalogo/138.webp",
     "layout": "fashion",
-    "sizes": "P, GG",
+    "sizes": "GG",
     "profile": "",
-    "variants": "OFF WHITE: GG *- AZUL MARINHO: P"
+    "modelID": "138",
+    "modelName": "Oversized Jesus Saved My Life",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jesus Saved My Life · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/138.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/138.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "138-azul-marinho",
+    "name": "Oversized Jesus Saved My Life · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/138.webp",
+    "layout": "fashion",
+    "sizes": "P",
+    "profile": "",
+    "modelID": "138",
+    "modelName": "Oversized Jesus Saved My Life",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jesus Saved My Life · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/138.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/138.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "139",
-    "name": "Oversized Jesus The Way",
+    "name": "Oversized Jesus The Way · Preta",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3451,11 +5994,182 @@ const items = [
     "layout": "fashion",
     "sizes": "P, GG",
     "profile": "",
-    "variants": "PRETA: P, GG - OFF WHITE: GG"
+    "modelID": "139",
+    "modelName": "Oversized Jesus The Way",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jesus The Way · Preta",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/139.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/139.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "139-off-white",
+    "name": "Oversized Jesus The Way · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/139.webp",
+    "layout": "fashion",
+    "sizes": "GG",
+    "profile": "",
+    "modelID": "139",
+    "modelName": "Oversized Jesus The Way",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jesus The Way · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/139.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/139.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "140",
-    "name": "Oversized Only Jesus Can",
+    "name": "Oversized Only Jesus Can · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/140.webp",
+    "layout": "fashion",
+    "sizes": "P, M, GG",
+    "profile": "",
+    "modelID": "140",
+    "modelName": "Oversized Only Jesus Can",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Only Jesus Can · Azul-marinho",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/140.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "140-off-white",
+    "name": "Oversized Only Jesus Can · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/140.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "140",
+    "modelName": "Oversized Only Jesus Can",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Only Jesus Can · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/140.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "140-preta",
+    "name": "Oversized Only Jesus Can · Preta",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3468,11 +6182,141 @@ const items = [
     "layout": "fashion",
     "sizes": "P, M, G, GG",
     "profile": "",
-    "variants": "AZUL MARINHO: P, M, GG *« OFF WHITE:M, G, GG « PRETA:P,M, G, GG"
+    "modelID": "140",
+    "modelName": "Oversized Only Jesus Can",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Only Jesus Can · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/140.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "141",
-    "name": "Oversized Jesus Is The Way",
+    "name": "Oversized Jesus Is The Way · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/141.webp",
+    "layout": "fashion",
+    "sizes": "P, M, GG",
+    "profile": "",
+    "modelID": "141",
+    "modelName": "Oversized Jesus Is The Way",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jesus Is The Way · Azul-marinho",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/141.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/141.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "141-off-white",
+    "name": "Oversized Jesus Is The Way · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/141.webp",
+    "layout": "fashion",
+    "sizes": "P, G, GG",
+    "profile": "",
+    "modelID": "141",
+    "modelName": "Oversized Jesus Is The Way",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jesus Is The Way · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/141.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/141.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "141-preta",
+    "name": "Oversized Jesus Is The Way · Preta",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3485,11 +6329,100 @@ const items = [
     "layout": "fashion",
     "sizes": "P, M, G, GG",
     "profile": "",
-    "variants": "AZUL MARINHO: P,M, GG + OFF WHITE: P,G, GG - PRETA:P,M, G, GG"
+    "modelID": "141",
+    "modelName": "Oversized Jesus Is The Way",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jesus Is The Way · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/141.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/141.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "142",
-    "name": "Oversized Emotions",
+    "name": "Oversized Emotions · Verde musgo",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/142.webp",
+    "layout": "fashion",
+    "sizes": "G, GG",
+    "profile": "",
+    "modelID": "142",
+    "modelName": "Oversized Emotions",
+    "color": "Verde musgo",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Emotions · Verde musgo",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "142-bege",
+    "name": "Oversized Emotions · Bege",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3502,11 +6435,365 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "VERDE MUSGO: G, GG + BEGE: M, G, GG + CHUMBO: M - CREME: M, GG - LARANJA: M, G, GG + AZUL MARINHO: G, GG"
+    "modelID": "142",
+    "modelName": "Oversized Emotions",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Emotions · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "142-chumbo",
+    "name": "Oversized Emotions · Chumbo",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/142.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "142",
+    "modelName": "Oversized Emotions",
+    "color": "Chumbo",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Emotions · Chumbo",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "142-creme",
+    "name": "Oversized Emotions · Creme",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/142.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "142",
+    "modelName": "Oversized Emotions",
+    "color": "Creme",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Emotions · Creme",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "142-laranja",
+    "name": "Oversized Emotions · Laranja",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/142.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "142",
+    "modelName": "Oversized Emotions",
+    "color": "Laranja",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Emotions · Laranja",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "142-azul-marinho",
+    "name": "Oversized Emotions · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/142.webp",
+    "layout": "fashion",
+    "sizes": "G, GG",
+    "profile": "",
+    "modelID": "142",
+    "modelName": "Oversized Emotions",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Emotions · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "142-off-white",
+    "name": "Oversized Emotions · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/142.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "142",
+    "modelName": "Oversized Emotions",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Emotions · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "142-preta",
+    "name": "Oversized Emotions · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/142.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "142",
+    "modelName": "Oversized Emotions",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Emotions · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "143",
-    "name": "Oversized Jordan · variação 2",
+    "name": "Oversized Jordan · variação 2 · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3519,11 +6806,100 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "OFF WHITE: M, 6, GG *: BRANCA: M, 6, 66"
+    "modelID": "143",
+    "modelName": "Oversized Jordan · variação 2",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jordan · variação 2 · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/143.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/143.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143-branca",
+    "name": "Oversized Jordan · variação 2 · Branca",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/143.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "143",
+    "modelName": "Oversized Jordan · variação 2",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jordan · variação 2 · Branca",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/143.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/143.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "144",
-    "name": "Oversized Hoop",
+    "name": "Oversized Hoop · Branca",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3536,11 +6912,153 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "BRANCA: M, G, GG « OFF WHITE: M, G, GG * PRETA:M, GG"
+    "modelID": "144",
+    "modelName": "Oversized Hoop",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Hoop · Branca",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/144.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/144.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "144-off-white",
+    "name": "Oversized Hoop · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/144.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "144",
+    "modelName": "Oversized Hoop",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Hoop · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/144.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/144.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "144-preta",
+    "name": "Oversized Hoop · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/144.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "144",
+    "modelName": "Oversized Hoop",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Hoop · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/144.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/144.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "145",
-    "name": "Oversized Kobe Bryant",
+    "name": "Oversized Kobe Bryant · Branca",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3553,11 +7071,100 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "BRANCA: M, G, GG - PRETA: M"
+    "modelID": "145",
+    "modelName": "Oversized Kobe Bryant",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Kobe Bryant · Branca",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/145.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/145.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "145-preta",
+    "name": "Oversized Kobe Bryant · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/145.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "145",
+    "modelName": "Oversized Kobe Bryant",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Kobe Bryant · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/145.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/145.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "146",
-    "name": "Oversized Jordan Legacy 23",
+    "name": "Oversized Jordan Legacy 23 · Branca",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3570,11 +7177,153 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "BRANCA: M, G, GG + OFF WHITE: M * PRETA: M"
+    "modelID": "146",
+    "modelName": "Oversized Jordan Legacy 23",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jordan Legacy 23 · Branca",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/146.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/146.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "146-off-white",
+    "name": "Oversized Jordan Legacy 23 · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/146.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "146",
+    "modelName": "Oversized Jordan Legacy 23",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jordan Legacy 23 · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/146.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/146.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "146-preta",
+    "name": "Oversized Jordan Legacy 23 · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/146.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "146",
+    "modelName": "Oversized Jordan Legacy 23",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jordan Legacy 23 · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/146.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/146.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "147",
-    "name": "Oversized Jordan Court Legacy",
+    "name": "Oversized Jordan Court Legacy · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3587,11 +7336,141 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "OFE WHITE: M, 6, GG * BRANCA: M, 6, 66"
+    "modelID": "147",
+    "modelName": "Oversized Jordan Court Legacy",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jordan Court Legacy · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/147.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/147.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147-branca",
+    "name": "Oversized Jordan Court Legacy · Branca",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/147.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "147",
+    "modelName": "Oversized Jordan Court Legacy",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Jordan Court Legacy · Branca",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/147.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/147.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "148",
-    "name": "Oversized Corteiz",
+    "name": "Oversized Corteiz · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/148.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "148",
+    "modelName": "Oversized Corteiz",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Corteiz · Preta",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/148.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "148-branca",
+    "name": "Oversized Corteiz · Branca",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3604,11 +7483,76 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "PRETA: M, GG « BRANCA: M, G, GG « OFF WHITE: G, GG"
+    "modelID": "148",
+    "modelName": "Oversized Corteiz",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Corteiz · Branca",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/148.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "148-off-white",
+    "name": "Oversized Corteiz · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/148.webp",
+    "layout": "fashion",
+    "sizes": "G, GG",
+    "profile": "",
+    "modelID": "148",
+    "modelName": "Oversized Corteiz",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Corteiz · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/148.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "149",
-    "name": "Oversized Real Madrid 2001-02",
+    "name": "Oversized Real Madrid 2001-02 · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3621,11 +7565,153 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "OFF WHITE: M, G, GG « BRANCA: M, G, GG * PRETA:M, G, GG"
+    "modelID": "149",
+    "modelName": "Oversized Real Madrid 2001-02",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Real Madrid 2001-02 · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/149.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/149.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "149-branca",
+    "name": "Oversized Real Madrid 2001-02 · Branca",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/149.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "149",
+    "modelName": "Oversized Real Madrid 2001-02",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Real Madrid 2001-02 · Branca",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/149.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/149.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "149-preta",
+    "name": "Oversized Real Madrid 2001-02 · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/149.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "149",
+    "modelName": "Oversized Real Madrid 2001-02",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Real Madrid 2001-02 · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/149.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/149.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "150",
-    "name": "Oversized La Pool",
+    "name": "Oversized La Pool · Bege",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3638,11 +7724,365 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "M,G, GG + CREME: M, G - LARANJA: M, G, GG + AZUL MARINHO: M, G - VERDE: G, GG - OFF WHITE: M, G, GG + PRETA: M,"
+    "modelID": "150",
+    "modelName": "Oversized La Pool",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized La Pool · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "150-creme",
+    "name": "Oversized La Pool · Creme",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/150.webp",
+    "layout": "fashion",
+    "sizes": "M, G",
+    "profile": "",
+    "modelID": "150",
+    "modelName": "Oversized La Pool",
+    "color": "Creme",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized La Pool · Creme",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "150-laranja",
+    "name": "Oversized La Pool · Laranja",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/150.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "150",
+    "modelName": "Oversized La Pool",
+    "color": "Laranja",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized La Pool · Laranja",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "150-azul-marinho",
+    "name": "Oversized La Pool · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/150.webp",
+    "layout": "fashion",
+    "sizes": "M, G",
+    "profile": "",
+    "modelID": "150",
+    "modelName": "Oversized La Pool",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized La Pool · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "150-verde",
+    "name": "Oversized La Pool · Verde",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/150.webp",
+    "layout": "fashion",
+    "sizes": "G, GG",
+    "profile": "",
+    "modelID": "150",
+    "modelName": "Oversized La Pool",
+    "color": "Verde",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized La Pool · Verde",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "150-off-white",
+    "name": "Oversized La Pool · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/150.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "150",
+    "modelName": "Oversized La Pool",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized La Pool · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "150-preta",
+    "name": "Oversized La Pool · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/150.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "150",
+    "modelName": "Oversized La Pool",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized La Pool · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "151",
-    "name": "Oversized Ronaldinho Bruxo",
+    "name": "Oversized Ronaldinho Bruxo · Branca",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3655,11 +8095,153 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "BRANCA: M, G, GG - OFF WHITE: M, G, GG * PRETA:M, GG"
+    "modelID": "151",
+    "modelName": "Oversized Ronaldinho Bruxo",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Ronaldinho Bruxo · Branca",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/151.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/151.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "151-off-white",
+    "name": "Oversized Ronaldinho Bruxo · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/151.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "151",
+    "modelName": "Oversized Ronaldinho Bruxo",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Ronaldinho Bruxo · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/151.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/151.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "151-preta",
+    "name": "Oversized Ronaldinho Bruxo · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/151.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "151",
+    "modelName": "Oversized Ronaldinho Bruxo",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Ronaldinho Bruxo · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/151.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/151.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "152",
-    "name": "Oversized Mercurial Legacy",
+    "name": "Oversized Mercurial Legacy · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3672,11 +8254,153 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "OFF WHITE: M, G, GG « BRANCA: M, 6, GG * PRETA:M, G, GG"
+    "modelID": "152",
+    "modelName": "Oversized Mercurial Legacy",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Mercurial Legacy · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/152.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/152.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "152-branca",
+    "name": "Oversized Mercurial Legacy · Branca",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/152.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "152",
+    "modelName": "Oversized Mercurial Legacy",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Mercurial Legacy · Branca",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/152.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/152.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "152-preta",
+    "name": "Oversized Mercurial Legacy · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/152.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "152",
+    "modelName": "Oversized Mercurial Legacy",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Mercurial Legacy · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/152.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/152.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "153",
-    "name": "Oversized Cr7",
+    "name": "Oversized Cr7 · Branca",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3689,11 +8413,153 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "BRANCA: M, G, GG + OFF WHITE: M, G, GG + PRETA:M, G, GG"
+    "modelID": "153",
+    "modelName": "Oversized Cr7",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Cr7 · Branca",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/153.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/153.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "153-off-white",
+    "name": "Oversized Cr7 · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/153.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "153",
+    "modelName": "Oversized Cr7",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Cr7 · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/153.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/153.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "153-preta",
+    "name": "Oversized Cr7 · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/153.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "153",
+    "modelName": "Oversized Cr7",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Cr7 · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/153.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/153.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "154",
-    "name": "Oversized Travis Barca",
+    "name": "Oversized Travis Barca · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3706,11 +8572,35 @@ const items = [
     "layout": "fashion",
     "sizes": "M",
     "profile": "",
-    "variants": "OFF WHITE: M"
+    "modelID": "154",
+    "modelName": "Oversized Travis Barca",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Travis Barca · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/154.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "155",
-    "name": "Oversized La",
+    "name": "Oversized La · Bege",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3723,11 +8613,353 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "BEGE:M, G, GG + CINZA: M, GG » CREME: M, G, GG » LARANJA: M, G » OFF WHITE:M, G, GG + PRETA:M, G, GG"
+    "modelID": "155",
+    "modelName": "Oversized La",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized La · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/155.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/155.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "155-cinza",
+    "name": "Oversized La · Cinza",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/155.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "155",
+    "modelName": "Oversized La",
+    "color": "Cinza",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized La · Cinza",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/155.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/155.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "155-creme",
+    "name": "Oversized La · Creme",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/155.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "155",
+    "modelName": "Oversized La",
+    "color": "Creme",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized La · Creme",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/155.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/155.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "155-laranja",
+    "name": "Oversized La · Laranja",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/155.webp",
+    "layout": "fashion",
+    "sizes": "M, G",
+    "profile": "",
+    "modelID": "155",
+    "modelName": "Oversized La",
+    "color": "Laranja",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized La · Laranja",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/155.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/155.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "155-off-white",
+    "name": "Oversized La · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/155.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "155",
+    "modelName": "Oversized La",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized La · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/155.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/155.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "155-preta",
+    "name": "Oversized La · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/155.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "155",
+    "modelName": "Oversized La",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized La · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/155.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/155.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "156",
-    "name": "Oversized Celtics",
+    "name": "Oversized Celtics · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/156.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "156",
+    "modelName": "Oversized Celtics",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Celtics · Bege",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/156.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "156-lilas",
+    "name": "Oversized Celtics · Lilás",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3740,11 +8972,76 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G",
     "profile": "",
-    "variants": "BEGE:M « LILÁS: M, G"
+    "modelID": "156",
+    "modelName": "Oversized Celtics",
+    "color": "Lilás",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Celtics · Lilás",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/156.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "157",
-    "name": "Oversized Corteiz · variação 2",
+    "name": "Oversized Corteiz · variação 2 · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/157.webp",
+    "layout": "fashion",
+    "sizes": "GG",
+    "profile": "",
+    "modelID": "157",
+    "modelName": "Oversized Corteiz · variação 2",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Corteiz · variação 2 · Preta",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/157.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "157-off-white",
+    "name": "Oversized Corteiz · variação 2 · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3757,11 +9054,35 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "PRETA: GG + OFF WHITE:M, G, GG"
+    "modelID": "157",
+    "modelName": "Oversized Corteiz · variação 2",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Corteiz · variação 2 · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/157.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "158",
-    "name": "Oversized Supreme",
+    "name": "Oversized Supreme · Preta",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3774,11 +9095,293 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "PRETA: M, G, GG « BEGE: M, G, GG * LILÁS: G, GG + BORDO: M * VERDE: M, G, GG + OFF WHITE: M, G, GG"
+    "modelID": "158",
+    "modelName": "Oversized Supreme",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/158.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "158-bege",
+    "name": "Oversized Supreme · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/158.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "158",
+    "modelName": "Oversized Supreme",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/158.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "158-lilas",
+    "name": "Oversized Supreme · Lilás",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/158.webp",
+    "layout": "fashion",
+    "sizes": "G, GG",
+    "profile": "",
+    "modelID": "158",
+    "modelName": "Oversized Supreme",
+    "color": "Lilás",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme · Lilás",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/158.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "158-bordo",
+    "name": "Oversized Supreme · Bordô",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/158.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "158",
+    "modelName": "Oversized Supreme",
+    "color": "Bordô",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme · Bordô",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/158.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "158-verde",
+    "name": "Oversized Supreme · Verde",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/158.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "158",
+    "modelName": "Oversized Supreme",
+    "color": "Verde",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme · Verde",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/158.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "158-off-white",
+    "name": "Oversized Supreme · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/158.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "158",
+    "modelName": "Oversized Supreme",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/158.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "159",
-    "name": "Oversized Nike Nocta",
+    "name": "Oversized Nike Nocta · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/159.webp",
+    "layout": "fashion",
+    "sizes": "GG",
+    "profile": "",
+    "modelID": "159",
+    "modelName": "Oversized Nike Nocta",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike Nocta · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/159.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/159.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "159-verde",
+    "name": "Oversized Nike Nocta · Verde",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3791,11 +9394,100 @@ const items = [
     "layout": "fashion",
     "sizes": "M, GG",
     "profile": "",
-    "variants": "BEGE: GG + VERDE: M, GG * LILÁS:M, GG"
+    "modelID": "159",
+    "modelName": "Oversized Nike Nocta",
+    "color": "Verde",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike Nocta · Verde",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/159.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/159.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "159-lilas",
+    "name": "Oversized Nike Nocta · Lilás",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/159.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "159",
+    "modelName": "Oversized Nike Nocta",
+    "color": "Lilás",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike Nocta · Lilás",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/159.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/159.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "160",
-    "name": "Oversized Supreme · variação 2",
+    "name": "Oversized Supreme · variação 2 · Lilás",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3808,11 +9500,76 @@ const items = [
     "layout": "fashion",
     "sizes": "M, GG",
     "profile": "",
-    "variants": "LILÁS: M, GG + OFF WHITE: GG"
+    "modelID": "160",
+    "modelName": "Oversized Supreme · variação 2",
+    "color": "Lilás",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme · variação 2 · Lilás",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/160.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "160-off-white",
+    "name": "Oversized Supreme · variação 2 · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/160.webp",
+    "layout": "fashion",
+    "sizes": "GG",
+    "profile": "",
+    "modelID": "160",
+    "modelName": "Oversized Supreme · variação 2",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Supreme · variação 2 · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/160.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "161",
-    "name": "Oversized Nike · variação 2",
+    "name": "Oversized Nike · variação 2 · Preta",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3823,13 +9580,208 @@ const items = [
     "img": "",
     "catalog": "verus-assets/catalogo/161.webp",
     "layout": "fashion",
-    "sizes": "M, G, GG",
+    "sizes": "G, GG",
     "profile": "",
-    "variants": "PRETA: G, GG + AZUL MARINHO: M"
+    "modelID": "161",
+    "modelName": "Oversized Nike · variação 2",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike · variação 2 · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/161.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/161.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "161-azul-marinho",
+    "name": "Oversized Nike · variação 2 · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/161.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "161",
+    "modelName": "Oversized Nike · variação 2",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike · variação 2 · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/161.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/161.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "162",
-    "name": "Oversized Nike · variação 3",
+    "name": "Oversized Nike · variação 3 · Caqui",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/162.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "162",
+    "modelName": "Oversized Nike · variação 3",
+    "color": "Caqui",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike · variação 3 · Caqui",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/162.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/162.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "162-bege",
+    "name": "Oversized Nike · variação 3 · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/162.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "162",
+    "modelName": "Oversized Nike · variação 3",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike · variação 3 · Bege",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/162.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/162.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "162-amarela",
+    "name": "Oversized Nike · variação 3 · Amarela",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3842,11 +9794,129 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "CAQUI: M * BEGE: M - AMARELA: M, G, GG"
+    "modelID": "162",
+    "modelName": "Oversized Nike · variação 3",
+    "color": "Amarela",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Nike · variação 3 · Amarela",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/162.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/162.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "163",
-    "name": "Oversized Palm Angels · variação 2",
+    "name": "Oversized Palm Angels · variação 2 · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/163.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "163",
+    "modelName": "Oversized Palm Angels · variação 2",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Palm Angels · variação 2 · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/163.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "163-off-white",
+    "name": "Oversized Palm Angels · variação 2 · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/163.webp",
+    "layout": "fashion",
+    "sizes": "GG",
+    "profile": "",
+    "modelID": "163",
+    "modelName": "Oversized Palm Angels · variação 2",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Palm Angels · variação 2 · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/163.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "163-amarela",
+    "name": "Oversized Palm Angels · variação 2 · Amarela",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3859,11 +9929,223 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "AZUL MARINHO: M, GG - OFF WHITE: GG + AMARELA: M, G, GG * BEGE: M, GG + CAQUI CLARO: M, G, GG"
+    "modelID": "163",
+    "modelName": "Oversized Palm Angels · variação 2",
+    "color": "Amarela",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Palm Angels · variação 2 · Amarela",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/163.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "163-bege",
+    "name": "Oversized Palm Angels · variação 2 · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/163.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "163",
+    "modelName": "Oversized Palm Angels · variação 2",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Palm Angels · variação 2 · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/163.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "163-caqui-claro",
+    "name": "Oversized Palm Angels · variação 2 · Caqui claro",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/163.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "163",
+    "modelName": "Oversized Palm Angels · variação 2",
+    "color": "Caqui claro",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Palm Angels · variação 2 · Caqui claro",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/163.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "164",
-    "name": "Oversized Off-White",
+    "name": "Oversized Off-White · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/164.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "164",
+    "modelName": "Oversized Off-White",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/164.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/164.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "164-bege",
+    "name": "Oversized Off-White · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/164.webp",
+    "layout": "fashion",
+    "sizes": "M, G",
+    "profile": "",
+    "modelID": "164",
+    "modelName": "Oversized Off-White",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/164.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/164.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "164-amarela",
+    "name": "Oversized Off-White · Amarela",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3876,11 +10158,259 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "OFF WHITE: M, GG « BEGE: M, G - AMARELA: M, G, GG * CINZA: M, GG - MARROM: M * CARAMELO: M, G, GG"
+    "modelID": "164",
+    "modelName": "Oversized Off-White",
+    "color": "Amarela",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · Amarela",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/164.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/164.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "164-cinza",
+    "name": "Oversized Off-White · Cinza",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/164.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "164",
+    "modelName": "Oversized Off-White",
+    "color": "Cinza",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · Cinza",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/164.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/164.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "164-marrom",
+    "name": "Oversized Off-White · Marrom",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/164.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "164",
+    "modelName": "Oversized Off-White",
+    "color": "Marrom",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · Marrom",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/164.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/164.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "164-caramelo",
+    "name": "Oversized Off-White · Caramelo",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/164.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "164",
+    "modelName": "Oversized Off-White",
+    "color": "Caramelo",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · Caramelo",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/164.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/164.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "165",
-    "name": "Oversized Off-White · variação 2",
+    "name": "Oversized Off-White · variação 2 · Branca",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/165.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "165",
+    "modelName": "Oversized Off-White · variação 2",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · variação 2 · Branca",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/165.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/165.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "165-amarela",
+    "name": "Oversized Off-White · variação 2 · Amarela",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3893,11 +10423,259 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "BRANCA: M « AMARELA: M, G, GG - BEGE:M, G » AZUL MARINHO: M * OFF WHITE: M, GG - PRETA:M, 6, GG"
+    "modelID": "165",
+    "modelName": "Oversized Off-White · variação 2",
+    "color": "Amarela",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · variação 2 · Amarela",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/165.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/165.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "165-bege",
+    "name": "Oversized Off-White · variação 2 · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/165.webp",
+    "layout": "fashion",
+    "sizes": "M, G",
+    "profile": "",
+    "modelID": "165",
+    "modelName": "Oversized Off-White · variação 2",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · variação 2 · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/165.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/165.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "165-azul-marinho",
+    "name": "Oversized Off-White · variação 2 · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/165.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "165",
+    "modelName": "Oversized Off-White · variação 2",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · variação 2 · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/165.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/165.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "165-off-white",
+    "name": "Oversized Off-White · variação 2 · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/165.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "165",
+    "modelName": "Oversized Off-White · variação 2",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · variação 2 · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/165.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/165.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "165-preta",
+    "name": "Oversized Off-White · variação 2 · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/165.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "165",
+    "modelName": "Oversized Off-White · variação 2",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · variação 2 · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/165.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/165.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "166",
-    "name": "Oversized Corteiz · variação 3",
+    "name": "Oversized Corteiz · variação 3 · Caqui",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3910,11 +10688,199 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "CAQUI: M, G, GG - LILÁS: M, G, GG + OFF WHITE: M, G, GG + PRETA: M, GG - VERDE: G, GG"
+    "modelID": "166",
+    "modelName": "Oversized Corteiz · variação 3",
+    "color": "Caqui",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Corteiz · variação 3 · Caqui",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/166.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "166-lilas",
+    "name": "Oversized Corteiz · variação 3 · Lilás",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/166.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "166",
+    "modelName": "Oversized Corteiz · variação 3",
+    "color": "Lilás",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Corteiz · variação 3 · Lilás",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/166.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "166-off-white",
+    "name": "Oversized Corteiz · variação 3 · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/166.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "166",
+    "modelName": "Oversized Corteiz · variação 3",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Corteiz · variação 3 · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/166.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "166-preta",
+    "name": "Oversized Corteiz · variação 3 · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/166.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "166",
+    "modelName": "Oversized Corteiz · variação 3",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Corteiz · variação 3 · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/166.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "166-verde",
+    "name": "Oversized Corteiz · variação 3 · Verde",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/166.webp",
+    "layout": "fashion",
+    "sizes": "G, GG",
+    "profile": "",
+    "modelID": "166",
+    "modelName": "Oversized Corteiz · variação 3",
+    "color": "Verde",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Corteiz · variação 3 · Verde",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/166.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "167",
-    "name": "Oversized The North Face",
+    "name": "Oversized The North Face · Branca",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3927,11 +10893,47 @@ const items = [
     "layout": "fashion",
     "sizes": "M, GG",
     "profile": "",
-    "variants": "BRANCA: M, GG"
+    "modelID": "167",
+    "modelName": "Oversized The North Face",
+    "color": "Branca",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized The North Face · Branca",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/167.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/167.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "168",
-    "name": "Oversized Corteiz · variação 4",
+    "name": "Oversized Corteiz · variação 4 · Preta",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -3944,11 +10946,158 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "PRETA: M, G, GG - OFF WHITE: GG"
+    "modelID": "168",
+    "modelName": "Oversized Corteiz · variação 4",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Corteiz · variação 4 · Preta",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/168.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "168-off-white",
+    "name": "Oversized Corteiz · variação 4 · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/168.webp",
+    "layout": "fashion",
+    "sizes": "GG",
+    "profile": "",
+    "modelID": "168",
+    "modelName": "Oversized Corteiz · variação 4",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Corteiz · variação 4 · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/168.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "169",
-    "name": "Camiseta Nike",
+    "name": "Camiseta Nike · Verde militar",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/169.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "169",
+    "modelName": "Camiseta Nike",
+    "color": "Verde militar",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Nike · Verde militar",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/169.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "169-caqui-escuro",
+    "name": "Camiseta Nike · Caqui escuro",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/169.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "169",
+    "modelName": "Camiseta Nike",
+    "color": "Caqui escuro",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Nike · Caqui escuro",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/169.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "169-amarela",
+    "name": "Camiseta Nike · Amarela",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha peruana",
@@ -3961,11 +11110,76 @@ const items = [
     "layout": "fashion",
     "sizes": "M, GG",
     "profile": "",
-    "variants": "VERDE MILITAR: M « CAQUI ESCURO: M *« AMARELA: M, GG"
+    "modelID": "169",
+    "modelName": "Camiseta Nike",
+    "color": "Amarela",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Nike · Amarela",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/169.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "170",
-    "name": "Camiseta Puma",
+    "name": "Camiseta Puma · Verde militar",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/170.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "170",
+    "modelName": "Camiseta Puma",
+    "color": "Verde militar",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Puma · Verde militar",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/170.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "170-caqui-escuro",
+    "name": "Camiseta Puma · Caqui escuro",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha peruana",
@@ -3978,11 +11192,199 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "VERDE MILITAR: M, GG + CAQUI ESCURO: M, G, GG - OFF WHITE: M « BEGE: M, G - AZUL CLARO: M - AMARELA: M, G, GG"
+    "modelID": "170",
+    "modelName": "Camiseta Puma",
+    "color": "Caqui escuro",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Puma · Caqui escuro",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/170.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "170-off-white",
+    "name": "Camiseta Puma · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/170.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "170",
+    "modelName": "Camiseta Puma",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Puma · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/170.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "170-bege",
+    "name": "Camiseta Puma · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/170.webp",
+    "layout": "fashion",
+    "sizes": "M, G",
+    "profile": "",
+    "modelID": "170",
+    "modelName": "Camiseta Puma",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Puma · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/170.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "170-azul-claro",
+    "name": "Camiseta Puma · Azul claro",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/170.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "170",
+    "modelName": "Camiseta Puma",
+    "color": "Azul claro",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Puma · Azul claro",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/170.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "170-amarela",
+    "name": "Camiseta Puma · Amarela",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/170.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "170",
+    "modelName": "Camiseta Puma",
+    "color": "Amarela",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Puma · Amarela",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/170.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "171",
-    "name": "Camiseta Boss",
+    "name": "Camiseta Boss · Amarela",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha peruana",
@@ -3995,11 +11397,281 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "ELA: M, G, GG - AZUL-CARIBE: M, G, GG « BEGE: M, G, GG - CAQUI:M, G, GG - VERDE MILITAR: M, 6, GG - OFF WHITE: M, G"
+    "modelID": "171",
+    "modelName": "Camiseta Boss",
+    "color": "Amarela",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Boss · Amarela",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/171.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "171-azul-caribe",
+    "name": "Camiseta Boss · Azul-Caribe",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/171.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "171",
+    "modelName": "Camiseta Boss",
+    "color": "Azul-Caribe",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Boss · Azul-Caribe",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/171.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "171-bege",
+    "name": "Camiseta Boss · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/171.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "171",
+    "modelName": "Camiseta Boss",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Boss · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/171.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "171-caqui",
+    "name": "Camiseta Boss · Caqui",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/171.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "171",
+    "modelName": "Camiseta Boss",
+    "color": "Caqui",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Boss · Caqui",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/171.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "171-verde-militar",
+    "name": "Camiseta Boss · Verde militar",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/171.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "171",
+    "modelName": "Camiseta Boss",
+    "color": "Verde militar",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Boss · Verde militar",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/171.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "171-off-white",
+    "name": "Camiseta Boss · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/171.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "171",
+    "modelName": "Camiseta Boss",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Boss · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/171.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "171-preta",
+    "name": "Camiseta Boss · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/171.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "171",
+    "modelName": "Camiseta Boss",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Boss · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/171.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "172",
-    "name": "Camiseta Adidas",
+    "name": "Camiseta Adidas · Azul claro",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha peruana",
@@ -4012,11 +11684,240 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "ZUL CLARO: M, 6, GG - AMARELA: M, G, GG - CAQUI ESCURO: M, GG + OFF WHITE: GG - VERDE:M, G, GG +» CAQUI CLARO:"
+    "modelID": "172",
+    "modelName": "Camiseta Adidas",
+    "color": "Azul claro",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Adidas · Azul claro",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/172.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "172-amarela",
+    "name": "Camiseta Adidas · Amarela",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/172.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "172",
+    "modelName": "Camiseta Adidas",
+    "color": "Amarela",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Adidas · Amarela",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/172.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "172-caqui-escuro",
+    "name": "Camiseta Adidas · Caqui escuro",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/172.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "172",
+    "modelName": "Camiseta Adidas",
+    "color": "Caqui escuro",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Adidas · Caqui escuro",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/172.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "172-off-white",
+    "name": "Camiseta Adidas · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/172.webp",
+    "layout": "fashion",
+    "sizes": "GG",
+    "profile": "",
+    "modelID": "172",
+    "modelName": "Camiseta Adidas",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Adidas · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/172.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "172-verde",
+    "name": "Camiseta Adidas · Verde",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/172.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "172",
+    "modelName": "Camiseta Adidas",
+    "color": "Verde",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Adidas · Verde",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/172.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "172-caqui-claro",
+    "name": "Camiseta Adidas · Caqui claro",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/172.webp",
+    "layout": "fashion",
+    "sizes": "G",
+    "profile": "",
+    "modelID": "172",
+    "modelName": "Camiseta Adidas",
+    "color": "Caqui claro",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Adidas · Caqui claro",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/172.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "173",
-    "name": "Camiseta Adidas · variação 2",
+    "name": "Camiseta Adidas · variação 2 · Amarela",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha peruana",
@@ -4029,11 +11930,158 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "AMARELA: M, 6, GG - VERDE MILITAR: M, GG * OLIVA: M, GG"
+    "modelID": "173",
+    "modelName": "Camiseta Adidas · variação 2",
+    "color": "Amarela",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Adidas · variação 2 · Amarela",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/173.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "173-verde-militar",
+    "name": "Camiseta Adidas · variação 2 · Verde militar",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/173.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "173",
+    "modelName": "Camiseta Adidas · variação 2",
+    "color": "Verde militar",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Adidas · variação 2 · Verde militar",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/173.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "173-oliva",
+    "name": "Camiseta Adidas · variação 2 · Oliva",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/173.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "173",
+    "modelName": "Camiseta Adidas · variação 2",
+    "color": "Oliva",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Adidas · variação 2 · Oliva",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/173.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "174",
-    "name": "Camiseta Zara",
+    "name": "Camiseta Zara · Oliva",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha peruana",
+    "size": "-",
+    "pix": 62,
+    "card": 65,
+    "category": "Camisetas casuais",
+    "img": "",
+    "catalog": "verus-assets/catalogo/174.webp",
+    "layout": "fashion",
+    "sizes": "M, G",
+    "profile": "",
+    "modelID": "174",
+    "modelName": "Camiseta Zara",
+    "color": "Oliva",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Zara · Oliva",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/174.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "174-amarela",
+    "name": "Camiseta Zara · Amarela",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha peruana",
@@ -4046,11 +12094,35 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "OLIVA: M, G * AMARELA: M, G, GG"
+    "modelID": "174",
+    "modelName": "Camiseta Zara",
+    "color": "Amarela",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Zara · Amarela",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/174.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "175",
-    "name": "Camiseta Nike · variação 2",
+    "name": "Camiseta Nike · variação 2 · Amarela",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha peruana",
@@ -4063,11 +12135,35 @@ const items = [
     "layout": "fashion",
     "sizes": "M, GG",
     "profile": "",
-    "variants": "AMARELA: M, GG"
+    "modelID": "175",
+    "modelName": "Camiseta Nike · variação 2",
+    "color": "Amarela",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Nike · variação 2 · Amarela",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/175.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "176",
-    "name": "Oversized Denim Tears",
+    "name": "Oversized Denim Tears · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -4080,11 +12176,100 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "OFF WHITE: M, G, GG + PRETA:M, G, GG"
+    "modelID": "176",
+    "modelName": "Oversized Denim Tears",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Denim Tears · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/176.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/176.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "176-preta",
+    "name": "Oversized Denim Tears · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/176.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "176",
+    "modelName": "Oversized Denim Tears",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Denim Tears · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/176.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/176.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "177",
-    "name": "Oversized Off-White · variação 3",
+    "name": "Oversized Off-White · variação 3 · Creme",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -4097,11 +12282,365 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "REME: M, G, GG - BEGE: M, GG - LARANJA: M, G, GG - AZUL MARINHO: M * MUSGO: M - OFF WHITE: M, G, GG - PRETA: M, G"
+    "modelID": "177",
+    "modelName": "Oversized Off-White · variação 3",
+    "color": "Creme",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · variação 3 · Creme",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "177-bege",
+    "name": "Oversized Off-White · variação 3 · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/177.webp",
+    "layout": "fashion",
+    "sizes": "M, GG",
+    "profile": "",
+    "modelID": "177",
+    "modelName": "Oversized Off-White · variação 3",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · variação 3 · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "177-laranja",
+    "name": "Oversized Off-White · variação 3 · Laranja",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/177.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "177",
+    "modelName": "Oversized Off-White · variação 3",
+    "color": "Laranja",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · variação 3 · Laranja",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "177-azul-marinho",
+    "name": "Oversized Off-White · variação 3 · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/177.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "177",
+    "modelName": "Oversized Off-White · variação 3",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · variação 3 · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "177-musgo",
+    "name": "Oversized Off-White · variação 3 · Musgo",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/177.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "177",
+    "modelName": "Oversized Off-White · variação 3",
+    "color": "Musgo",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · variação 3 · Musgo",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "177-off-white",
+    "name": "Oversized Off-White · variação 3 · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/177.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "177",
+    "modelName": "Oversized Off-White · variação 3",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · variação 3 · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "177-preta",
+    "name": "Oversized Off-White · variação 3 · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/177.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "177",
+    "modelName": "Oversized Off-White · variação 3",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Off-White · variação 3 · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/177.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "178",
-    "name": "Oversized Regata Adidas",
+    "name": "Oversized Regata Adidas · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -4114,11 +12653,312 @@ const items = [
     "layout": "fashion",
     "sizes": "M, G, GG",
     "profile": "",
-    "variants": "OFF WHITE: M, G, GG « PRETA: M, G + AZUL MARINHO: M, G * CAQUI CLARO: M, G, GG - CAQUI:M, G - BEGE: M"
+    "modelID": "178",
+    "modelName": "Oversized Regata Adidas",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Regata Adidas · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/178.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/178.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "178-preta",
+    "name": "Oversized Regata Adidas · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/178.webp",
+    "layout": "fashion",
+    "sizes": "M, G",
+    "profile": "",
+    "modelID": "178",
+    "modelName": "Oversized Regata Adidas",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Regata Adidas · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/178.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/178.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "178-azul-marinho",
+    "name": "Oversized Regata Adidas · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/178.webp",
+    "layout": "fashion",
+    "sizes": "M, G",
+    "profile": "",
+    "modelID": "178",
+    "modelName": "Oversized Regata Adidas",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Regata Adidas · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/178.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/178.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "178-caqui-claro",
+    "name": "Oversized Regata Adidas · Caqui claro",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/178.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "178",
+    "modelName": "Oversized Regata Adidas",
+    "color": "Caqui claro",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Regata Adidas · Caqui claro",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/178.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/178.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "178-caqui",
+    "name": "Oversized Regata Adidas · Caqui",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/178.webp",
+    "layout": "fashion",
+    "sizes": "M, G",
+    "profile": "",
+    "modelID": "178",
+    "modelName": "Oversized Regata Adidas",
+    "color": "Caqui",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Regata Adidas · Caqui",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/178.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/178.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "178-bege",
+    "name": "Oversized Regata Adidas · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 76,
+    "card": 80,
+    "category": "Camisetas oversized",
+    "img": "",
+    "catalog": "verus-assets/catalogo/178.webp",
+    "layout": "fashion",
+    "sizes": "M",
+    "profile": "",
+    "modelID": "178",
+    "modelName": "Oversized Regata Adidas",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Oversized Regata Adidas · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/178.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/178.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "179",
-    "name": "Oversized Plus Size Tom & Jerry",
+    "name": "Oversized Plus Size Tom & Jerry · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -4131,11 +12971,138 @@ const items = [
     "layout": "fashion",
     "sizes": "G1, G2, G3",
     "profile": "",
-    "variants": "OFF WHITE: G1, 62, 63 » PRETA: G1, 62, 63"
+    "modelID": "179",
+    "modelName": "Oversized Plus Size Tom & Jerry",
+    "color": "Off white",
+    "sizeScale": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "photoLabel": "Oversized Plus Size Tom & Jerry · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/179.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/179.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "179-preta",
+    "name": "Oversized Plus Size Tom & Jerry · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 86,
+    "card": 90,
+    "category": "Plus size",
+    "img": "",
+    "catalog": "verus-assets/catalogo/179.webp",
+    "layout": "fashion",
+    "sizes": "G1, G2, G3",
+    "profile": "",
+    "modelID": "179",
+    "modelName": "Oversized Plus Size Tom & Jerry",
+    "color": "Preta",
+    "sizeScale": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "photoLabel": "Oversized Plus Size Tom & Jerry · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/179.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/catalogo/179.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "180",
-    "name": "Oversized Plus Size Ny",
+    "name": "Oversized Plus Size Ny · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 86,
+    "card": 90,
+    "category": "Plus size",
+    "img": "",
+    "catalog": "verus-assets/catalogo/180.webp",
+    "layout": "fashion",
+    "sizes": "G2, G3",
+    "profile": "",
+    "modelID": "180",
+    "modelName": "Oversized Plus Size Ny",
+    "color": "Preta",
+    "sizeScale": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "photoLabel": "Oversized Plus Size Ny · Preta",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/180.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "180-off-white",
+    "name": "Oversized Plus Size Ny · Off white",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -4148,11 +13115,234 @@ const items = [
     "layout": "fashion",
     "sizes": "G1, G2, G3",
     "profile": "",
-    "variants": "PRETA: G2, G3 * OFF WHITE: G1, G2, G3 + BEGE: G2 - OLIVA: G1, G2, 63 - VERDE PRIMAVERA: G3 - AMARELA: G1, 63"
+    "modelID": "180",
+    "modelName": "Oversized Plus Size Ny",
+    "color": "Off white",
+    "sizeScale": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "photoLabel": "Oversized Plus Size Ny · Off white",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/180.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "180-bege",
+    "name": "Oversized Plus Size Ny · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 86,
+    "card": 90,
+    "category": "Plus size",
+    "img": "",
+    "catalog": "verus-assets/catalogo/180.webp",
+    "layout": "fashion",
+    "sizes": "G2",
+    "profile": "",
+    "modelID": "180",
+    "modelName": "Oversized Plus Size Ny",
+    "color": "Bege",
+    "sizeScale": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "photoLabel": "Oversized Plus Size Ny · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/180.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "180-oliva",
+    "name": "Oversized Plus Size Ny · Oliva",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 86,
+    "card": 90,
+    "category": "Plus size",
+    "img": "",
+    "catalog": "verus-assets/catalogo/180.webp",
+    "layout": "fashion",
+    "sizes": "G1, G2, G3",
+    "profile": "",
+    "modelID": "180",
+    "modelName": "Oversized Plus Size Ny",
+    "color": "Oliva",
+    "sizeScale": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "photoLabel": "Oversized Plus Size Ny · Oliva",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/180.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "180-verde-primavera",
+    "name": "Oversized Plus Size Ny · Verde primavera",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 86,
+    "card": 90,
+    "category": "Plus size",
+    "img": "",
+    "catalog": "verus-assets/catalogo/180.webp",
+    "layout": "fashion",
+    "sizes": "G3",
+    "profile": "",
+    "modelID": "180",
+    "modelName": "Oversized Plus Size Ny",
+    "color": "Verde primavera",
+    "sizeScale": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "photoLabel": "Oversized Plus Size Ny · Verde primavera",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/180.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "180-amarela",
+    "name": "Oversized Plus Size Ny · Amarela",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 86,
+    "card": 90,
+    "category": "Plus size",
+    "img": "",
+    "catalog": "verus-assets/catalogo/180.webp",
+    "layout": "fashion",
+    "sizes": "G1, G3",
+    "profile": "",
+    "modelID": "180",
+    "modelName": "Oversized Plus Size Ny",
+    "color": "Amarela",
+    "sizeScale": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "photoLabel": "Oversized Plus Size Ny · Amarela",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/180.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "181",
-    "name": "Oversized Plus Size Jordan",
+    "name": "Oversized Plus Size Jordan · Caqui",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 86,
+    "card": 90,
+    "category": "Plus size",
+    "img": "",
+    "catalog": "verus-assets/catalogo/181.webp",
+    "layout": "fashion",
+    "sizes": "G3",
+    "profile": "",
+    "modelID": "181",
+    "modelName": "Oversized Plus Size Jordan",
+    "color": "Caqui",
+    "sizeScale": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "photoLabel": "Oversized Plus Size Jordan · Caqui",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/181.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "181-verde-abacate",
+    "name": "Oversized Plus Size Jordan · Verde abacate",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Malha suedine",
@@ -4165,11 +13355,195 @@ const items = [
     "layout": "fashion",
     "sizes": "G1, G2, G3",
     "profile": "",
-    "variants": "CAQUI: 63 + VERDE ABACATE: G1, 62, 63 + BRANCA: 62, 63 - OFF WHITE: G2, 63 + VERDE PRIMAVERA: 62, 63"
+    "modelID": "181",
+    "modelName": "Oversized Plus Size Jordan",
+    "color": "Verde abacate",
+    "sizeScale": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "photoLabel": "Oversized Plus Size Jordan · Verde abacate",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/181.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "181-branca",
+    "name": "Oversized Plus Size Jordan · Branca",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 86,
+    "card": 90,
+    "category": "Plus size",
+    "img": "",
+    "catalog": "verus-assets/catalogo/181.webp",
+    "layout": "fashion",
+    "sizes": "G2, G3",
+    "profile": "",
+    "modelID": "181",
+    "modelName": "Oversized Plus Size Jordan",
+    "color": "Branca",
+    "sizeScale": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "photoLabel": "Oversized Plus Size Jordan · Branca",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/181.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "181-off-white",
+    "name": "Oversized Plus Size Jordan · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 86,
+    "card": 90,
+    "category": "Plus size",
+    "img": "",
+    "catalog": "verus-assets/catalogo/181.webp",
+    "layout": "fashion",
+    "sizes": "G2, G3",
+    "profile": "",
+    "modelID": "181",
+    "modelName": "Oversized Plus Size Jordan",
+    "color": "Off white",
+    "sizeScale": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "photoLabel": "Oversized Plus Size Jordan · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/181.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "181-verde-primavera",
+    "name": "Oversized Plus Size Jordan · Verde primavera",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Malha suedine",
+    "size": "-",
+    "pix": 86,
+    "card": 90,
+    "category": "Plus size",
+    "img": "",
+    "catalog": "verus-assets/catalogo/181.webp",
+    "layout": "fashion",
+    "sizes": "G2, G3",
+    "profile": "",
+    "modelID": "181",
+    "modelName": "Oversized Plus Size Jordan",
+    "color": "Verde primavera",
+    "sizeScale": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "photoLabel": "Oversized Plus Size Jordan · Verde primavera",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/181.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "182",
-    "name": "Camiseta Polo Slim Tricô",
+    "name": "Camiseta Polo Slim Tricô · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Tricô texturizado",
+    "size": "-",
+    "pix": 93,
+    "card": 98,
+    "category": "Polos",
+    "img": "",
+    "catalog": "verus-assets/catalogo/182.webp",
+    "layout": "fashion",
+    "sizes": "P, M, G",
+    "profile": "",
+    "modelID": "182",
+    "modelName": "Camiseta Polo Slim Tricô",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Slim Tricô · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/182.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "182-chumbo",
+    "name": "Camiseta Polo Slim Tricô · Chumbo",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Tricô texturizado",
@@ -4182,11 +13556,322 @@ const items = [
     "layout": "fashion",
     "sizes": "P, M, G, GG",
     "profile": "",
-    "variants": "E WHITE: P,M, G * CHUMBO: P,M, G, GG - BEGE: G, GG - LARANJA: M, G, GG - AZUL MARINHO: M, G, GG * PRETA:P,M, G, G"
+    "modelID": "182",
+    "modelName": "Camiseta Polo Slim Tricô",
+    "color": "Chumbo",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Slim Tricô · Chumbo",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/182.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "182-bege",
+    "name": "Camiseta Polo Slim Tricô · Bege",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Tricô texturizado",
+    "size": "-",
+    "pix": 93,
+    "card": 98,
+    "category": "Polos",
+    "img": "",
+    "catalog": "verus-assets/catalogo/182.webp",
+    "layout": "fashion",
+    "sizes": "G, GG",
+    "profile": "",
+    "modelID": "182",
+    "modelName": "Camiseta Polo Slim Tricô",
+    "color": "Bege",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Slim Tricô · Bege",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/182.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "182-laranja",
+    "name": "Camiseta Polo Slim Tricô · Laranja",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Tricô texturizado",
+    "size": "-",
+    "pix": 93,
+    "card": 98,
+    "category": "Polos",
+    "img": "",
+    "catalog": "verus-assets/catalogo/182.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "182",
+    "modelName": "Camiseta Polo Slim Tricô",
+    "color": "Laranja",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Slim Tricô · Laranja",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/182.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "182-azul-marinho",
+    "name": "Camiseta Polo Slim Tricô · Azul-marinho",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Tricô texturizado",
+    "size": "-",
+    "pix": 93,
+    "card": 98,
+    "category": "Polos",
+    "img": "",
+    "catalog": "verus-assets/catalogo/182.webp",
+    "layout": "fashion",
+    "sizes": "M, G, GG",
+    "profile": "",
+    "modelID": "182",
+    "modelName": "Camiseta Polo Slim Tricô",
+    "color": "Azul-marinho",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Slim Tricô · Azul-marinho",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/182.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "182-preta",
+    "name": "Camiseta Polo Slim Tricô · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Tricô texturizado",
+    "size": "-",
+    "pix": 93,
+    "card": 98,
+    "category": "Polos",
+    "img": "",
+    "catalog": "verus-assets/catalogo/182.webp",
+    "layout": "fashion",
+    "sizes": "P, M, G, GG",
+    "profile": "",
+    "modelID": "182",
+    "modelName": "Camiseta Polo Slim Tricô",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Slim Tricô · Preta",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/182.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "182-verde-musgo",
+    "name": "Camiseta Polo Slim Tricô · Verde musgo",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Tricô texturizado",
+    "size": "-",
+    "pix": 93,
+    "card": 98,
+    "category": "Polos",
+    "img": "",
+    "catalog": "verus-assets/catalogo/182.webp",
+    "layout": "fashion",
+    "sizes": "P, M, G, GG",
+    "profile": "",
+    "modelID": "182",
+    "modelName": "Camiseta Polo Slim Tricô",
+    "color": "Verde musgo",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Slim Tricô · Verde musgo",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/182.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "182-marrom",
+    "name": "Camiseta Polo Slim Tricô · Marrom",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Tricô texturizado",
+    "size": "-",
+    "pix": 93,
+    "card": 98,
+    "category": "Polos",
+    "img": "",
+    "catalog": "verus-assets/catalogo/182.webp",
+    "layout": "fashion",
+    "sizes": "P, M, G",
+    "profile": "",
+    "modelID": "182",
+    "modelName": "Camiseta Polo Slim Tricô",
+    "color": "Marrom",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Slim Tricô · Marrom",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/182.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "183",
-    "name": "Camiseta Polo Tricô",
+    "name": "Camiseta Polo Tricô · Azul",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Tricô",
+    "size": "-",
+    "pix": 93,
+    "card": 98,
+    "category": "Polos",
+    "img": "",
+    "catalog": "verus-assets/catalogo/183.webp",
+    "layout": "fashion",
+    "sizes": "P",
+    "profile": "",
+    "modelID": "183",
+    "modelName": "Camiseta Polo Tricô",
+    "color": "Azul",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Tricô · Azul",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/183.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "183-marrom",
+    "name": "Camiseta Polo Tricô · Marrom",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Tricô",
@@ -4199,11 +13884,117 @@ const items = [
     "layout": "fashion",
     "sizes": "P, GG",
     "profile": "",
-    "variants": "AZUL: P + MARROM: P, GG * VERDE: P + MARTE: P, GG"
+    "modelID": "183",
+    "modelName": "Camiseta Polo Tricô",
+    "color": "Marrom",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Tricô · Marrom",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/183.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "183-verde",
+    "name": "Camiseta Polo Tricô · Verde",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Tricô",
+    "size": "-",
+    "pix": 93,
+    "card": 98,
+    "category": "Polos",
+    "img": "",
+    "catalog": "verus-assets/catalogo/183.webp",
+    "layout": "fashion",
+    "sizes": "P",
+    "profile": "",
+    "modelID": "183",
+    "modelName": "Camiseta Polo Tricô",
+    "color": "Verde",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Tricô · Verde",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/183.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "183-marte",
+    "name": "Camiseta Polo Tricô · Marte",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Tricô",
+    "size": "-",
+    "pix": 93,
+    "card": 98,
+    "category": "Polos",
+    "img": "",
+    "catalog": "verus-assets/catalogo/183.webp",
+    "layout": "fashion",
+    "sizes": "P, GG",
+    "profile": "",
+    "modelID": "183",
+    "modelName": "Camiseta Polo Tricô",
+    "color": "Marte",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Tricô · Marte",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/183.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   },
   {
     "id": "184",
-    "name": "Camiseta Polo Tricô · variação 2",
+    "name": "Camiseta Polo Tricô · variação 2 · Cinza",
     "brand": "VERUS",
     "kind": "Roupa",
     "typ": "Tricô",
@@ -4216,6 +14007,153 @@ const items = [
     "layout": "fashion",
     "sizes": "P, G, GG",
     "profile": "",
-    "variants": "CINZA: P,G, GG + PRETA: P : OFF WHITE: P, GG -: MARROM: G"
+    "modelID": "184",
+    "modelName": "Camiseta Polo Tricô · variação 2",
+    "color": "Cinza",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Tricô · variação 2 · Cinza",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/184.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "184-preta",
+    "name": "Camiseta Polo Tricô · variação 2 · Preta",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Tricô",
+    "size": "-",
+    "pix": 93,
+    "card": 98,
+    "category": "Polos",
+    "img": "",
+    "catalog": "verus-assets/catalogo/184.webp",
+    "layout": "fashion",
+    "sizes": "P",
+    "profile": "",
+    "modelID": "184",
+    "modelName": "Camiseta Polo Tricô · variação 2",
+    "color": "Preta",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Tricô · variação 2 · Preta",
+    "photoReference": false,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/184.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          1065,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "184-off-white",
+    "name": "Camiseta Polo Tricô · variação 2 · Off white",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Tricô",
+    "size": "-",
+    "pix": 93,
+    "card": 98,
+    "category": "Polos",
+    "img": "",
+    "catalog": "verus-assets/catalogo/184.webp",
+    "layout": "fashion",
+    "sizes": "P, GG",
+    "profile": "",
+    "modelID": "184",
+    "modelName": "Camiseta Polo Tricô · variação 2",
+    "color": "Off white",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Tricô · variação 2 · Off white",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/184.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "id": "184-marrom",
+    "name": "Camiseta Polo Tricô · variação 2 · Marrom",
+    "brand": "VERUS",
+    "kind": "Roupa",
+    "typ": "Tricô",
+    "size": "-",
+    "pix": 93,
+    "card": 98,
+    "category": "Polos",
+    "img": "",
+    "catalog": "verus-assets/catalogo/184.webp",
+    "layout": "fashion",
+    "sizes": "G",
+    "profile": "",
+    "modelID": "184",
+    "modelName": "Camiseta Polo Tricô · variação 2",
+    "color": "Marrom",
+    "sizeScale": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "photoLabel": "Camiseta Polo Tricô · variação 2 · Marrom",
+    "photoReference": true,
+    "gallery": [
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/184.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          217,
+          528,
+          718,
+          718
+        ]
+      }
+    ]
   }
 ];
