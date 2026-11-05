@@ -766,7 +766,7 @@ const items = [
     },
     "occasion": "Feminino, elegante e marcante. Ideal para encontros, noites e ocasiões especiais, especialmente em dias amenos ou frios.",
     "gender": "feminino",
-    "previousCard": 238
+    "previousCard": 287
   },
   {
     "name": "Invictus",
