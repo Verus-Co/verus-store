@@ -168,7 +168,7 @@ const items = [
     },
     "occasion": "Fresco, elegante e marcante. Ideal para o dia a dia, trabalho, encontros e ocasiões casuais, especialmente em dias quentes ou amenos. Uma combinação cítrica, aromática e amadeirada que transmite sensação de limpeza e sofisticação.",
     "gender": "masculino",
-    "previousCard": 244
+    "previousCard": 325
   },
   {
     "name": "Ameerat Al Arab",
