@@ -615,9 +615,9 @@ const items = [
     "gender": "masculino",
     "previousCard": 362,
     "photo": {
-      "src": "verus-assets/produtos-fundo-bege/22.webp",
-      "width": 1122,
-      "height": 1402,
+      "src": "verus-assets/produtos-fundo-bege/22-nitida.webp",
+      "width": 1254,
+      "height": 1254,
       "background": "bege"
     },
     "photoLabel": "Club de Nuit Intense Man — Armaf — 105ml, com frasco e embalagem em fundo bege"
@@ -757,7 +757,7 @@ const items = [
     "occasion": "Fresco, marcante e sensual. Ideal para encontros, festas, saídas noturnas e ocasiões especiais.",
     "gender": "masculino",
     "photo": {
-      "src": "verus-assets/produtos-fundo-bege/27.webp",
+      "src": "verus-assets/produtos-fundo-bege/27-sem-perdas.webp",
       "width": 1254,
       "height": 1254,
       "background": "bege"
@@ -1125,7 +1125,7 @@ const items = [
     "occasion": "Feminino, doce e vibrante. Ideal para o dia a dia, encontros e ocasiões especiais, especialmente em dias quentes ou amenos.",
     "gender": "feminino",
     "photo": {
-      "src": "verus-assets/produtos-fundo-bege/40.webp",
+      "src": "verus-assets/produtos-fundo-bege/40-sem-perdas.webp",
       "width": 1254,
       "height": 1254,
       "background": "bege"
@@ -2389,7 +2389,7 @@ const items = [
     "occasion": "Frutado, vibrante e marcante. Ideal para o dia a dia, encontros, passeios e ocasiões especiais, podendo ser usado de dia ou à noite.",
     "gender": "feminino",
     "photo": {
-      "src": "verus-assets/produtos-fundo-bege/85.webp",
+      "src": "verus-assets/produtos-fundo-bege/85-sem-perdas.webp",
       "width": 1254,
       "height": 1254,
       "background": "bege"
@@ -2961,7 +2961,7 @@ const items = [
     "profile": "Gourmand e frutal",
     "description": "Hidratação profunda e prolongada, com textura cremosa, leve e de rápida absorção. Deixa a pele macia e sedosa, delicadamente perfumada com uma fragrância doce e vibrante, que combina frutas açucaradas com notas gourmand de baunilha e caramelo.",
     "photo": {
-      "src": "verus-assets/produtos-fundo-bege/114.webp",
+      "src": "verus-assets/produtos-fundo-bege/114-sem-perdas.webp",
       "width": 1254,
       "height": 1254,
       "background": "bege"
@@ -3076,7 +3076,7 @@ const items = [
     "profile": "Frutal e floral",
     "description": "BODY SOUFFLE Hidratação profunda e prolongada, com textura cremosa e sedosa. Deixa a pele macia e aveludada, delicadamente perfumada com uma fragrância frutada e floral.",
     "photo": {
-      "src": "verus-assets/produtos-fundo-bege/119.webp",
+      "src": "verus-assets/produtos-fundo-bege/119-sem-perdas.webp",
       "width": 1254,
       "height": 1254,
       "background": "bege"
