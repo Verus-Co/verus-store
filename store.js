@@ -258,7 +258,13 @@ let carouselTimer;
 
 function showSlide(index) {
   slideIndex = (index + campaignSlides.length) % campaignSlides.length;
-  $$('.campaign-slide').forEach((slide, i) => { slide.hidden = i !== slideIndex; });
+  $$('.campaign-slide').forEach((slide, i) => {
+    const active = i === slideIndex;
+    slide.classList.toggle('is-active',active);
+    slide.setAttribute('aria-hidden',String(!active));
+    slide.inert = !active;
+    slide.querySelector('a').tabIndex = active ? 0 : -1;
+  });
   $('.campaign').dataset.currentTheme = campaignSlides[slideIndex].theme;
 }
 
@@ -272,7 +278,7 @@ function resetCarouselTimer() {
 
 function setupCampaign() {
   $('.campaign').classList.add('campaign-banners');
-  $('#campaign-slides').innerHTML = campaignSlides.map((slide, i) => `<article class="campaign-slide" aria-roledescription="slide" aria-label="${i + 1} de ${campaignSlides.length}" ${i ? 'hidden' : ''}><a class="campaign-banner-link" href="${slide.href}"><img class="campaign-banner" src="verus-assets/banners/${slide.image}.webp" alt="${escapeHTML(slide.label)}" width="${slide.width}" height="${slide.height}" ${i ? 'loading="lazy"' : 'fetchpriority="high"'}></a></article>`).join('');
+  $('#campaign-slides').innerHTML = campaignSlides.map((slide, i) => `<article class="campaign-slide${i ? '' : ' is-active'}" aria-roledescription="slide" aria-label="${i + 1} de ${campaignSlides.length}" aria-hidden="${i ? 'true' : 'false'}" ${i ? 'inert' : ''}><a class="campaign-banner-link" href="${slide.href}"><img class="campaign-banner" src="verus-assets/banners/${slide.image}.webp" alt="${escapeHTML(slide.label)}" width="${slide.width}" height="${slide.height}" ${i ? 'loading="eager" fetchpriority="low"' : 'fetchpriority="high"'}></a></article>`).join('');
   showSlide(0);
   resetCarouselTimer();
   document.addEventListener('visibilitychange', resetCarouselTimer);
