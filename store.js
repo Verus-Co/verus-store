@@ -267,7 +267,7 @@ function resetCarouselTimer() {
   if (reducedMotion.matches || document.hidden) return;
   carouselTimer = setInterval(() => {
     if (!$('.campaign').contains(document.activeElement) && !$('.campaign').matches(':hover')) showSlide(slideIndex + 1);
-  }, 7000);
+  }, 5500);
 }
 
 function setupCampaign() {
