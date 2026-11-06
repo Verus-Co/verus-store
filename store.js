@@ -278,7 +278,7 @@ function resetCarouselTimer() {
 
 function setupCampaign() {
   $('.campaign').classList.add('campaign-banners');
-  $('#campaign-slides').innerHTML = campaignSlides.map((slide, i) => `<article class="campaign-slide${i ? '' : ' is-active'}" aria-roledescription="slide" aria-label="${i + 1} de ${campaignSlides.length}" aria-hidden="${i ? 'true' : 'false'}" ${i ? 'inert' : ''}><a class="campaign-banner-link" href="${slide.href}"><img class="campaign-banner" src="verus-assets/banners/${slide.image}.webp" alt="${escapeHTML(slide.label)}" width="${slide.width}" height="${slide.height}" ${i ? 'loading="eager" fetchpriority="low"' : 'fetchpriority="high"'}></a></article>`).join('');
+  $('#campaign-slides').innerHTML = campaignSlides.map((slide, i) => `<article class="campaign-slide${i ? '' : ' is-active'}" aria-roledescription="slide" aria-label="${i + 1} de ${campaignSlides.length}" aria-hidden="${i ? 'true' : 'false'}" ${i ? 'inert' : ''}><a class="campaign-banner-link" href="${slide.href}"><picture><source media="(max-width: 600px)" type="image/webp" srcset="verus-assets/banners/${slide.image}-mobile.webp"><img class="campaign-banner" src="verus-assets/banners/${slide.image}.webp" alt="${escapeHTML(slide.label)}" width="${slide.width}" height="${slide.height}" ${i ? 'loading="eager" fetchpriority="low"' : 'fetchpriority="high"'}></picture></a></article>`).join('');
   showSlide(0);
   resetCarouselTimer();
   document.addEventListener('visibilitychange', resetCarouselTimer);
