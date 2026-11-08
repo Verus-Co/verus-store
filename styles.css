@@ -192,18 +192,10 @@ netlify-badge,[id*="netlify-badge"],[class*="netlify-badge"],iframe[title="Power
 .campaign-banners .campaign-slide.is-active{opacity:1;visibility:visible;pointer-events:auto;z-index:1;transition:opacity .9s ease-in-out,visibility 0s linear 0s}
 @media(prefers-reduced-motion:reduce){.campaign-banners .campaign-slide{transition:none}}
 
-/* Artes próprias para o celular e benefícios em uma faixa compacta. */
+/* Artes próprias para o celular; benefícios exibidos apenas em telas maiores. */
 .campaign-banner-link picture{display:block;width:100%}
 .benefit-label-mobile{display:none}
 @media(max-width:600px){
  .campaign-banners .campaign-banner{aspect-ratio:3 / 2;object-fit:cover}
- .benefits{width:calc(100% - 32px);grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;min-height:64px;padding-block:10px;align-items:center}
- .benefits>div{gap:6px;justify-content:center;align-items:center;border-right:1px solid var(--line);padding-right:6px;min-width:0}
- .benefits>div:last-child{border:0;padding-right:0}
- .benefit-symbol{font-size:18px;line-height:1;min-width:0;flex-shrink:0}
- .benefits strong{font-size:9.5px;line-height:1.35}
- .benefits>div>p{min-width:0}
- .benefits>div>p>span{display:none}
- .benefits .benefit-label-desktop{display:none}
- .benefits .benefit-label-mobile{display:inline}
+ .benefits{display:none}
 }
