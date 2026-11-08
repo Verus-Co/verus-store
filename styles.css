@@ -199,3 +199,8 @@ netlify-badge,[id*="netlify-badge"],[class*="netlify-badge"],iframe[title="Power
  .campaign-banners .campaign-banner{aspect-ratio:3 / 2;object-fit:cover}
  .benefits{display:none}
 }
+
+/* iOS evita o zoom de foco quando o campo usa pelo menos 16 px. */
+@media(max-width:1000px), (hover:none) and (pointer:coarse){
+ .search-form input{font-size:16px;line-height:20px;padding-block:8px}
+}

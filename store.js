@@ -365,7 +365,11 @@ function setupHome() {
   $('#collection').addEventListener('change', e => { activeCollection = e.target.value;visibleLimit = 24;renderCatalogue(); });
   $('#sort').addEventListener('change', e => { activeSort = e.target.value;visibleLimit = 24;renderCatalogue(); });
   $('#search').addEventListener('input', e => { searchTerm = e.target.value;visibleLimit = 24;renderCatalogue(); });
-  $('.search-form').addEventListener('submit', e => { e.preventDefault();renderCatalogue();$('#loja').scrollIntoView({behavior:reducedMotion.matches ? 'instant' : 'smooth'}); });
+  $('.search-form').addEventListener('submit', e => {
+    e.preventDefault();renderCatalogue();
+    if (window.matchMedia('(max-width:1000px), (hover:none) and (pointer:coarse)').matches) $('#search').blur();
+    $('#loja').scrollIntoView({behavior:reducedMotion.matches ? 'instant' : 'smooth'});
+  });
   renderCatalogue();
   if ('IntersectionObserver' in window && !reducedMotion.matches) {
     const observer = new IntersectionObserver(entries => entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('is-visible');observer.unobserve(entry.target); } }), {threshold:.05});
