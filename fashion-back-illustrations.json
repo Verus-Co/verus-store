@@ -1,0 +1,431 @@
+[
+  {
+    "id": "137",
+    "color": "Bege",
+    "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+    "crop": [
+      8,
+      64,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "137-caqui",
+    "color": "Caqui",
+    "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+    "crop": [
+      392,
+      64,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "137-caqui-claro",
+    "color": "Caqui claro",
+    "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+    "crop": [
+      776,
+      64,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "137-azul-marinho",
+    "color": "Azul-marinho",
+    "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+    "crop": [
+      1160,
+      64,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "137-marrom",
+    "color": "Marrom",
+    "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+    "crop": [
+      8,
+      576,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "137-off-white",
+    "color": "Off white",
+    "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+    "crop": [
+      392,
+      576,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "137-preta",
+    "color": "Preta",
+    "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+    "crop": [
+      776,
+      576,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "137-salmao",
+    "color": "Salmão",
+    "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+    "crop": [
+      1160,
+      576,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "158",
+    "color": "Preta",
+    "src": "verus-assets/moda-versos/158-versos-ilustrativos.webp",
+    "crop": [
+      12,
+      12,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "158-bege",
+    "color": "Bege",
+    "src": "verus-assets/moda-versos/158-versos-ilustrativos.webp",
+    "crop": [
+      524,
+      12,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "158-lilas",
+    "color": "Lilás",
+    "src": "verus-assets/moda-versos/158-versos-ilustrativos.webp",
+    "crop": [
+      1036,
+      12,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "158-bordo",
+    "color": "Bordô",
+    "src": "verus-assets/moda-versos/158-versos-ilustrativos.webp",
+    "crop": [
+      12,
+      524,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "158-verde",
+    "color": "Verde",
+    "src": "verus-assets/moda-versos/158-versos-ilustrativos.webp",
+    "crop": [
+      524,
+      524,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "158-off-white",
+    "color": "Off white",
+    "src": "verus-assets/moda-versos/158-versos-ilustrativos.webp",
+    "crop": [
+      1036,
+      524,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "163",
+    "color": "Azul-marinho",
+    "src": "verus-assets/moda-versos/163-versos-ilustrativos.webp",
+    "crop": [
+      12,
+      12,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "163-off-white",
+    "color": "Off white",
+    "src": "verus-assets/moda-versos/163-versos-ilustrativos.webp",
+    "crop": [
+      524,
+      12,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "163-amarela",
+    "color": "Amarela",
+    "src": "verus-assets/moda-versos/163-versos-ilustrativos.webp",
+    "crop": [
+      1036,
+      12,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "163-bege",
+    "color": "Bege",
+    "src": "verus-assets/moda-versos/163-versos-ilustrativos.webp",
+    "crop": [
+      12,
+      524,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "163-caqui-claro",
+    "color": "Caqui claro",
+    "src": "verus-assets/moda-versos/163-versos-ilustrativos.webp",
+    "crop": [
+      524,
+      524,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "166",
+    "color": "Caqui",
+    "src": "verus-assets/moda-versos/166-versos-ilustrativos.webp",
+    "crop": [
+      12,
+      12,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "166-lilas",
+    "color": "Lilás",
+    "src": "verus-assets/moda-versos/166-versos-ilustrativos.webp",
+    "crop": [
+      524,
+      12,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "166-off-white",
+    "color": "Off white",
+    "src": "verus-assets/moda-versos/166-versos-ilustrativos.webp",
+    "crop": [
+      1036,
+      12,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "166-preta",
+    "color": "Preta",
+    "src": "verus-assets/moda-versos/166-versos-ilustrativos.webp",
+    "crop": [
+      12,
+      524,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "166-verde",
+    "color": "Verde",
+    "src": "verus-assets/moda-versos/166-versos-ilustrativos.webp",
+    "crop": [
+      524,
+      524,
+      488,
+      488
+    ]
+  },
+  {
+    "id": "171",
+    "color": "Amarela",
+    "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+    "crop": [
+      8,
+      64,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "171-azul-caribe",
+    "color": "Azul-Caribe",
+    "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+    "crop": [
+      392,
+      64,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "171-bege",
+    "color": "Bege",
+    "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+    "crop": [
+      776,
+      64,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "171-caqui",
+    "color": "Caqui",
+    "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+    "crop": [
+      1160,
+      64,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "171-verde-militar",
+    "color": "Verde militar",
+    "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+    "crop": [
+      8,
+      576,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "171-off-white",
+    "color": "Off white",
+    "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+    "crop": [
+      392,
+      576,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "171-preta",
+    "color": "Preta",
+    "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+    "crop": [
+      776,
+      576,
+      368,
+      384
+    ]
+  },
+  {
+    "id": "182",
+    "color": "Off white",
+    "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+    "crop": [
+      8,
+      32,
+      368,
+      448
+    ]
+  },
+  {
+    "id": "182-chumbo",
+    "color": "Chumbo",
+    "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+    "crop": [
+      392,
+      32,
+      368,
+      448
+    ]
+  },
+  {
+    "id": "182-bege",
+    "color": "Bege",
+    "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+    "crop": [
+      776,
+      32,
+      368,
+      448
+    ]
+  },
+  {
+    "id": "182-laranja",
+    "color": "Laranja",
+    "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+    "crop": [
+      1160,
+      32,
+      368,
+      448
+    ]
+  },
+  {
+    "id": "182-azul-marinho",
+    "color": "Azul-marinho",
+    "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+    "crop": [
+      8,
+      544,
+      368,
+      448
+    ]
+  },
+  {
+    "id": "182-preta",
+    "color": "Preta",
+    "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+    "crop": [
+      392,
+      544,
+      368,
+      448
+    ]
+  },
+  {
+    "id": "182-verde-musgo",
+    "color": "Verde musgo",
+    "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+    "crop": [
+      776,
+      544,
+      368,
+      448
+    ]
+  },
+  {
+    "id": "182-marrom",
+    "color": "Marrom",
+    "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+    "crop": [
+      1160,
+      544,
+      368,
+      448
+    ]
+  }
+]

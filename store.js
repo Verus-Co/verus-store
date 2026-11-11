@@ -73,9 +73,9 @@ function photo(p, eager = false, viewIndex = 0) {
       const inset = view.cleanCrop ? 0 : Math.ceil(Math.min(cropWidth,cropHeight) * .02);
       const [x,y,width,height] = [cropX + inset,cropY + inset,cropWidth - 2 * inset,cropHeight - 2 * inset];
       const ratio = width / height;
-      return `<span class="photo-window fashion-gallery-photo"><span class="fashion-crop-frame" style="width:${Math.min(1,ratio)*100}%;height:${Math.min(1,1/ratio)*100}%;"><span class="fashion-crop-image" style="--crop-width:${view.sourceWidth / width * 100}%;--crop-height:${view.sourceHeight / height * 100}%;--crop-left:${-x / width * 100}%;--crop-top:${-y / height * 100}%"><img src="${escapeHTML(view.src)}" width="${view.sourceWidth}" height="${view.sourceHeight}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" alt="${escapeHTML(p.name+' — '+view.label+(view.referenceColor ? ' (referência em '+view.referenceColor+')' : ''))}"></span></span></span>`;
+      return `<span class="photo-window fashion-gallery-photo"><span class="fashion-crop-frame" style="width:${Math.min(1,ratio)*100}%;height:${Math.min(1,1/ratio)*100}%;"><span class="fashion-crop-image" style="--crop-width:${view.sourceWidth / width * 100}%;--crop-height:${view.sourceHeight / height * 100}%;--crop-left:${-x / width * 100}%;--crop-top:${-y / height * 100}%"><img src="${escapeHTML(view.src)}" width="${view.sourceWidth}" height="${view.sourceHeight}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" alt="${escapeHTML(p.name+' — '+view.label+(view.illustrative ? ' (imagem ilustrativa)' : view.referenceColor ? ' (referência em '+view.referenceColor+')' : ''))}"></span></span></span>`;
     }
-    return `<span class="photo-window original-photo fashion-standalone-photo"><img src="${escapeHTML(view.src)}" width="${view.width}" height="${view.height}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" alt="${escapeHTML(p.name+' — '+view.label+(view.referenceColor ? ' (referência em '+view.referenceColor+')' : ''))}"></span>`;
+    return `<span class="photo-window original-photo fashion-standalone-photo"><img src="${escapeHTML(view.src)}" width="${view.width}" height="${view.height}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" alt="${escapeHTML(p.name+' — '+view.label+(view.illustrative ? ' (imagem ilustrativa)' : view.referenceColor ? ' (referência em '+view.referenceColor+')' : ''))}"></span>`;
   }
   if (p.photoPlaceholder) return '<span class="photo-pending">VERUS<small>Spray de ambiente</small><small>Foto em atualização</small></span>';
   if (p.photo) {
@@ -386,6 +386,7 @@ let selectedGalleryView = 0;
 let sizeHintTimer;
 
 function galleryPhotoNote(p, index) {
+  if (p.gallery[index]?.illustrative) return 'Verso ilustrativo criado a partir da foto da frente.';
   const referenceColor = p.gallery[index]?.referenceColor;
   return referenceColor ? `Foto do verso em ${referenceColor}, como referência do modelo.` : p.photoReference ? 'Fotos de referência do modelo; a cor da foto pode diferir da selecionada.' : '';
 }

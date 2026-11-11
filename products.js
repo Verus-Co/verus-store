@@ -5598,6 +5598,20 @@ const items = [
           215
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          8,
+          64,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -5641,6 +5655,20 @@ const items = [
           235
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          392,
+          64,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -5684,6 +5712,20 @@ const items = [
           250
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          776,
+          64,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -5727,6 +5769,20 @@ const items = [
           245
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          1160,
+          64,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -5770,6 +5826,20 @@ const items = [
           220
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          8,
+          576,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -5813,6 +5883,20 @@ const items = [
           400
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          392,
+          576,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -5856,6 +5940,20 @@ const items = [
           220
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          776,
+          576,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -5899,6 +5997,20 @@ const items = [
           215
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/137-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          1160,
+          576,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -9209,6 +9321,20 @@ const items = [
           264
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/158-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          12,
+          12,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -9252,6 +9378,20 @@ const items = [
           264
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/158-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          524,
+          12,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -9295,6 +9435,20 @@ const items = [
           250
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/158-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          1036,
+          12,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -9338,6 +9492,20 @@ const items = [
           250
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/158-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          12,
+          524,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -9381,6 +9549,20 @@ const items = [
           250
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/158-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          524,
+          524,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -9424,6 +9606,20 @@ const items = [
           260
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/158-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          1036,
+          524,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -9973,6 +10169,20 @@ const items = [
           220
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/163-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          12,
+          12,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -10016,6 +10226,20 @@ const items = [
           215
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/163-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          524,
+          12,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -10059,6 +10283,20 @@ const items = [
           240
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/163-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          1036,
+          12,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -10102,6 +10340,20 @@ const items = [
           230
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/163-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          12,
+          524,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -10145,6 +10397,20 @@ const items = [
           240
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/163-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          524,
+          524,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -10824,6 +11090,20 @@ const items = [
           190
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/166-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          12,
+          12,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -10867,6 +11147,20 @@ const items = [
           400
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/166-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          524,
+          12,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -10910,6 +11204,20 @@ const items = [
           230
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/166-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          1036,
+          12,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -10953,6 +11261,20 @@ const items = [
           260
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/166-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          12,
+          524,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -10996,6 +11318,20 @@ const items = [
           215
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/166-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          524,
+          524,
+          488,
+          488
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -11543,6 +11879,20 @@ const items = [
           270
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          8,
+          64,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -11586,6 +11936,20 @@ const items = [
           270
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          392,
+          64,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -11629,6 +11993,20 @@ const items = [
           270
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          776,
+          64,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -11672,6 +12050,20 @@ const items = [
           294
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          1160,
+          64,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -11715,6 +12107,20 @@ const items = [
           294
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          8,
+          576,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -11758,6 +12164,20 @@ const items = [
           286
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          392,
+          576,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -11801,6 +12221,20 @@ const items = [
           286
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/171-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          776,
+          576,
+          368,
+          384
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -13712,6 +14146,20 @@ const items = [
           218
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          8,
+          32,
+          368,
+          448
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -13755,6 +14203,20 @@ const items = [
           218
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          392,
+          32,
+          368,
+          448
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -13798,6 +14260,20 @@ const items = [
           213
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          776,
+          32,
+          368,
+          448
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -13841,6 +14317,20 @@ const items = [
           213
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          1160,
+          32,
+          368,
+          448
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -13884,6 +14374,20 @@ const items = [
           225
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          8,
+          544,
+          368,
+          448
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -13927,6 +14431,20 @@ const items = [
           225
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          392,
+          544,
+          368,
+          448
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -13970,6 +14488,20 @@ const items = [
           230
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          776,
+          544,
+          368,
+          448
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
@@ -14013,6 +14545,20 @@ const items = [
           230
         ],
         "cleanCrop": true
+      },
+      {
+        "label": "Verso",
+        "src": "verus-assets/moda-versos/182-versos-ilustrativos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
+        "crop": [
+          1160,
+          544,
+          368,
+          448
+        ],
+        "cleanCrop": true,
+        "illustrative": true
       }
     ],
     "colorPhotoAvailable": true
