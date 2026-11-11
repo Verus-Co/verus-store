@@ -70,11 +70,12 @@ function photo(p, eager = false, viewIndex = 0) {
     if (view.crop) {
       // Exclui a moldura dourada e os cantos do catálogo no enquadramento.
       const [cropX,cropY,cropWidth,cropHeight] = view.crop;
-      const inset = Math.ceil(Math.min(cropWidth,cropHeight) * .02);
+      const inset = view.cleanCrop ? 0 : Math.ceil(Math.min(cropWidth,cropHeight) * .02);
       const [x,y,width,height] = [cropX + inset,cropY + inset,cropWidth - 2 * inset,cropHeight - 2 * inset];
-      return `<span class="photo-window fashion-gallery-photo" style="--crop-width:${view.sourceWidth / width * 100}%;--crop-height:${view.sourceHeight / height * 100}%;--crop-left:${-x / width * 100}%;--crop-top:${-y / height * 100}%"><img src="${escapeHTML(view.src)}" width="${view.sourceWidth}" height="${view.sourceHeight}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" alt="${escapeHTML(p.name+' — '+view.label)}"></span>`;
+      const ratio = width / height;
+      return `<span class="photo-window fashion-gallery-photo"><span class="fashion-crop-frame" style="width:${Math.min(1,ratio)*100}%;height:${Math.min(1,1/ratio)*100}%;"><span class="fashion-crop-image" style="--crop-width:${view.sourceWidth / width * 100}%;--crop-height:${view.sourceHeight / height * 100}%;--crop-left:${-x / width * 100}%;--crop-top:${-y / height * 100}%"><img src="${escapeHTML(view.src)}" width="${view.sourceWidth}" height="${view.sourceHeight}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" alt="${escapeHTML(p.name+' — '+view.label+(view.referenceColor ? ' (referência em '+view.referenceColor+')' : ''))}"></span></span></span>`;
     }
-    return `<span class="photo-window original-photo fashion-standalone-photo"><img src="${escapeHTML(view.src)}" width="${view.width}" height="${view.height}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" alt="${escapeHTML(p.name+' — '+view.label)}"></span>`;
+    return `<span class="photo-window original-photo fashion-standalone-photo"><img src="${escapeHTML(view.src)}" width="${view.width}" height="${view.height}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" alt="${escapeHTML(p.name+' — '+view.label+(view.referenceColor ? ' (referência em '+view.referenceColor+')' : ''))}"></span>`;
   }
   if (p.photoPlaceholder) return '<span class="photo-pending">VERUS<small>Spray de ambiente</small><small>Foto em atualização</small></span>';
   if (p.photo) {
@@ -384,13 +385,18 @@ let selectedClothingSize = '';
 let selectedGalleryView = 0;
 let sizeHintTimer;
 
+function galleryPhotoNote(p, index) {
+  const referenceColor = p.gallery[index]?.referenceColor;
+  return referenceColor ? `Foto do verso em ${referenceColor}, como referência do modelo.` : p.photoReference ? 'Fotos de referência do modelo; a cor da foto pode diferir da selecionada.' : '';
+}
+
 function galleryControls(p) {
-  return `<div class="fashion-gallery-stage"><div class="fashion-gallery-main" id="fashion-gallery-main">${photo(p,true,selectedGalleryView)}</div>${p.gallery.length > 1 ? `<div class="gallery-arrows"><button type="button" data-action="gallery-step" data-step="-1" aria-label="Foto anterior">‹</button><button type="button" data-action="gallery-step" data-step="1" aria-label="Próxima foto">›</button></div>` : ''}</div>${p.gallery.length > 1 ? `<div class="gallery-thumbs" role="group" aria-label="Fotos do produto">${p.gallery.map((view,i) => `<button type="button" class="gallery-thumb" data-action="gallery-view" data-index="${i}" aria-pressed="${i===selectedGalleryView}" aria-label="Ver ${escapeHTML(view.label.toLowerCase())}">${photo(p,false,i)}<span>${escapeHTML(view.label)}</span></button>`).join('')}</div>` : ''}${p.photoReference ? '<p class="photo-reference-note">Fotos de referência do modelo; a cor da foto pode diferir da selecionada.</p>' : ''}`;
+  return `<div class="fashion-gallery-stage"><div class="fashion-gallery-main" id="fashion-gallery-main">${photo(p,true,selectedGalleryView)}</div>${p.gallery.length > 1 ? `<div class="gallery-arrows"><button type="button" data-action="gallery-step" data-step="-1" aria-label="Foto anterior">‹</button><button type="button" data-action="gallery-step" data-step="1" aria-label="Próxima foto">›</button></div>` : ''}</div>${p.gallery.length > 1 ? `<div class="gallery-thumbs" role="group" aria-label="Fotos do produto">${p.gallery.map((view,i) => `<button type="button" class="gallery-thumb" data-action="gallery-view" data-index="${i}" aria-pressed="${i===selectedGalleryView}" aria-label="Ver ${escapeHTML(view.label.toLowerCase())}">${photo(p,false,i)}<span>${escapeHTML(view.label)}</span></button>`).join('')}</div>` : ''}<p class="photo-reference-note" id="gallery-photo-note" aria-live="polite" ${galleryPhotoNote(p,selectedGalleryView) ? '' : 'hidden'}>${escapeHTML(galleryPhotoNote(p,selectedGalleryView))}</p>`;
 }
 
 function clothingOptions(p) {
   const scale = p.sizeScale || ['P','M','G','GG'];
-  return `<section class="clothing-options" aria-label="Cor e tamanho"><p class="current-color">Cor: <b>${escapeHTML(p.color)}</b></p><div class="other-colors" aria-label="Outras cores deste modelo">${items.filter(other => other.modelID === p.modelID).map(other => `<a href="${colorProductURL(other.id)}" ${other.id===p.id ? 'aria-current="page"' : ''}>${escapeHTML(other.color)}</a>`).join('')}</div><fieldset class="clothing-size"><legend>Escolha o tamanho</legend><div class="clothing-size-choices" role="radiogroup" aria-label="Tamanho">${scale.map(size => {
+  return `<section class="clothing-options" aria-label="Cor e tamanho"><p class="current-color">Cor: <b>${escapeHTML(p.color)}</b></p><div class="other-colors" aria-label="Outras cores deste modelo">${items.filter(other => other.modelID === p.modelID).map(other => `<a class="color-choice${!other.photoReference ? ' color-choice-photo' : ''}" href="${colorProductURL(other.id)}" aria-label="Escolher cor ${escapeHTML(other.color)}" ${other.id===p.id ? 'aria-current="page"' : ''}>${!other.photoReference ? photo(other) : ''}<span>${escapeHTML(other.color)}</span></a>`).join('')}</div><fieldset class="clothing-size"><legend>Escolha o tamanho</legend><div class="clothing-size-choices" role="radiogroup" aria-label="Tamanho">${scale.map(size => {
     const available = availableSizes(p).includes(size);
     return `<span class="size-option"><button class="size-button" type="button" role="radio" aria-checked="${selectedClothingSize===size}" aria-disabled="${!available}" aria-label="Tamanho ${size}${available ? '' : ', indisponível nesta cor'}" data-action="clothing-size" data-size="${size}"><span>${size}</span></button>${available ? '' : `<span class="size-hint" role="tooltip" id="size-hint-${size}" hidden>Indisponível nesta cor</span>`}</span>`;
   }).join('')}</div></fieldset></section>`;
@@ -496,6 +502,8 @@ document.addEventListener('click', event => {
     const count = currentProduct.gallery.length;
     selectedGalleryView = action === 'gallery-view' ? Number(button.dataset.index) : (selectedGalleryView + Number(button.dataset.step) + count) % count;
     $('#fashion-gallery-main').innerHTML = photo(currentProduct,true,selectedGalleryView);
+    const note = $('#gallery-photo-note');
+    note.textContent = galleryPhotoNote(currentProduct,selectedGalleryView);note.hidden = !note.textContent;
     $$('.gallery-thumb').forEach(other => other.setAttribute('aria-pressed',String(Number(other.dataset.index)===selectedGalleryView)));
   }
   if (action === 'cart-plus' || action === 'cart-minus' || action === 'cart-remove') {

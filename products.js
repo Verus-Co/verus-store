@@ -5305,7 +5305,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Swoosh By Nike · Preta",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -5313,11 +5313,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          240,
+          530,
+          335,
+          235
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -5329,9 +5330,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Off white"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "136-amarela",
@@ -5358,7 +5361,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Swoosh By Nike · Amarela",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -5366,11 +5369,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          580,
+          530,
+          335,
+          235
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -5382,9 +5386,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Off white"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "136-off-white",
@@ -5411,7 +5417,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Swoosh By Nike · Off white",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -5419,11 +5425,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          240,
+          778,
+          335,
+          290
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -5437,7 +5444,8 @@ const items = [
           718
         ]
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "136-azul-marinho",
@@ -5464,19 +5472,20 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Swoosh By Nike · Azul-marinho",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/136.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          240,
+          1080,
+          335,
+          155
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -5488,9 +5497,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Off white"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "136-bege",
@@ -5517,19 +5528,20 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Swoosh By Nike · Bege",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/136.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          580,
+          1080,
+          335,
+          155
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -5541,9 +5553,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Off white"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "137",
@@ -5570,7 +5584,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Nike · Bege",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -5578,13 +5592,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1580,
+          746,
+          195,
+          215
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "137-caqui",
@@ -5611,7 +5627,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Nike · Caqui",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -5619,13 +5635,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1320,
+          958,
+          218,
+          235
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "137-caqui-claro",
@@ -5652,7 +5670,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Nike · Caqui claro",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -5660,13 +5678,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1547,
+          948,
+          225,
+          250
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "137-azul-marinho",
@@ -5693,7 +5713,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Nike · Azul-marinho",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -5701,13 +5721,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1108,
+          946,
+          207,
+          245
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "137-marrom",
@@ -5734,7 +5756,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Nike · Marrom",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -5742,13 +5764,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          610,
+          580,
+          270,
+          220
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "137-off-white",
@@ -5775,7 +5799,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Nike · Off white",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -5783,13 +5807,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1240,
+          540,
+          400,
+          400
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "137-preta",
@@ -5816,7 +5842,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Nike · Preta",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -5824,13 +5850,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          260,
+          575,
+          300,
+          220
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "137-salmao",
@@ -5857,7 +5885,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Nike · Salmão",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -5865,13 +5893,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1075,
+          724,
+          202,
+          215
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "138",
@@ -6392,20 +6422,8 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Emotions · Verde musgo",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
-      {
-        "label": "Frente",
-        "src": "verus-assets/catalogo/142.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
-        "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
-      },
       {
         "label": "Verso",
         "src": "verus-assets/catalogo/142.webp",
@@ -6417,8 +6435,22 @@ const items = [
           718,
           718
         ]
+      },
+      {
+        "label": "Detalhe da frente",
+        "src": "verus-assets/catalogo/142.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          235,
+          1105,
+          350,
+          130
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "142-bege",
@@ -6445,7 +6477,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Emotions · Bege",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -6453,11 +6485,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          235,
+          652,
+          350,
+          224
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -6469,9 +6502,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Verde musgo"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "142-chumbo",
@@ -6498,19 +6533,20 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Emotions · Chumbo",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/142.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          580,
+          1105,
+          345,
+          130
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -6522,9 +6558,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Verde musgo"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "142-creme",
@@ -6551,7 +6589,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Emotions · Creme",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -6559,11 +6597,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          235,
+          882,
+          350,
+          215
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -6575,9 +6614,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Verde musgo"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "142-laranja",
@@ -6604,7 +6645,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Emotions · Laranja",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -6612,11 +6653,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          580,
+          652,
+          345,
+          224
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -6628,9 +6670,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Verde musgo"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "142-azul-marinho",
@@ -6657,7 +6701,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Emotions · Azul-marinho",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -6665,11 +6709,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          580,
+          882,
+          345,
+          215
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -6681,9 +6726,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Verde musgo"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "142-off-white",
@@ -6710,19 +6757,20 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Emotions · Off white",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/142.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          585,
+          530,
+          335,
+          118
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -6734,9 +6782,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Verde musgo"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "142-preta",
@@ -6763,19 +6813,20 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Emotions · Preta",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/142.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          235,
+          530,
+          350,
+          118
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -6787,9 +6838,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Verde musgo"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "143",
@@ -7734,7 +7787,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized La Pool · Bege",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -7742,11 +7795,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          228,
+          755,
+          170,
+          224
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -7758,9 +7812,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Azul-marinho"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "150-creme",
@@ -7787,7 +7843,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized La Pool · Creme",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -7795,11 +7851,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          478,
+          1085,
+          200,
+          150
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -7811,9 +7868,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Azul-marinho"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "150-laranja",
@@ -7840,7 +7899,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized La Pool · Laranja",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -7848,11 +7907,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          755,
+          755,
+          175,
+          224
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -7864,9 +7924,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Azul-marinho"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "150-azul-marinho",
@@ -7893,20 +7955,8 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized La Pool · Azul-marinho",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
-      {
-        "label": "Frente",
-        "src": "verus-assets/catalogo/150.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
-        "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
-      },
       {
         "label": "Verso",
         "src": "verus-assets/catalogo/150.webp",
@@ -7918,8 +7968,22 @@ const items = [
           718,
           718
         ]
+      },
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/150.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          255,
+          1080,
+          215,
+          155
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "150-verde",
@@ -7946,7 +8010,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized La Pool · Verde",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -7954,11 +8018,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          595,
+          530,
+          200,
+          120
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -7970,9 +8035,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Azul-marinho"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "150-off-white",
@@ -7999,7 +8066,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized La Pool · Off white",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -8007,11 +8074,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          395,
+          640,
+          360,
+          439
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -8023,9 +8091,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Azul-marinho"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "150-preta",
@@ -8052,7 +8122,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized La Pool · Preta",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -8060,11 +8130,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          352,
+          530,
+          205,
+          120
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -8076,9 +8147,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Azul-marinho"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "151",
@@ -8623,20 +8696,8 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized La · Bege",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
-      {
-        "label": "Frente",
-        "src": "verus-assets/catalogo/155.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
-        "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
-      },
       {
         "label": "Verso",
         "src": "verus-assets/catalogo/155.webp",
@@ -8648,8 +8709,22 @@ const items = [
           718,
           718
         ]
+      },
+      {
+        "label": "Detalhe da frente",
+        "src": "verus-assets/catalogo/155.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          670,
+          908,
+          245,
+          318
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "155-cinza",
@@ -8676,19 +8751,20 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized La · Cinza",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/155.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          245,
+          870,
+          280,
+          360
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -8700,9 +8776,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Bege"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "155-creme",
@@ -8729,19 +8807,20 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized La · Creme",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/155.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          450,
+          755,
+          300,
+          185
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -8753,9 +8832,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Bege"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "155-laranja",
@@ -8782,19 +8863,20 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized La · Laranja",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/155.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          348,
+          950,
+          440,
+          285
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -8806,9 +8888,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Bege"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "155-off-white",
@@ -8835,19 +8919,20 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized La · Off white",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/155.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          675,
+          535,
+          215,
+          95
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -8859,9 +8944,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Bege"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "155-preta",
@@ -8888,19 +8975,20 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized La · Preta",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/155.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          248,
+          530,
+          290,
+          85
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -8912,9 +9000,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Bege"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "156",
@@ -9105,7 +9195,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Supreme · Preta",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -9113,13 +9203,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          290,
+          605,
+          295,
+          264
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "158-bege",
@@ -9146,7 +9238,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Supreme · Bege",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -9154,13 +9246,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          580,
+          605,
+          275,
+          264
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "158-lilas",
@@ -9187,7 +9281,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Supreme · Lilás",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -9195,13 +9289,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1080,
+          653,
+          260,
+          250
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "158-bordo",
@@ -9228,7 +9324,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Supreme · Bordô",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -9236,13 +9332,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1320,
+          653,
+          235,
+          250
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "158-verde",
@@ -9269,7 +9367,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Supreme · Verde",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -9277,13 +9375,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1545,
+          653,
+          225,
+          250
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "158-off-white",
@@ -9310,7 +9410,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Supreme · Off white",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -9318,13 +9418,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1145,
+          920,
+          280,
+          260
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "159",
@@ -9857,7 +9959,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Palm Angels · variação 2 · Azul-marinho",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -9865,13 +9967,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1110,
+          940,
+          210,
+          220
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "163-off-white",
@@ -9898,7 +10002,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Palm Angels · variação 2 · Off white",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -9906,13 +10010,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1332,
+          966,
+          205,
+          215
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "163-amarela",
@@ -9939,7 +10045,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Palm Angels · variação 2 · Amarela",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -9947,13 +10053,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1078,
+          724,
+          210,
+          240
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "163-bege",
@@ -9980,7 +10088,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Palm Angels · variação 2 · Bege",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -9988,13 +10096,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1575,
+          728,
+          195,
+          230
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "163-caqui-claro",
@@ -10021,7 +10131,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Palm Angels · variação 2 · Caqui claro",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -10029,13 +10139,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1542,
+          943,
+          225,
+          240
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "164",
@@ -10698,21 +10810,23 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Corteiz · variação 3 · Caqui",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/166.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1480,
+          610,
+          280,
+          190
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "166-lilas",
@@ -10739,21 +10853,23 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Corteiz · variação 3 · Lilás",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/166.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1190,
+          797,
+          460,
+          400
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "166-off-white",
@@ -10780,21 +10896,23 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Corteiz · variação 3 · Off white",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/166.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          620,
+          600,
+          290,
+          230
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "166-preta",
@@ -10821,21 +10939,23 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Corteiz · variação 3 · Preta",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/166.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          245,
+          570,
+          350,
+          260
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "166-verde",
@@ -10862,21 +10982,23 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Corteiz · variação 3 · Verde",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
-        "label": "Frente",
+        "label": "Detalhe da frente",
         "src": "verus-assets/catalogo/166.webp",
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1085,
+          588,
+          350,
+          215
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "167",
@@ -11407,7 +11529,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Boss · Amarela",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -11415,13 +11537,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1320,
+          634,
+          238,
+          270
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "171-azul-caribe",
@@ -11448,7 +11572,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Boss · Azul-Caribe",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -11456,13 +11580,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1535,
+          634,
+          240,
+          270
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "171-bege",
@@ -11489,7 +11615,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Boss · Bege",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -11497,13 +11623,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1075,
+          634,
+          260,
+          270
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "171-caqui",
@@ -11530,7 +11658,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Boss · Caqui",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -11538,13 +11666,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1420,
+          914,
+          290,
+          294
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "171-verde-militar",
@@ -11571,7 +11701,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Boss · Verde militar",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -11579,13 +11709,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1140,
+          914,
+          300,
+          294
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "171-off-white",
@@ -11612,7 +11744,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Boss · Off white",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -11620,13 +11752,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          580,
+          570,
+          285,
+          286
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "171-preta",
@@ -11653,7 +11787,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Boss · Preta",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -11661,13 +11795,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          285,
+          570,
+          310,
+          286
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "172",
@@ -12292,7 +12428,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Off-White · variação 3 · Creme",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -12300,11 +12436,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          335,
+          1005,
+          295,
+          230
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -12318,7 +12455,8 @@ const items = [
           718
         ]
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "177-bege",
@@ -12345,7 +12483,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Off-White · variação 3 · Bege",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -12353,11 +12491,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          697,
+          766,
+          225,
+          232
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -12369,9 +12508,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Creme"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "177-laranja",
@@ -12398,7 +12539,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Off-White · variação 3 · Laranja",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -12406,11 +12547,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          245,
+          766,
+          265,
+          232
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -12422,9 +12564,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Creme"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "177-azul-marinho",
@@ -12451,7 +12595,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Off-White · variação 3 · Azul-marinho",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -12459,11 +12603,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          625,
+          1005,
+          220,
+          230
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -12475,9 +12620,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Creme"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "177-musgo",
@@ -12504,7 +12651,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Off-White · variação 3 · Musgo",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -12512,11 +12659,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          495,
+          766,
+          220,
+          232
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -12528,9 +12676,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Creme"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "177-off-white",
@@ -12557,7 +12707,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Off-White · variação 3 · Off white",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -12565,11 +12715,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          585,
+          530,
+          270,
+          232
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -12581,9 +12732,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Creme"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "177-preta",
@@ -12610,7 +12763,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Off-White · variação 3 · Preta",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -12618,11 +12771,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          280,
+          530,
+          335,
+          232
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -12634,9 +12788,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Creme"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "178",
@@ -12663,20 +12819,8 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Regata Adidas · Off white",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
-      {
-        "label": "Frente",
-        "src": "verus-assets/catalogo/178.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
-        "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
-      },
       {
         "label": "Verso",
         "src": "verus-assets/catalogo/178.webp",
@@ -12688,8 +12832,22 @@ const items = [
           718,
           718
         ]
+      },
+      {
+        "label": "Frente",
+        "src": "verus-assets/catalogo/178.webp",
+        "sourceWidth": 2000,
+        "sourceHeight": 1410,
+        "crop": [
+          335,
+          1100,
+          225,
+          135
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "178-preta",
@@ -12716,7 +12874,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Regata Adidas · Preta",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -12724,11 +12882,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          320,
+          530,
+          242,
+          250
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -12740,9 +12899,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Off white"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "178-azul-marinho",
@@ -12769,7 +12930,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Regata Adidas · Azul-marinho",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -12777,11 +12938,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          600,
+          1100,
+          245,
+          135
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -12793,9 +12955,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Off white"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "178-caqui-claro",
@@ -12822,7 +12986,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Regata Adidas · Caqui claro",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -12830,11 +12994,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          335,
+          790,
+          225,
+          300
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -12846,9 +13011,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Off white"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "178-caqui",
@@ -12875,7 +13042,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Regata Adidas · Caqui",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -12883,11 +13050,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          600,
+          790,
+          245,
+          300
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -12899,9 +13067,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Off white"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "178-bege",
@@ -12928,7 +13098,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Oversized Regata Adidas · Bege",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -12936,11 +13106,12 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          600,
+          530,
+          245,
+          250
+        ],
+        "cleanCrop": true
       },
       {
         "label": "Verso",
@@ -12952,9 +13123,11 @@ const items = [
           528,
           718,
           718
-        ]
+        ],
+        "referenceColor": "Off white"
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "179",
@@ -13525,7 +13698,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Polo Slim Tricô · Off white",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -13533,13 +13706,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          285,
+          548,
+          283,
+          218
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "182-chumbo",
@@ -13566,7 +13741,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Polo Slim Tricô · Chumbo",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -13574,13 +13749,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          583,
+          548,
+          290,
+          218
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "182-bege",
@@ -13607,7 +13784,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Polo Slim Tricô · Bege",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -13615,13 +13792,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1125,
+          535,
+          290,
+          213
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "182-laranja",
@@ -13648,7 +13827,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Polo Slim Tricô · Laranja",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -13656,13 +13835,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1430,
+          535,
+          295,
+          213
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "182-azul-marinho",
@@ -13689,7 +13870,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Polo Slim Tricô · Azul-marinho",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -13697,13 +13878,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1125,
+          754,
+          290,
+          225
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "182-preta",
@@ -13730,7 +13913,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Polo Slim Tricô · Preta",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -13738,13 +13921,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1430,
+          754,
+          295,
+          225
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "182-verde-musgo",
@@ -13771,7 +13956,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Polo Slim Tricô · Verde musgo",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -13779,13 +13964,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1125,
+          980,
+          290,
+          230
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "182-marrom",
@@ -13812,7 +13999,7 @@ const items = [
       "GG"
     ],
     "photoLabel": "Camiseta Polo Slim Tricô · Marrom",
-    "photoReference": true,
+    "photoReference": false,
     "gallery": [
       {
         "label": "Frente",
@@ -13820,13 +14007,15 @@ const items = [
         "sourceWidth": 2000,
         "sourceHeight": 1410,
         "crop": [
-          217,
-          528,
-          718,
-          718
-        ]
+          1430,
+          980,
+          295,
+          230
+        ],
+        "cleanCrop": true
       }
-    ]
+    ],
+    "colorPhotoAvailable": true
   },
   {
     "id": "183",

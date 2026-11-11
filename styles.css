@@ -223,3 +223,14 @@ netlify-badge,[id*="netlify-badge"],[class*="netlify-badge"],iframe[title="Power
  .fashion-product-gallery:has(.gallery-thumbs) .fashion-gallery-stage{grid-column:1;grid-row:1}
  .fashion-product-gallery .gallery-thumbs{grid-column:1;grid-row:2;flex-direction:row;justify-content:flex-start}
 }
+
+/* Fotos reais por cor, com recortes proporcionais do catálogo. */
+.photo-window.fashion-gallery-photo{display:grid;place-items:center}
+.fashion-crop-frame,.fashion-crop-image{display:block;position:relative;overflow:hidden}
+.fashion-crop-image{width:100%;height:100%}
+.other-colors{align-items:stretch;gap:9px}
+.other-colors .color-choice-photo{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;width:80px;padding:4px;gap:6px;text-align:center;border-radius:4px;font-size:10px}
+.color-choice-photo>.photo-window{width:70px;height:70px;flex-shrink:0;border-radius:2px}
+.color-choice-photo>span:last-child{padding:0 2px 3px;line-height:1.35}
+.other-colors .color-choice-photo[aria-current]{outline:1px solid var(--forest)}
+.other-colors .color-choice:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
