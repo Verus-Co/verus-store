@@ -68,7 +68,10 @@ function photo(p, eager = false, viewIndex = 0) {
   if (p.kind === 'Roupa' && p.gallery?.length) {
     const view = p.gallery[viewIndex] || p.gallery[0];
     if (view.crop) {
-      const [x,y,width,height] = view.crop;
+      // Exclui a moldura dourada e os cantos do catálogo no enquadramento.
+      const [cropX,cropY,cropWidth,cropHeight] = view.crop;
+      const inset = Math.ceil(Math.min(cropWidth,cropHeight) * .02);
+      const [x,y,width,height] = [cropX + inset,cropY + inset,cropWidth - 2 * inset,cropHeight - 2 * inset];
       return `<span class="photo-window fashion-gallery-photo" style="--crop-width:${view.sourceWidth / width * 100}%;--crop-height:${view.sourceHeight / height * 100}%;--crop-left:${-x / width * 100}%;--crop-top:${-y / height * 100}%"><img src="${escapeHTML(view.src)}" width="${view.sourceWidth}" height="${view.sourceHeight}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" alt="${escapeHTML(p.name+' — '+view.label)}"></span>`;
     }
     return `<span class="photo-window original-photo fashion-standalone-photo"><img src="${escapeHTML(view.src)}" width="${view.width}" height="${view.height}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" alt="${escapeHTML(p.name+' — '+view.label)}"></span>`;
