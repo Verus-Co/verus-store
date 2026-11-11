@@ -1,0 +1,1890 @@
+[
+  {
+    "id": "137",
+    "color": "Bege",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/137.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1580,
+        746,
+        195,
+        215
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        0.0,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "137-caqui",
+    "color": "Caqui",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/137.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1320,
+        958,
+        218,
+        235
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        443.5,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "137-caqui-claro",
+    "color": "Caqui claro",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/137.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1547,
+        948,
+        225,
+        250
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        887.0,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "137-azul-marinho",
+    "color": "Azul-marinho",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/137.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1108,
+        946,
+        207,
+        245
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        1330.5,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "137-marrom",
+    "color": "Marrom",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/137.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        610,
+        580,
+        270,
+        220
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        0.0,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "137-off-white",
+    "color": "Off white",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/137.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1240,
+        540,
+        400,
+        400
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        443.5,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "137-preta",
+    "color": "Preta",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/137.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        260,
+        575,
+        300,
+        220
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        887.0,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "137-salmao",
+    "color": "Salmão",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/137.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1075,
+        724,
+        202,
+        215
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        1330.5,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "142",
+    "color": "Verde musgo",
+    "viewIndex": 1,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/142.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        235,
+        1105,
+        350,
+        130
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        0.0,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "142-bege",
+    "color": "Bege",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/142.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        235,
+        652,
+        350,
+        224
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        443.5,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "142-chumbo",
+    "color": "Chumbo",
+    "viewIndex": 0,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/142.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        580,
+        1105,
+        345,
+        130
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        887.0,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "142-creme",
+    "color": "Creme",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/142.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        235,
+        882,
+        350,
+        215
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        1330.5,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "142-laranja",
+    "color": "Laranja",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/142.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        580,
+        652,
+        345,
+        224
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        0.0,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "142-azul-marinho",
+    "color": "Azul-marinho",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/142.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        580,
+        882,
+        345,
+        215
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        443.5,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "142-off-white",
+    "color": "Off white",
+    "viewIndex": 0,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/142.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        585,
+        530,
+        335,
+        118
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        887.0,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "142-preta",
+    "color": "Preta",
+    "viewIndex": 0,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/142.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        235,
+        530,
+        350,
+        118
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        1330.5,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "150",
+    "color": "Bege",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/150.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        228,
+        755,
+        170,
+        224
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        0.0,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "150-creme",
+    "color": "Creme",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/150.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        478,
+        1085,
+        200,
+        150
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        443.5,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "150-laranja",
+    "color": "Laranja",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/150.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        755,
+        755,
+        175,
+        224
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        887.0,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "150-azul-marinho",
+    "color": "Azul-marinho",
+    "viewIndex": 1,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/150.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        255,
+        1080,
+        215,
+        155
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        1330.5,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "150-verde",
+    "color": "Verde",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/150.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        595,
+        530,
+        200,
+        120
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        0.0,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "150-off-white",
+    "color": "Off white",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/150.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        395,
+        640,
+        360,
+        439
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        443.5,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "150-preta",
+    "color": "Preta",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/150.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        352,
+        530,
+        205,
+        120
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        887.0,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "155",
+    "color": "Bege",
+    "viewIndex": 1,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/155.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        670,
+        908,
+        245,
+        318
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/155-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        0.0,
+        0.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "155-cinza",
+    "color": "Cinza",
+    "viewIndex": 0,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/155.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        245,
+        870,
+        280,
+        360
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/155-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        512.0,
+        0.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "155-creme",
+    "color": "Creme",
+    "viewIndex": 0,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/155.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        450,
+        755,
+        300,
+        185
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/155-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        1024.0,
+        0.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "155-laranja",
+    "color": "Laranja",
+    "viewIndex": 0,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/155.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        348,
+        950,
+        440,
+        285
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/155-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        0.0,
+        512.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "155-off-white",
+    "color": "Off white",
+    "viewIndex": 0,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/155.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        675,
+        535,
+        215,
+        95
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/155-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        512.0,
+        512.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "155-preta",
+    "color": "Preta",
+    "viewIndex": 0,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/155.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        248,
+        530,
+        290,
+        85
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/155-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        1024.0,
+        512.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "158",
+    "color": "Preta",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/158.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        290,
+        605,
+        295,
+        264
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/158-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        0.0,
+        0.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "158-bege",
+    "color": "Bege",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/158.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        580,
+        605,
+        275,
+        264
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/158-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        512.0,
+        0.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "158-lilas",
+    "color": "Lilás",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/158.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1080,
+        653,
+        260,
+        250
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/158-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        1024.0,
+        0.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "158-bordo",
+    "color": "Bordô",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/158.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1320,
+        653,
+        235,
+        250
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/158-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        0.0,
+        512.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "158-verde",
+    "color": "Verde",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/158.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1545,
+        653,
+        225,
+        250
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/158-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        512.0,
+        512.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "158-off-white",
+    "color": "Off white",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/158.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1145,
+        920,
+        280,
+        260
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/158-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        1024.0,
+        512.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "163",
+    "color": "Azul-marinho",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/163.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1110,
+        940,
+        210,
+        220
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/163-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        0.0,
+        0.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "163-off-white",
+    "color": "Off white",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/163.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1332,
+        966,
+        205,
+        215
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/163-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        512.0,
+        0.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "163-amarela",
+    "color": "Amarela",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/163.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1078,
+        724,
+        210,
+        240
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/163-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        1024.0,
+        0.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "163-bege",
+    "color": "Bege",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/163.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1575,
+        728,
+        195,
+        230
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/163-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        0.0,
+        512.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "163-caqui-claro",
+    "color": "Caqui claro",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/163.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1542,
+        943,
+        225,
+        240
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/163-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        512.0,
+        512.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "166",
+    "color": "Caqui",
+    "viewIndex": 0,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/166.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1480,
+        610,
+        280,
+        190
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/166-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        0.0,
+        0.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "166-lilas",
+    "color": "Lilás",
+    "viewIndex": 0,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/166.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1190,
+        797,
+        460,
+        400
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/166-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        512.0,
+        0.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "166-off-white",
+    "color": "Off white",
+    "viewIndex": 0,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/166.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        620,
+        600,
+        290,
+        230
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/166-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        1024.0,
+        0.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "166-preta",
+    "color": "Preta",
+    "viewIndex": 0,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/166.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        245,
+        570,
+        350,
+        260
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/166-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        0.0,
+        512.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "166-verde",
+    "color": "Verde",
+    "viewIndex": 0,
+    "before": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/catalogo/166.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1085,
+        588,
+        350,
+        215
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Detalhe da frente",
+      "src": "verus-assets/moda-fotos-limpas/166-recortes-limpos.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": [
+        512.0,
+        512.0,
+        512.0,
+        512.0
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "171",
+    "color": "Amarela",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/171.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1320,
+        634,
+        238,
+        270
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        0.0,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "171-azul-caribe",
+    "color": "Azul-Caribe",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/171.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1535,
+        634,
+        240,
+        270
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        443.5,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "171-bege",
+    "color": "Bege",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/171.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1075,
+        634,
+        260,
+        270
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        887.0,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "171-caqui",
+    "color": "Caqui",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/171.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1420,
+        914,
+        290,
+        294
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        1330.5,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "171-verde-militar",
+    "color": "Verde militar",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/171.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        1140,
+        914,
+        300,
+        294
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        0.0,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "171-off-white",
+    "color": "Off white",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/171.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        580,
+        570,
+        285,
+        286
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        443.5,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "171-preta",
+    "color": "Preta",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/171.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        285,
+        570,
+        310,
+        286
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        887.0,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "177",
+    "color": "Creme",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/177.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        335,
+        1005,
+        295,
+        230
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        0.0,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "177-bege",
+    "color": "Bege",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/177.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        697,
+        766,
+        225,
+        232
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        443.5,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "177-laranja",
+    "color": "Laranja",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/177.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        245,
+        766,
+        265,
+        232
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        887.0,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "177-azul-marinho",
+    "color": "Azul-marinho",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/177.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        625,
+        1005,
+        220,
+        230
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        1330.5,
+        0.0,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "177-musgo",
+    "color": "Musgo",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/177.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        495,
+        766,
+        220,
+        232
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        0.0,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "177-off-white",
+    "color": "Off white",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/177.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        585,
+        530,
+        270,
+        232
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        443.5,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  },
+  {
+    "id": "177-preta",
+    "color": "Preta",
+    "viewIndex": 0,
+    "before": {
+      "label": "Frente",
+      "src": "verus-assets/catalogo/177.webp",
+      "sourceWidth": 2000,
+      "sourceHeight": 1410,
+      "crop": [
+        280,
+        530,
+        335,
+        232
+      ],
+      "cleanCrop": true
+    },
+    "after": {
+      "label": "Frente",
+      "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "crop": [
+        887.0,
+        443.5,
+        443.5,
+        443.5
+      ],
+      "cleanCrop": true,
+      "retouched": true
+    }
+  }
+]

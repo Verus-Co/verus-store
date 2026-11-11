@@ -5588,16 +5588,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/137.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          1580,
-          746,
-          195,
-          215
+          0.0,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -5645,16 +5646,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/137.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          1320,
-          958,
-          218,
-          235
+          443.5,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -5702,16 +5704,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/137.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          1547,
-          948,
-          225,
-          250
+          887.0,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -5759,16 +5762,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/137.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          1108,
-          946,
-          207,
-          245
+          1330.5,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -5816,16 +5820,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/137.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          610,
-          580,
-          270,
-          220
+          0.0,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -5873,16 +5878,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/137.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          1240,
-          540,
-          400,
-          400
+          443.5,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -5930,16 +5936,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/137.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          260,
-          575,
-          300,
-          220
+          887.0,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -5987,16 +5994,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/137.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/137-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          1075,
-          724,
-          202,
-          215
+          1330.5,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -6550,16 +6558,17 @@ const items = [
       },
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/142.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          235,
-          1105,
-          350,
-          130
+          0.0,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       }
     ],
     "colorPhotoAvailable": true
@@ -6593,16 +6602,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/142.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          235,
-          652,
-          350,
-          224
+          443.5,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -6649,16 +6659,17 @@ const items = [
     "gallery": [
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/142.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          580,
-          1105,
-          345,
-          130
+          887.0,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -6705,16 +6716,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/142.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          235,
-          882,
-          350,
-          215
+          1330.5,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -6761,16 +6773,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/142.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          580,
-          652,
-          345,
-          224
+          0.0,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -6817,16 +6830,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/142.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          580,
-          882,
-          345,
-          215
+          443.5,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -6873,16 +6887,17 @@ const items = [
     "gallery": [
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/142.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          585,
-          530,
-          335,
-          118
+          887.0,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -6929,16 +6944,17 @@ const items = [
     "gallery": [
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/142.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/142-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          235,
-          530,
-          350,
-          118
+          1330.5,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -7903,16 +7919,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/150.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          228,
-          755,
-          170,
-          224
+          0.0,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -7959,16 +7976,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/150.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          478,
-          1085,
-          200,
-          150
+          443.5,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -8015,16 +8033,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/150.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          755,
-          755,
-          175,
-          224
+          887.0,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -8083,16 +8102,17 @@ const items = [
       },
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/150.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          255,
-          1080,
-          215,
-          155
+          1330.5,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       }
     ],
     "colorPhotoAvailable": true
@@ -8126,16 +8146,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/150.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          595,
-          530,
-          200,
-          120
+          0.0,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -8182,16 +8203,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/150.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          395,
-          640,
-          360,
-          439
+          443.5,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -8238,16 +8260,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/150.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/150-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          352,
-          530,
-          205,
-          120
+          887.0,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -8824,16 +8847,17 @@ const items = [
       },
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/155.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/155-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          670,
-          908,
-          245,
-          318
+          0.0,
+          0.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       }
     ],
     "colorPhotoAvailable": true
@@ -8867,16 +8891,17 @@ const items = [
     "gallery": [
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/155.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/155-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          245,
-          870,
-          280,
-          360
+          512.0,
+          0.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -8923,16 +8948,17 @@ const items = [
     "gallery": [
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/155.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/155-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          450,
-          755,
-          300,
-          185
+          1024.0,
+          0.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -8979,16 +9005,17 @@ const items = [
     "gallery": [
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/155.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/155-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          348,
-          950,
-          440,
-          285
+          0.0,
+          512.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -9035,16 +9062,17 @@ const items = [
     "gallery": [
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/155.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/155-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          675,
-          535,
-          215,
-          95
+          512.0,
+          512.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -9091,16 +9119,17 @@ const items = [
     "gallery": [
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/155.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/155-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          248,
-          530,
-          290,
-          85
+          1024.0,
+          512.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -9311,16 +9340,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/158.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/158-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          290,
-          605,
-          295,
-          264
+          0.0,
+          0.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -9368,16 +9398,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/158.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/158-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          580,
-          605,
-          275,
-          264
+          512.0,
+          0.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -9425,16 +9456,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/158.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/158-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          1080,
-          653,
-          260,
-          250
+          1024.0,
+          0.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -9482,16 +9514,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/158.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/158-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          1320,
-          653,
-          235,
-          250
+          0.0,
+          512.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -9539,16 +9572,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/158.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/158-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          1545,
-          653,
-          225,
-          250
+          512.0,
+          512.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -9596,16 +9630,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/158.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/158-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          1145,
-          920,
-          280,
-          260
+          1024.0,
+          512.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -10159,16 +10194,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/163.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/163-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          1110,
-          940,
-          210,
-          220
+          0.0,
+          0.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -10216,16 +10252,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/163.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/163-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          1332,
-          966,
-          205,
-          215
+          512.0,
+          0.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -10273,16 +10310,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/163.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/163-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          1078,
-          724,
-          210,
-          240
+          1024.0,
+          0.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -10330,16 +10368,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/163.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/163-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          1575,
-          728,
-          195,
-          230
+          0.0,
+          512.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -10387,16 +10426,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/163.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/163-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          1542,
-          943,
-          225,
-          240
+          512.0,
+          512.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -11080,16 +11120,17 @@ const items = [
     "gallery": [
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/166.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/166-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          1480,
-          610,
-          280,
-          190
+          0.0,
+          0.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -11137,16 +11178,17 @@ const items = [
     "gallery": [
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/166.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/166-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          1190,
-          797,
-          460,
-          400
+          512.0,
+          0.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -11194,16 +11236,17 @@ const items = [
     "gallery": [
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/166.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/166-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          620,
-          600,
-          290,
-          230
+          1024.0,
+          0.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -11251,16 +11294,17 @@ const items = [
     "gallery": [
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/166.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/166-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          245,
-          570,
-          350,
-          260
+          0.0,
+          512.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -11308,16 +11352,17 @@ const items = [
     "gallery": [
       {
         "label": "Detalhe da frente",
-        "src": "verus-assets/catalogo/166.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/166-recortes-limpos.webp",
+        "sourceWidth": 1536,
+        "sourceHeight": 1024,
         "crop": [
-          1085,
-          588,
-          350,
-          215
+          512.0,
+          512.0,
+          512.0,
+          512.0
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -11869,16 +11914,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/171.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          1320,
-          634,
-          238,
-          270
+          0.0,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -11926,16 +11972,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/171.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          1535,
-          634,
-          240,
-          270
+          443.5,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -11983,16 +12030,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/171.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          1075,
-          634,
-          260,
-          270
+          887.0,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -12040,16 +12088,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/171.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          1420,
-          914,
-          290,
-          294
+          1330.5,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -12097,16 +12146,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/171.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          1140,
-          914,
-          300,
-          294
+          0.0,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -12154,16 +12204,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/171.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          580,
-          570,
-          285,
-          286
+          443.5,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -12211,16 +12262,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/171.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/171-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          285,
-          570,
-          310,
-          286
+          887.0,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -12866,16 +12918,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/177.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          335,
-          1005,
-          295,
-          230
+          0.0,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -12921,16 +12974,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/177.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          697,
-          766,
-          225,
-          232
+          443.5,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -12977,16 +13031,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/177.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          245,
-          766,
-          265,
-          232
+          887.0,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -13033,16 +13088,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/177.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          625,
-          1005,
-          220,
-          230
+          1330.5,
+          0.0,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -13089,16 +13145,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/177.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          495,
-          766,
-          220,
-          232
+          0.0,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -13145,16 +13202,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/177.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          585,
-          530,
-          270,
-          232
+          443.5,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
@@ -13201,16 +13259,17 @@ const items = [
     "gallery": [
       {
         "label": "Frente",
-        "src": "verus-assets/catalogo/177.webp",
-        "sourceWidth": 2000,
-        "sourceHeight": 1410,
+        "src": "verus-assets/moda-fotos-limpas/177-recortes-limpos.webp",
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
         "crop": [
-          280,
-          530,
-          335,
-          232
+          887.0,
+          443.5,
+          443.5,
+          443.5
         ],
-        "cleanCrop": true
+        "cleanCrop": true,
+        "retouched": true
       },
       {
         "label": "Verso",
