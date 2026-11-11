@@ -95,8 +95,10 @@ function price(p, detailed = false) {
 
 function productCard(p, promotion = false) {
   const profile = p.kind === 'Roupa' ? p.typ : p.profile || p.kind;
+  const backIndex = p.kind === 'Roupa' ? (p.gallery || []).findIndex((view,i) => i > 0 && !view.referenceColor && (view.label === 'Verso' || p.gallery[0].label === 'Verso')) : -1;
+  const cardPhoto = p.kind === 'Roupa' ? `<span class="fashion-card-view fashion-card-front">${photo(p)}</span>${backIndex > 0 ? `<span class="fashion-card-view fashion-card-back" aria-hidden="true">${photo(p,false,backIndex)}</span>` : ''}` : photo(p);
   return `<article class="product-card" data-kind="${escapeHTML(p.kind)}" data-product-id="${p.id}">
-    <a class="product-picture" href="${productURL(p.id)}" aria-label="Conhecer ${escapeHTML(p.name)}">${photo(p)}${hasPromotion(p) ? `<span class="product-flags"><span class="discount-badge" aria-label="${promotionPercent(p)}% de desconto no cartão em relação ao preço anterior"><b>${promotionPercent(p)}%</b><small>OFF</small></span></span>` : ''}</a>
+    <a class="product-picture" href="${productURL(p.id)}" aria-label="Conhecer ${escapeHTML(p.name)}">${cardPhoto}${hasPromotion(p) ? `<span class="product-flags"><span class="discount-badge" aria-label="${promotionPercent(p)}% de desconto no cartão em relação ao preço anterior"><b>${promotionPercent(p)}%</b><small>OFF</small></span></span>` : ''}</a>
     <div class="product-meta"><span>${escapeHTML(p.brand === '-' ? 'VERUS' : p.brand)}</span><span>${p.size !== '-' ? escapeHTML(p.size) : p.kind === 'Roupa' ? 'MODA' : ''}</span></div>
     <h3><a href="${productURL(p.id)}">${escapeHTML(p.name)}</a></h3><p class="product-profile">${escapeHTML(profile)}</p>
     ${price(p)}<div class="card-actions"><a class="text-link" href="${productURL(p.id)}">Ver detalhes →</a>${p.kind==='Roupa' ? `<a class="add-small clothing-choose" href="${productURL(p.id)}">Escolher tamanho</a>` : `<button class="add-small" type="button" data-action="add" data-id="${p.id}" aria-label="Adicionar ${escapeHTML(p.name)} à sacola">${icons.plus} Adicionar</button>`}</div>

@@ -234,3 +234,27 @@ netlify-badge,[id*="netlify-badge"],[class*="netlify-badge"],iframe[title="Power
 .color-choice-photo>span:last-child{padding:0 2px 3px;line-height:1.35}
 .other-colors .color-choice-photo[aria-current]{outline:1px solid var(--forest)}
 .other-colors .color-choice:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+/* Superfície uniforme da moda e troca discreta entre frente e verso. */
+:root{--fashion-surface:#f3f2f0;--fashion-surface-hover:#e7e5e1}
+.product-card[data-kind=Roupa] .product-picture,
+.product-gallery.fashion-product-gallery,
+.photo-window.fashion-gallery-photo,
+.photo-window.fashion-standalone-photo{background:var(--fashion-surface)}
+.product-card[data-kind=Roupa] .product-picture{display:grid;isolation:isolate;transition:background-color .45s ease;border-radius:5px;overflow:hidden}
+.fashion-card-view{display:block;grid-area:1/1;width:100%;height:100%;min-width:0;transition:opacity .45s ease}
+.fashion-card-view .fashion-gallery-photo{border-radius:0;background:transparent}
+.fashion-card-back{opacity:0;pointer-events:none}
+.product-card[data-kind=Roupa] .product-picture::after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:#17221b;opacity:0;transition:opacity .45s ease}
+.product-card[data-kind=Roupa] .product-picture:focus-visible{background:var(--fashion-surface-hover)}
+.product-card[data-kind=Roupa] .product-picture:focus-visible::after{opacity:.025}
+.product-card[data-kind=Roupa] .product-picture:focus-visible .fashion-card-back{opacity:1}
+.product-card[data-kind=Roupa] .product-picture:focus-visible:has(.fashion-card-back) .fashion-card-front{opacity:0}
+@media(hover:hover) and (pointer:fine){
+ .product-card[data-kind=Roupa] .product-picture:hover{background:var(--fashion-surface-hover)}
+ .product-card[data-kind=Roupa] .product-picture:hover::after{opacity:.025}
+ .product-card[data-kind=Roupa] .product-picture:hover .fashion-card-back{opacity:1}
+ .product-card[data-kind=Roupa] .product-picture:hover:has(.fashion-card-back) .fashion-card-front{opacity:0}
+}
+@media(prefers-reduced-motion:reduce){.fashion-card-view,.product-card[data-kind=Roupa] .product-picture,.product-card[data-kind=Roupa] .product-picture::after{transition:none}}
+.product-card[data-kind=Roupa]:hover .product-picture .photo-window{transform:none}
