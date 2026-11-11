@@ -382,7 +382,7 @@ let selectedGalleryView = 0;
 let sizeHintTimer;
 
 function galleryControls(p) {
-  return `<div class="fashion-gallery-main" id="fashion-gallery-main">${photo(p,true,selectedGalleryView)}</div>${p.gallery.length > 1 ? `<div class="gallery-thumbs" role="group" aria-label="Fotos do produto">${p.gallery.map((view,i) => `<button type="button" class="gallery-thumb" data-action="gallery-view" data-index="${i}" aria-pressed="${i===selectedGalleryView}" aria-label="Ver ${escapeHTML(view.label.toLowerCase())}">${photo(p,false,i)}<span>${escapeHTML(view.label)}</span></button>`).join('')}</div>` : ''}${p.photoReference ? '<p class="photo-reference-note">Fotos de referência do modelo; a cor da foto pode diferir da selecionada.</p>' : ''}`;
+  return `<div class="fashion-gallery-stage"><div class="fashion-gallery-main" id="fashion-gallery-main">${photo(p,true,selectedGalleryView)}</div>${p.gallery.length > 1 ? `<div class="gallery-arrows"><button type="button" data-action="gallery-step" data-step="-1" aria-label="Foto anterior">‹</button><button type="button" data-action="gallery-step" data-step="1" aria-label="Próxima foto">›</button></div>` : ''}</div>${p.gallery.length > 1 ? `<div class="gallery-thumbs" role="group" aria-label="Fotos do produto">${p.gallery.map((view,i) => `<button type="button" class="gallery-thumb" data-action="gallery-view" data-index="${i}" aria-pressed="${i===selectedGalleryView}" aria-label="Ver ${escapeHTML(view.label.toLowerCase())}">${photo(p,false,i)}<span>${escapeHTML(view.label)}</span></button>`).join('')}</div>` : ''}${p.photoReference ? '<p class="photo-reference-note">Fotos de referência do modelo; a cor da foto pode diferir da selecionada.</p>' : ''}`;
 }
 
 function clothingOptions(p) {
@@ -489,10 +489,11 @@ document.addEventListener('click', event => {
     if (availableSizes(currentProduct).includes(button.dataset.size)) updateClothingSelection(button.dataset.size);
     else showSizeHint(button,true);
   }
-  if (action === 'gallery-view') {
-    selectedGalleryView = Number(button.dataset.index);
+  if (action === 'gallery-view' || action === 'gallery-step') {
+    const count = currentProduct.gallery.length;
+    selectedGalleryView = action === 'gallery-view' ? Number(button.dataset.index) : (selectedGalleryView + Number(button.dataset.step) + count) % count;
     $('#fashion-gallery-main').innerHTML = photo(currentProduct,true,selectedGalleryView);
-    $$('.gallery-thumb').forEach(other => other.setAttribute('aria-pressed',String(other===button)));
+    $$('.gallery-thumb').forEach(other => other.setAttribute('aria-pressed',String(Number(other.dataset.index)===selectedGalleryView)));
   }
   if (action === 'cart-plus' || action === 'cart-minus' || action === 'cart-remove') {
     const line = cart.find(line => cartLineKey(line) === button.dataset.key);
